@@ -1,0 +1,234 @@
+0 HEAD
+1 SOUR GEN
+2 VERS 1.0
+2 NAME Genealogy Viewer
+2 CORP GitHub ghosthack/gen
+3 ADDR https://github.com/ghosthack/gen
+1 DEST ANY
+1 DATE 04 NOV 2025
+2 TIME 12:00:00
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME George /Bluth/ Sr.
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1937
+2 PLAC Newport Beach, California, USA
+1 OCCU Real Estate Developer
+1 NOTE Founder of The Bluth Company. Twin brother of Oscar.
+1 FAMS @F1@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I2@ INDI
+1 NAME Lucille /Austero/ Bluth
+1 SEX F
+1 BIRT
+2 DATE 15 MAR 1939
+2 PLAC Newport Beach, California, USA
+1 NOTE Socialite and matriarch of the Bluth family.
+1 FAMS @F1@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I3@ INDI
+1 NAME Oscar /Bluth/
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1937
+2 PLAC Newport Beach, California, USA
+1 NOTE George Sr.'s twin brother. Actually Buster's biological father.
+1 FAMS @F8@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 MARR
+2 DATE 14 FEB 1960
+2 PLAC Newport Beach, California, USA
+1 CHIL @I4@
+1 CHIL @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+1 CHIL @I14@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I4@ INDI
+1 NAME George Oscar /Bluth/ II
+1 SEX M
+1 BIRT
+2 DATE 15 JUN 1965
+2 PLAC Newport Beach, California, USA
+1 OCCU Magician
+1 NOTE Known as G.O.B. Failed magician and eldest son.
+1 FAMC @F1@
+1 FAMS @F3@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I5@ INDI
+1 NAME Michael /Bluth/
+1 SEX M
+1 BIRT
+2 DATE 14 DEC 1967
+2 PLAC Newport Beach, California, USA
+1 OCCU Business Manager
+1 NOTE The responsible one. Manager of The Bluth Company.
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I6@ INDI
+1 NAME Lindsay /Bluth/ Fünke
+1 SEX F
+1 BIRT
+2 DATE 8 JUL 1968
+2 PLAC Newport Beach, California, USA
+1 NOTE Adopted daughter. Married to Tobias Fünke. Activist.
+1 FAMC @F1@
+1 FAMS @F4@
+1 ADOP
+2 DATE 1968
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I7@ INDI
+1 NAME Byron /Bluth/
+1 SEX M
+1 BIRT
+2 DATE 3 MAR 1973
+2 PLAC Newport Beach, California, USA
+1 NOTE Known as Buster. Youngest son. Actually Oscar's biological son.
+1 FAMC @F1@
+1 FAMC @F8@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I8@ INDI
+1 NAME Tracy /Bluth/
+1 SEX F
+1 BIRT
+2 DATE 5 MAY 1969
+2 PLAC Newport Beach, California, USA
+1 DEAT
+2 DATE 10 JUN 2001
+2 PLAC Newport Beach, California, USA
+1 NOTE Michael's deceased wife. Mother of George Michael.
+1 FAMS @F2@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @F2@ FAM
+1 HUSB @I5@
+1 WIFE @I8@
+1 MARR
+2 DATE 20 MAY 1989
+2 PLAC Newport Beach, California, USA
+1 CHIL @I9@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I9@ INDI
+1 NAME George Michael /Bluth/
+1 SEX M
+1 BIRT
+2 DATE 15 FEB 1990
+2 PLAC Newport Beach, California, USA
+1 NOTE Michael's son. Had a crush on his cousin Maeby.
+1 FAMC @F2@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I10@ INDI
+1 NAME Tobias /Fünke/
+1 SEX M
+1 BIRT
+2 DATE 22 APR 1965
+2 PLAC Boston, Massachusetts, USA
+1 OCCU Therapist/Actor
+1 NOTE Analrapist (Analyst + Therapist). Never-nude. Married to Lindsay.
+1 FAMS @F4@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @F4@ FAM
+1 HUSB @I10@
+1 WIFE @I6@
+1 MARR
+2 DATE 12 SEP 1987
+2 PLAC Newport Beach, California, USA
+1 CHIL @I11@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I11@ INDI
+1 NAME Mae /Fünke/
+1 SEX F
+1 BIRT
+2 DATE 23 DEC 1988
+2 PLAC Newport Beach, California, USA
+1 NOTE Known as Maeby. Daughter of Lindsay and Tobias. Film executive.
+1 FAMC @F4@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I12@ INDI
+1 NAME Eve /Holt/
+1 SEX F
+1 BIRT
+2 DATE 10 OCT 1969
+2 PLAC Newport Beach, California, USA
+1 NOTE High school girlfriend of G.O.B. Mother of Steve Holt.
+1 FAMS @F3@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @F3@ FAM
+1 HUSB @I4@
+1 WIFE @I12@
+1 CHIL @I13@
+1 NOTE G.O.B. and Eve were never married. High school relationship.
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I13@ INDI
+1 NAME Steve /Holt/
+1 SEX M
+1 BIRT
+2 DATE 25 JUN 1987
+2 PLAC Newport Beach, California, USA
+1 NOTE G.O.B.'s son. High school jock. STEVE HOLT!
+1 FAMC @F3@
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @F8@ FAM
+1 HUSB @I3@
+1 WIFE @I2@
+1 CHIL @I7@
+1 NOTE Secret affair between Oscar and Lucille. Buster is their biological son.
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 @I14@ INDI
+1 NAME Annyong /Bluth/
+1 SEX M
+1 BIRT
+2 DATE 5 FEB 1986
+2 PLAC Seoul, South Korea
+1 NOTE Adopted Korean son. Real name: Hel-loh. His grandfather was wronged by George Sr.
+1 FAMC @F1@
+1 ADOP
+2 DATE 2003
+1 CHAN
+2 DATE 04 NOV 2025
+3 TIME 12:00:00
+0 TRLR
+
