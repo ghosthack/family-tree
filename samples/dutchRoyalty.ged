@@ -1,0 +1,589 @@
+0 HEAD
+1 SOUR GEN
+2 VERS 1.0
+2 NAME Genealogy Viewer
+2 CORP GitHub ghosthack/family-tree
+3 ADDR https://github.com/ghosthack/family-tree
+1 DEST ANY
+1 DATE 06 NOV 2025
+2 TIME 12:00:00
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Willem-Alexander Claus George Ferdinand /van Oranje-Nassau/
+1 SEX M
+1 BIRT
+2 DATE 27 APR 1967
+2 PLAC Utrecht, Netherlands
+1 TITL King of the Netherlands
+1 OCCU Monarch
+1 NOTE King Willem-Alexander. Became King on 30 April 2013 after his mother's abdication. First male Dutch monarch in over 120 years.
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I2@ INDI
+1 NAME Máxima /Zorreguieta Cerruti/
+1 SEX F
+1 BIRT
+2 DATE 17 MAY 1971
+2 PLAC Buenos Aires, Argentina
+1 TITL Queen of the Netherlands
+1 NOTE Queen Máxima. Born in Argentina. Met Willem-Alexander at the Seville Spring Fair in 1999. Known for her work in financial inclusion and as UN Special Advocate.
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F2@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 MARR
+2 DATE 2 FEB 2002
+2 PLAC Nieuwe Kerk, Amsterdam, Netherlands
+1 CHIL @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I3@ INDI
+1 NAME Catharina-Amalia Beatrix Carmen Victoria /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 7 DEC 2003
+2 PLAC The Hague, Netherlands
+1 TITL Princess of Orange
+1 NOTE Princess Catharina-Amalia. Heir apparent to the Dutch throne. Princess of Orange since 2013. Studying at University of Amsterdam.
+1 FAMC @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I4@ INDI
+1 NAME Alexia Juliana Marcela Laurentien /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 26 JUN 2005
+2 PLAC The Hague, Netherlands
+1 TITL Princess of the Netherlands
+1 NOTE Princess Alexia. Second daughter of King Willem-Alexander and Queen Máxima.
+1 FAMC @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I5@ INDI
+1 NAME Ariane Wilhelmina Máxima Inés /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 10 APR 2007
+2 PLAC The Hague, Netherlands
+1 TITL Princess of the Netherlands
+1 NOTE Princess Ariane. Youngest daughter of King Willem-Alexander and Queen Máxima.
+1 FAMC @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I6@ INDI
+1 NAME Beatrix Wilhelmina Armgard /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 31 JAN 1938
+2 PLAC Soestdijk Palace, Baarn, Netherlands
+1 TITL Queen of the Netherlands (1980-2013)
+1 NOTE Queen Beatrix. Reigned from 30 April 1980 to 30 April 2013 (33 years). Abdicated in favor of her son Willem-Alexander. Still actively involved in royal duties as Princess.
+1 FAMC @F3@
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I7@ INDI
+1 NAME Claus George Willem Otto Frederik Geert /von Amsberg/
+1 SEX M
+1 BIRT
+2 DATE 6 SEP 1926
+2 PLAC Hitzacker, Germany
+1 DEAT
+2 DATE 6 OCT 2002
+2 PLAC Amsterdam, Netherlands
+1 TITL Prince of the Netherlands
+1 NOTE Prince Claus. Born in Germany. His marriage to Beatrix was controversial due to his German nationality and wartime past. Became beloved in the Netherlands for his humanitarian work.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F1@ FAM
+1 HUSB @I7@
+1 WIFE @I6@
+1 MARR
+2 DATE 10 MAR 1966
+2 PLAC Amsterdam, Netherlands
+1 CHIL @I1@
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I8@ INDI
+1 NAME Johan Friso Bernhard Christiaan David /van Oranje-Nassau/
+1 SEX M
+1 BIRT
+2 DATE 25 SEP 1968
+2 PLAC Utrecht, Netherlands
+1 DEAT
+2 DATE 12 AUG 2013
+2 PLAC The Hague, Netherlands
+1 TITL Prince of Orange-Nassau
+1 NOTE Prince Friso. Second son of Queen Beatrix. Lost succession rights when he married without parliamentary approval. Died from brain damage after skiing accident in 2012.
+1 FAMC @F1@
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I9@ INDI
+1 NAME Constantijn Christof Frederik Aschwin /van Oranje-Nassau/
+1 SEX M
+1 BIRT
+2 DATE 11 OCT 1969
+2 PLAC Utrecht, Netherlands
+1 TITL Prince of the Netherlands
+1 NOTE Prince Constantijn. Third son of Queen Beatrix. Works in European public policy and technology sectors.
+1 FAMC @F1@
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I10@ INDI
+1 NAME Mabel Martine /Wisse Smit/
+1 SEX F
+1 BIRT
+2 DATE 11 AUG 1968
+2 PLAC Pijnacker, Netherlands
+1 TITL Princess Mabel of Orange-Nassau
+1 NOTE Princess Mabel. Widow of Prince Friso. Human rights advocate and former NGO executive. Their marriage caused him to lose succession rights.
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F4@ FAM
+1 HUSB @I8@
+1 WIFE @I10@
+1 MARR
+2 DATE 24 APR 2004
+2 PLAC Delft, Netherlands
+1 CHIL @I11@
+1 CHIL @I12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I11@ INDI
+1 NAME Luana Ninette Sophie /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 26 MAR 2005
+2 PLAC The Hague, Netherlands
+1 NOTE Countess of Orange-Nassau. Daughter of Prince Friso and Princess Mabel.
+1 FAMC @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I12@ INDI
+1 NAME Zaria Nicoline Milou /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 18 JUN 2006
+2 PLAC London, England
+1 NOTE Countess of Orange-Nassau. Daughter of Prince Friso and Princess Mabel.
+1 FAMC @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I13@ INDI
+1 NAME Laurentien Brinkhorst /Brinkhorst/
+1 SEX F
+1 BIRT
+2 DATE 25 MAY 1966
+2 PLAC Leiden, Netherlands
+1 TITL Princess of the Netherlands
+1 NOTE Princess Laurentien. Wife of Prince Constantijn. Advocate for literacy and education.
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F5@ FAM
+1 HUSB @I9@
+1 WIFE @I13@
+1 MARR
+2 DATE 19 MAY 2001
+2 PLAC The Hague, Netherlands
+1 CHIL @I14@
+1 CHIL @I15@
+1 CHIL @I16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I14@ INDI
+1 NAME Eloise Sophie Wilhelmine /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 8 JUN 2002
+2 PLAC The Hague, Netherlands
+1 NOTE Countess of Orange-Nassau. Daughter of Prince Constantijn and Princess Laurentien.
+1 FAMC @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I15@ INDI
+1 NAME Claus-Casimir Bernhard Marius Max /van Oranje-Nassau/
+1 SEX M
+1 BIRT
+2 DATE 21 MAR 2004
+2 PLAC The Hague, Netherlands
+1 NOTE Count of Orange-Nassau. Son of Prince Constantijn and Princess Laurentien.
+1 FAMC @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I16@ INDI
+1 NAME Leonore Marie Irene Enrica /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 3 JUN 2006
+2 PLAC The Hague, Netherlands
+1 NOTE Countess of Orange-Nassau. Daughter of Prince Constantijn and Princess Laurentien.
+1 FAMC @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I17@ INDI
+1 NAME Juliana Louise Emma Marie Wilhelmina /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 30 APR 1909
+2 PLAC The Hague, Netherlands
+1 DEAT
+2 DATE 20 MAR 2004
+2 PLAC Soestdijk Palace, Baarn, Netherlands
+1 TITL Queen of the Netherlands
+1 NOTE Queen Juliana. Reigned from 4 September 1948 to 30 April 1980. Known as the bicycling queen for her down-to-earth approach. Abdicated in favor of her daughter Beatrix.
+1 FAMC @F6@
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I18@ INDI
+1 NAME Bernhard Leopold Friedrich Eberhard Julius Kurt Karl Gottfried Peter /zur Lippe-Biesterfeld/
+1 SEX M
+1 BIRT
+2 DATE 29 JUN 1911
+2 PLAC Jena, Germany
+1 DEAT
+2 DATE 1 DEC 2004
+2 PLAC Utrecht, Netherlands
+1 TITL Prince of the Netherlands
+1 NOTE Prince Bernhard. German-born prince consort. Founded WWF (World Wildlife Fund). Involvement in Lockheed bribery scandal in 1976.
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F3@ FAM
+1 HUSB @I18@
+1 WIFE @I17@
+1 MARR
+2 DATE 7 JAN 1937
+2 PLAC The Hague, Netherlands
+1 CHIL @I6@
+1 CHIL @I19@
+1 CHIL @I20@
+1 CHIL @I21@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I19@ INDI
+1 NAME Irene Emma Elisabeth /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 5 AUG 1939
+2 PLAC Soestdijk Palace, Baarn, Netherlands
+1 TITL Princess of the Netherlands
+1 NOTE Princess Irene. Second daughter of Queen Juliana. Lost succession rights when she married Carlos Hugo of Bourbon-Parma without permission. Later restored as princess.
+1 FAMC @F3@
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I20@ INDI
+1 NAME Margriet Francisca /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 19 JAN 1943
+2 PLAC Ottawa, Canada
+1 TITL Princess of the Netherlands
+1 NOTE Princess Margriet. Third daughter of Queen Juliana. Born in Canada during WWII exile. The maternity ward was declared Dutch territory for her birth.
+1 FAMC @F3@
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I21@ INDI
+1 NAME Christina /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 18 FEB 1947
+2 PLAC Soestdijk Palace, Baarn, Netherlands
+1 DEAT
+2 DATE 16 AUG 2019
+2 PLAC The Hague, Netherlands
+1 TITL Princess of the Netherlands
+1 NOTE Princess Christina. Youngest daughter of Queen Juliana. Born nearly blind but regained sight after surgery. Renounced succession rights in 1975.
+1 FAMC @F3@
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I22@ INDI
+1 NAME Carlos Hugo /of Bourbon-Parma/
+1 SEX M
+1 BIRT
+2 DATE 8 APR 1930
+2 PLAC Paris, France
+1 DEAT
+2 DATE 18 AUG 2010
+2 PLAC Barcelona, Spain
+1 TITL Duke of Parma
+1 NOTE Duke Carlos Hugo of Parma. Carlist pretender to Spanish throne. His marriage to Princess Irene caused constitutional crisis in Netherlands.
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F7@ FAM
+1 HUSB @I22@
+1 WIFE @I19@
+1 MARR
+2 DATE 29 APR 1964
+2 PLAC Rome, Italy
+1 DIV
+2 DATE 1981
+1 CHIL @I23@
+1 CHIL @I24@
+1 CHIL @I25@
+1 CHIL @I26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I23@ INDI
+1 NAME Carlos Xavier Bernardo Sixto Marie /of Bourbon-Parma/
+1 SEX M
+1 BIRT
+2 DATE 27 JAN 1970
+2 PLAC Nijmegen, Netherlands
+1 TITL Duke of Parma
+1 NOTE Prince Carlos. Current head of the House of Bourbon-Parma. Son of Princess Irene.
+1 FAMC @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I24@ INDI
+1 NAME Margarita /of Bourbon-Parma/
+1 SEX F
+1 BIRT
+2 DATE 13 OCT 1972
+2 PLAC Nijmegen, Netherlands
+1 NOTE Princess Margarita. Daughter of Princess Irene.
+1 FAMC @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I25@ INDI
+1 NAME Jaime Bernardo /of Bourbon-Parma/
+1 SEX M
+1 BIRT
+2 DATE 13 OCT 1972
+2 PLAC Nijmegen, Netherlands
+1 NOTE Prince Jaime. Twin of Margarita. Son of Princess Irene.
+1 FAMC @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I26@ INDI
+1 NAME Carolina /of Bourbon-Parma/
+1 SEX F
+1 BIRT
+2 DATE 23 JUN 1974
+2 PLAC Nijmegen, Netherlands
+1 NOTE Princess Carolina. Daughter of Princess Irene.
+1 FAMC @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I27@ INDI
+1 NAME Pieter /van Vollenhoven/
+1 SEX M
+1 BIRT
+2 DATE 30 APR 1939
+2 PLAC Schiedam, Netherlands
+1 TITL Professor
+1 NOTE Pieter van Vollenhoven. Husband of Princess Margriet. First commoner to marry into Dutch royal family in modern times. Expert in transport safety.
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F8@ FAM
+1 HUSB @I27@
+1 WIFE @I20@
+1 MARR
+2 DATE 10 JAN 1967
+2 PLAC The Hague, Netherlands
+1 CHIL @I28@
+1 CHIL @I29@
+1 CHIL @I30@
+1 CHIL @I31@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I28@ INDI
+1 NAME Maurits Willem Pieter Hendrik /van Oranje-Nassau van Vollenhoven/
+1 SEX M
+1 BIRT
+2 DATE 17 APR 1968
+2 PLAC Utrecht, Netherlands
+1 NOTE Prince Maurits. Son of Princess Margriet.
+1 FAMC @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I29@ INDI
+1 NAME Bernhard Lucas Emmanuel /van Oranje-Nassau van Vollenhoven/
+1 SEX M
+1 BIRT
+2 DATE 25 DEC 1969
+2 PLAC Utrecht, Netherlands
+1 NOTE Prince Bernhard. Son of Princess Margriet.
+1 FAMC @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I30@ INDI
+1 NAME Pieter-Christiaan Michiel /van Oranje-Nassau van Vollenhoven/
+1 SEX M
+1 BIRT
+2 DATE 22 MAR 1972
+2 PLAC Utrecht, Netherlands
+1 NOTE Prince Pieter-Christiaan. Son of Princess Margriet.
+1 FAMC @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I31@ INDI
+1 NAME Floris Frederik Martijn /van Oranje-Nassau van Vollenhoven/
+1 SEX M
+1 BIRT
+2 DATE 10 APR 1975
+2 PLAC Utrecht, Netherlands
+1 NOTE Prince Floris. Son of Princess Margriet.
+1 FAMC @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I32@ INDI
+1 NAME Jorge Guillermo /y Pérez de Tagle/
+1 SEX M
+1 BIRT
+2 DATE 31 DEC 1946
+2 PLAC Havana, Cuba
+1 DEAT
+2 DATE 21 AUG 1996
+2 PLAC Amsterdam, Netherlands
+1 NOTE Jorge Guillermo. Cuban-born husband of Princess Christina. Father of her three children.
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F9@ FAM
+1 HUSB @I32@
+1 WIFE @I21@
+1 MARR
+2 DATE 28 JUN 1975
+2 PLAC Baarn, Netherlands
+1 CHIL @I33@
+1 CHIL @I34@
+1 CHIL @I35@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I33@ INDI
+1 NAME Bernardo Federico Tomás /y van Oranje-Nassau/
+1 SEX M
+1 BIRT
+2 DATE 17 JUN 1977
+2 PLAC Utrecht, Netherlands
+1 NOTE Son of Princess Christina.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I34@ INDI
+1 NAME Nicolás Daniel Mauricio /y van Oranje-Nassau/
+1 SEX M
+1 BIRT
+2 DATE 6 JUL 1979
+2 PLAC Utrecht, Netherlands
+1 NOTE Son of Princess Christina.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I35@ INDI
+1 NAME Juliana Edenia Antonia /y van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 8 OCT 1981
+2 PLAC Utrecht, Netherlands
+1 NOTE Daughter of Princess Christina.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I36@ INDI
+1 NAME Wilhelmina Helena Pauline Maria /van Oranje-Nassau/
+1 SEX F
+1 BIRT
+2 DATE 31 AUG 1880
+2 PLAC The Hague, Netherlands
+1 DEAT
+2 DATE 28 NOV 1962
+2 PLAC Het Loo Palace, Netherlands
+1 TITL Queen of the Netherlands
+1 NOTE Queen Wilhelmina. Reigned from 1890-1948 (58 years). Led Dutch government in exile during WWII. Abdicated in favor of daughter Juliana. One of longest-reigning monarchs.
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I37@ INDI
+1 NAME Heinrich Wladimir Albrecht Ernst /zu Mecklenburg-Schwerin/
+1 SEX M
+1 BIRT
+2 DATE 19 APR 1876
+2 PLAC Schwerin, Germany
+1 DEAT
+2 DATE 3 JUL 1934
+2 PLAC The Hague, Netherlands
+1 TITL Prince Consort of the Netherlands
+1 NOTE Prince Henrik. German duke who became Prince Consort. Father of Queen Juliana.
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F6@ FAM
+1 HUSB @I37@
+1 WIFE @I36@
+1 MARR
+2 DATE 7 FEB 1901
+2 PLAC The Hague, Netherlands
+1 CHIL @I17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 TRLR
+
