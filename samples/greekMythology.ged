@@ -1,0 +1,759 @@
+0 HEAD
+1 SOUR GEN
+2 VERS 1.0
+2 NAME Genealogy Viewer
+2 CORP GitHub ghosthack/family-tree
+3 ADDR https://github.com/ghosthack/family-tree
+1 DEST ANY
+1 DATE 06 NOV 2025
+2 TIME 12:00:00
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+1 NOTE Greek Mythology Family Tree - Based on Hesiod's Theogony (8th-7th century BCE), Homer's epics, and other classical sources
+0 @I1@ INDI
+1 NAME Chaos //
+1 NOTE The primordial void. First thing to exist. From Chaos came Gaia, Tartarus, Eros, Erebus, and Nyx. Hesiod's Theogony.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I2@ INDI
+1 NAME Gaia /Earth/
+1 SEX F
+1 TITL Primordial Mother Earth
+1 NOTE Primordial goddess of the Earth. Mother of Uranus, the Mountains, and Pontus. Hesiod's Theogony.
+1 FAMS @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I3@ INDI
+1 NAME Uranus /Sky/
+1 SEX M
+1 TITL Primordial Sky God
+1 NOTE Primordial god of the sky. Son and husband of Gaia. Father of the Titans, Cyclopes, and Hecatoncheires. Castrated by his son Cronus.
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I4@ INDI
+1 NAME Cronus /Kronos/
+1 SEX M
+1 TITL King of the Titans
+1 NOTE Titan god of time and harvest. Youngest of the Titans. Castrated and overthrew his father Uranus. Swallowed his children to prevent prophecy. Overthrown by Zeus. Hesiod's Theogony.
+1 FAMC @F2@
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I5@ INDI
+1 NAME Rhea //
+1 SEX F
+1 TITL Titaness Queen
+1 NOTE Titaness, daughter of Gaia and Uranus. Wife and sister of Cronus. Mother of the first Olympians. Saved Zeus from being swallowed by Cronus.
+1 FAMC @F2@
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I6@ INDI
+1 NAME Oceanus //
+1 SEX M
+1 NOTE Titan god of the ocean river that encircled the world. Eldest of the Titans.
+1 FAMC @F2@
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I7@ INDI
+1 NAME Tethys //
+1 SEX F
+1 NOTE Titaness of fresh water. Wife of Oceanus. Mother of the river gods and Oceanids.
+1 FAMC @F2@
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I8@ INDI
+1 NAME Hyperion //
+1 SEX M
+1 NOTE Titan of light. Father of Helios, Selene, and Eos.
+1 FAMC @F2@
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I9@ INDI
+1 NAME Theia //
+1 SEX F
+1 NOTE Titaness of sight and shining light. Mother of Helios, Selene, and Eos.
+1 FAMC @F2@
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I10@ INDI
+1 NAME Coeus //
+1 SEX M
+1 NOTE Titan of intellect and the axis of heaven. Father of Leto.
+1 FAMC @F2@
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I11@ INDI
+1 NAME Phoebe //
+1 SEX F
+1 NOTE Titaness of prophetic intellect and the moon. Grandmother of Apollo and Artemis.
+1 FAMC @F2@
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I12@ INDI
+1 NAME Iapetus //
+1 SEX M
+1 NOTE Titan of mortality. Father of Atlas, Prometheus, Epimetheus, and Menoetius.
+1 FAMC @F2@
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I13@ INDI
+1 NAME Themis //
+1 SEX F
+1 NOTE Titaness of divine law and order. Mother of the Horae and Moirae by Zeus.
+1 FAMC @F2@
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I14@ INDI
+1 NAME Mnemosyne //
+1 SEX F
+1 NOTE Titaness of memory. Mother of the Nine Muses by Zeus.
+1 FAMC @F2@
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I15@ INDI
+1 NAME Zeus //
+1 SEX M
+1 TITL King of the Gods, Lord of the Sky
+1 NOTE King of the gods, god of the sky, thunder, lightning, law, and order. Youngest son of Cronus and Rhea. Overthrew the Titans. Ruler of Mount Olympus. Hesiod's Theogony, Homer's Iliad and Odyssey.
+1 FAMC @F3@
+1 FAMS @F10@
+1 FAMS @F8@
+1 FAMS @F9@
+1 FAMS @F11@
+1 FAMS @F12@
+1 FAMS @F13@
+1 FAMS @F14@
+1 FAMS @F15@
+1 FAMS @F16@
+1 FAMS @F17@
+1 FAMS @F18@
+1 FAMS @F19@
+1 FAMS @F20@
+1 FAMS @F21@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I16@ INDI
+1 NAME Hera //
+1 SEX F
+1 TITL Queen of the Gods
+1 NOTE Queen of the gods, goddess of marriage, women, childbirth, and family. Wife and sister of Zeus. Known for jealousy towards Zeus's lovers and children. Hesiod's Theogony.
+1 FAMC @F3@
+1 FAMS @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I17@ INDI
+1 NAME Poseidon //
+1 SEX M
+1 TITL God of the Sea
+1 NOTE God of the sea, earthquakes, and horses. Brother of Zeus. One of the three sons who divided the world after overthrowing Cronus. Homer's Odyssey, Hesiod's Theogony.
+1 FAMC @F3@
+1 FAMS @F22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I18@ INDI
+1 NAME Hades /Pluto/
+1 SEX M
+1 TITL God of the Underworld
+1 NOTE God of the underworld and the dead. Brother of Zeus. Ruler of the underworld. Abducted Persephone to be his queen. Homer's Iliad, Hesiod's Theogony.
+1 FAMC @F3@
+1 FAMS @F23@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I19@ INDI
+1 NAME Hestia //
+1 SEX F
+1 TITL Goddess of the Hearth
+1 NOTE Virgin goddess of the hearth, home, and family. Eldest child of Cronus and Rhea. One of the twelve Olympians (later gave up her seat to Dionysus). Hesiod's Theogony.
+1 FAMC @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I20@ INDI
+1 NAME Demeter //
+1 SEX F
+1 TITL Goddess of the Harvest
+1 NOTE Goddess of agriculture, harvest, and the fertility of the earth. Mother of Persephone by Zeus. Her grief caused winter when Persephone was in the underworld. Homeric Hymn to Demeter.
+1 FAMC @F3@
+1 FAMS @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I21@ INDI
+1 NAME Athena //
+1 SEX F
+1 TITL Goddess of Wisdom
+1 NOTE Goddess of wisdom, warfare, strategy, and crafts. Born fully grown and armored from Zeus's forehead after he swallowed her mother Metis. Patron of Athens. Hesiod's Theogony.
+1 FAMC @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I22@ INDI
+1 NAME Apollo //
+1 SEX M
+1 TITL God of Light and Music
+1 NOTE God of light, music, poetry, prophecy, healing, and archery. Twin of Artemis. Son of Zeus and Leto. Born on Delos. Homer's Iliad, Homeric Hymn to Apollo.
+1 FAMC @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I23@ INDI
+1 NAME Artemis //
+1 SEX F
+1 TITL Goddess of the Hunt
+1 NOTE Virgin goddess of the hunt, wilderness, wild animals, and the moon. Twin of Apollo. Daughter of Zeus and Leto. Homer's Iliad, Homeric Hymn to Artemis.
+1 FAMC @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I24@ INDI
+1 NAME Ares //
+1 SEX M
+1 TITL God of War
+1 NOTE God of war, violence, and bloodlust. Son of Zeus and Hera. Lover of Aphrodite. Homer's Iliad, Hesiod's Theogony.
+1 FAMC @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I25@ INDI
+1 NAME Hephaestus //
+1 SEX M
+1 TITL God of Fire and Forge
+1 NOTE God of fire, metalworking, craftsmanship, and forges. Son of Hera (parthenogenesis or with Zeus). Thrown from Olympus due to lameness. Husband of Aphrodite. Homer's Iliad, Hesiod's Theogony.
+1 FAMC @F10@
+1 FAMS @F24@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I26@ INDI
+1 NAME Hebe //
+1 SEX F
+1 NOTE Goddess of youth. Daughter of Zeus and Hera. Cupbearer of the gods before Ganymede.
+1 FAMC @F10@
+1 FAMS @F25@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I27@ INDI
+1 NAME Eileithyia //
+1 SEX F
+1 NOTE Goddess of childbirth. Daughter of Zeus and Hera.
+1 FAMC @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I28@ INDI
+1 NAME Metis //
+1 SEX F
+1 NOTE Titaness of wisdom and cunning thought. First wife of Zeus. Swallowed by Zeus while pregnant with Athena to prevent prophecy.
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I29@ INDI
+1 NAME Leto //
+1 SEX F
+1 NOTE Titaness, daughter of Coeus and Phoebe. Mother of Apollo and Artemis by Zeus. Persecuted by jealous Hera during pregnancy.
+1 FAMC @F6@
+1 FAMS @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I30@ INDI
+1 NAME Maia //
+1 SEX F
+1 NOTE Pleiad nymph, daughter of Atlas. Mother of Hermes by Zeus. Lived in a cave on Mount Cyllene. Homeric Hymn to Hermes.
+1 FAMS @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I31@ INDI
+1 NAME Semele //
+1 SEX F
+1 NOTE Mortal princess of Thebes, daughter of Cadmus. Mother of Dionysus by Zeus. Tricked by Hera into asking Zeus to reveal his true form, which killed her. Euripides' Bacchae.
+1 FAMS @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I32@ INDI
+1 NAME Alcmene //
+1 SEX F
+1 NOTE Mortal princess, granddaughter of Perseus. Mother of Heracles by Zeus (who disguised himself as her husband Amphitryon).
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I33@ INDI
+1 NAME Danaë //
+1 SEX F
+1 NOTE Mortal princess of Argos. Mother of Perseus by Zeus, who came to her as golden rain while she was imprisoned. Apollodorus' Bibliotheca.
+1 FAMS @F17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I34@ INDI
+1 NAME Leda //
+1 SEX F
+1 NOTE Queen of Sparta. Mother of Helen, Clytemnestra, and the Dioscuri by Zeus (who came to her as a swan). Homer's Iliad.
+1 FAMS @F18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I35@ INDI
+1 NAME Europa //
+1 SEX F
+1 NOTE Phoenician princess. Mother of Minos, Rhadamanthys, and Sarpedon by Zeus, who abducted her in the form of a bull. Continent of Europe named after her. Ovid's Metamorphoses.
+1 FAMS @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I36@ INDI
+1 NAME Io //
+1 SEX F
+1 NOTE Priestess of Hera. Transformed into a heifer by Zeus (or Hera). Mother of Epaphus by Zeus. Aeschylus' Prometheus Bound.
+1 FAMS @F20@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I37@ INDI
+1 NAME Antiope //
+1 SEX F
+1 NOTE Daughter of the river god Asopus. Mother of Amphion and Zethus by Zeus.
+1 FAMS @F21@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I38@ INDI
+1 NAME Persephone /Kore/
+1 SEX F
+1 TITL Queen of the Underworld
+1 NOTE Goddess of spring and Queen of the Underworld. Daughter of Zeus and Demeter. Abducted by Hades. Spends part of year in underworld (winter) and part on earth (spring/summer). Homeric Hymn to Demeter.
+1 FAMC @F11@
+1 FAMS @F23@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I39@ INDI
+1 NAME Hermes //
+1 SEX M
+1 TITL Messenger of the Gods
+1 NOTE God of messengers, travelers, thieves, commerce, and herds. Son of Zeus and Maia. Invented the lyre. Psychopomp who guided souls to the underworld. Homeric Hymn to Hermes.
+1 FAMC @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I40@ INDI
+1 NAME Dionysus /Bacchus/
+1 SEX M
+1 TITL God of Wine
+1 NOTE God of wine, revelry, theater, and ecstasy. Son of Zeus and Semele. Twice-born (gestated in Zeus's thigh after Semele's death). Last god to join Olympus. Euripides' Bacchae, Homeric Hymns.
+1 FAMC @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I41@ INDI
+1 NAME Heracles /Hercules/
+1 SEX M
+1 NOTE Greatest of Greek heroes. Son of Zeus and Alcmene. Performed the Twelve Labors. Achieved immortality and married Hebe. Apollodorus' Bibliotheca, Sophocles' Trachiniae.
+1 FAMC @F16@
+1 FAMS @F25@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I42@ INDI
+1 NAME Perseus //
+1 SEX M
+1 NOTE Hero and founder of Mycenae. Son of Zeus and Danaë. Slayer of Medusa. Rescued and married Andromeda. Apollodorus' Bibliotheca.
+1 FAMC @F17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I43@ INDI
+1 NAME Helen /of Troy/
+1 SEX F
+1 NOTE Most beautiful woman in the world. Daughter of Zeus and Leda. Her abduction by Paris caused the Trojan War. Homer's Iliad.
+1 FAMC @F18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I44@ INDI
+1 NAME Polydeuces /Pollux/
+1 SEX M
+1 NOTE One of the Dioscuri twins. Immortal son of Zeus and Leda. Brother of Castor. Shared immortality with his mortal twin. Skilled boxer.
+1 FAMC @F18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I45@ INDI
+1 NAME Minos //
+1 SEX M
+1 NOTE King of Crete. Son of Zeus and Europa. Judge in the underworld after death. Kept the Minotaur in the Labyrinth. Thucydides, Apollodorus' Bibliotheca.
+1 FAMC @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I46@ INDI
+1 NAME Rhadamanthys //
+1 SEX M
+1 NOTE Son of Zeus and Europa. Brother of Minos. Judge in the underworld, known for justice and wisdom. Plato's Gorgias.
+1 FAMC @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I47@ INDI
+1 NAME Sarpedon //
+1 SEX M
+1 NOTE Son of Zeus and Europa. Brother of Minos. Trojan War hero who fought for Troy. Killed by Patroclus. Homer's Iliad.
+1 FAMC @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I48@ INDI
+1 NAME Epaphus //
+1 SEX M
+1 NOTE Son of Zeus and Io. King of Egypt. Ancestor of the Danaids. Aeschylus' Prometheus Bound.
+1 FAMC @F20@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I49@ INDI
+1 NAME Amphion //
+1 SEX M
+1 NOTE Son of Zeus and Antiope. Twin of Zethus. King of Thebes. Skilled musician whose lyre playing made stones move to build Thebes' walls.
+1 FAMC @F21@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I50@ INDI
+1 NAME Zethus //
+1 SEX M
+1 NOTE Son of Zeus and Antiope. Twin of Amphion. King of Thebes. Great warrior and builder.
+1 FAMC @F21@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I51@ INDI
+1 NAME The Horae /Hours/
+1 NOTE Goddesses of the seasons and natural order. Daughters of Zeus and Themis. Include Eunomia (Order), Dike (Justice), and Eirene (Peace). Hesiod's Theogony.
+1 FAMC @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I52@ INDI
+1 NAME The Moirae /Fates/
+1 SEX F
+1 NOTE The three Fates who control destiny. Daughters of Zeus and Themis (or Nyx). Clotho spins thread of life, Lachesis measures it, Atropos cuts it. Hesiod's Theogony.
+1 FAMC @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I53@ INDI
+1 NAME The Nine Muses //
+1 SEX F
+1 NOTE Nine goddesses of the arts and sciences. Daughters of Zeus and Mnemosyne. Include Calliope (epic poetry), Clio (history), and others. Hesiod's Theogony.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I54@ INDI
+1 NAME Aphrodite //
+1 SEX F
+1 TITL Goddess of Love
+1 NOTE Goddess of love, beauty, and desire. Born from sea foam after Uranus's castration. Wife of Hephaestus, lover of Ares. Mother of Eros. Hesiod's Theogony, Homer's Iliad.
+1 FAMS @F24@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I55@ INDI
+1 NAME Amphitrite //
+1 SEX F
+1 NOTE Sea goddess, Nereid. Wife of Poseidon. Mother of Triton. Hesiod's Theogony.
+1 FAMS @F22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I56@ INDI
+1 NAME Triton //
+1 SEX M
+1 NOTE Merman, messenger of the sea. Son of Poseidon and Amphitrite. Blows conch shell to control waves. Hesiod's Theogony.
+1 FAMC @F22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I57@ INDI
+1 NAME Clymene //
+1 SEX F
+1 NOTE Oceanid nymph. Wife of Iapetus. Mother of Atlas, Prometheus, Epimetheus, and Menoetius.
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I58@ INDI
+1 NAME Atlas //
+1 SEX M
+1 NOTE Titan condemned to hold up the sky on his shoulders. Son of Iapetus. Father of the Pleiades. Hesiod's Theogony.
+1 FAMC @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I59@ INDI
+1 NAME Prometheus //
+1 SEX M
+1 NOTE Titan who stole fire for humanity. Son of Iapetus. Chained to a rock where an eagle ate his liver daily. Aeschylus' Prometheus Bound, Hesiod's Theogony.
+1 FAMC @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F1@ FAM
+1 WIFE @I2@
+1 CHIL @I3@
+1 NOTE Gaia gave birth to Uranus (Sky) parthenogenetically.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F2@ FAM
+1 HUSB @I3@
+1 WIFE @I2@
+1 CHIL @I4@
+1 CHIL @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+1 CHIL @I11@
+1 CHIL @I12@
+1 CHIL @I13@
+1 CHIL @I14@
+1 NOTE The twelve Titans: Oceanus, Tethys, Hyperion, Theia, Coeus, Phoebe, Cronus, Rhea, Mnemosyne, Themis, Crius, Iapetus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F3@ FAM
+1 HUSB @I4@
+1 WIFE @I5@
+1 CHIL @I19@
+1 CHIL @I20@
+1 CHIL @I15@
+1 CHIL @I16@
+1 CHIL @I17@
+1 CHIL @I18@
+1 NOTE The six Olympians born to Cronus and Rhea in order: Hestia, Demeter, Hera, Hades, Poseidon, Zeus. All but Zeus were swallowed by Cronus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F4@ FAM
+1 HUSB @I6@
+1 WIFE @I7@
+1 NOTE Parents of the river gods and three thousand Oceanid nymphs.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F5@ FAM
+1 HUSB @I8@
+1 WIFE @I9@
+1 NOTE Parents of Helios (Sun), Selene (Moon), and Eos (Dawn).
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F6@ FAM
+1 HUSB @I10@
+1 WIFE @I11@
+1 CHIL @I29@
+1 NOTE Parents of Leto and Asteria.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F7@ FAM
+1 HUSB @I12@
+1 WIFE @I57@
+1 CHIL @I58@
+1 CHIL @I59@
+1 NOTE Parents of Atlas, Prometheus, Epimetheus, and Menoetius.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F8@ FAM
+1 HUSB @I15@
+1 WIFE @I13@
+1 CHIL @I51@
+1 CHIL @I52@
+1 NOTE Zeus and Themis are parents of the Horae (Seasons) and Moirae (Fates).
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F9@ FAM
+1 HUSB @I15@
+1 WIFE @I14@
+1 CHIL @I53@
+1 NOTE Zeus and Mnemosyne are parents of the Nine Muses.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F10@ FAM
+1 HUSB @I15@
+1 WIFE @I16@
+1 CHIL @I24@
+1 CHIL @I25@
+1 CHIL @I26@
+1 CHIL @I27@
+1 NOTE Zeus and Hera's marriage. Children: Ares, Hephaestus (disputed parentage), Hebe, Eileithyia.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F11@ FAM
+1 HUSB @I15@
+1 WIFE @I20@
+1 CHIL @I38@
+1 NOTE Zeus and Demeter are parents of Persephone.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F12@ FAM
+1 HUSB @I15@
+1 WIFE @I28@
+1 CHIL @I21@
+1 NOTE Zeus swallowed Metis while pregnant. Athena was born from Zeus's head.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F13@ FAM
+1 HUSB @I15@
+1 WIFE @I29@
+1 CHIL @I22@
+1 CHIL @I23@
+1 NOTE Zeus and Leto are parents of the twins Apollo and Artemis.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F14@ FAM
+1 HUSB @I15@
+1 WIFE @I30@
+1 CHIL @I39@
+1 NOTE Zeus and Maia are parents of Hermes.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F15@ FAM
+1 HUSB @I15@
+1 WIFE @I31@
+1 CHIL @I40@
+1 NOTE Zeus and Semele are parents of Dionysus. Semele died, Dionysus gestated in Zeus's thigh.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F16@ FAM
+1 HUSB @I15@
+1 WIFE @I32@
+1 CHIL @I41@
+1 NOTE Zeus (disguised as Amphitryon) and Alcmene are parents of Heracles.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F17@ FAM
+1 HUSB @I15@
+1 WIFE @I33@
+1 CHIL @I42@
+1 NOTE Zeus (as golden rain) and Danaë are parents of Perseus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F18@ FAM
+1 HUSB @I15@
+1 WIFE @I34@
+1 CHIL @I43@
+1 CHIL @I44@
+1 NOTE Zeus (as swan) and Leda are parents of Helen and Polydeuces (divine children).
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F19@ FAM
+1 HUSB @I15@
+1 WIFE @I35@
+1 CHIL @I45@
+1 CHIL @I46@
+1 CHIL @I47@
+1 NOTE Zeus (as bull) and Europa are parents of Minos, Rhadamanthys, and Sarpedon.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F20@ FAM
+1 HUSB @I15@
+1 WIFE @I36@
+1 CHIL @I48@
+1 NOTE Zeus and Io are parents of Epaphus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F21@ FAM
+1 HUSB @I15@
+1 WIFE @I37@
+1 CHIL @I49@
+1 CHIL @I50@
+1 NOTE Zeus and Antiope are parents of the twins Amphion and Zethus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F22@ FAM
+1 HUSB @I17@
+1 WIFE @I55@
+1 CHIL @I56@
+1 NOTE Poseidon and Amphitrite are parents of Triton.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F23@ FAM
+1 HUSB @I18@
+1 WIFE @I38@
+1 NOTE Hades and Persephone rule the underworld together.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F24@ FAM
+1 HUSB @I25@
+1 WIFE @I54@
+1 NOTE Hephaestus and Aphrodite's arranged marriage. She was frequently unfaithful.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F25@ FAM
+1 HUSB @I41@
+1 WIFE @I26@
+1 NOTE Heracles married Hebe after achieving immortality and joining Olympus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 TRLR
+

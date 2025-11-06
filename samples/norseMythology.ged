@@ -1,0 +1,472 @@
+0 HEAD
+1 SOUR GEN
+2 VERS 1.0
+2 NAME Genealogy Viewer
+2 CORP GitHub ghosthack/family-tree
+3 ADDR https://github.com/ghosthack/family-tree
+1 DEST ANY
+1 DATE 06 NOV 2025
+2 TIME 12:00:00
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+1 NOTE Norse Mythology Family Tree - Based on Prose Edda (Snorri Sturluson, 13th century) and Poetic Edda
+0 @I1@ INDI
+1 NAME Búri //
+1 SEX M
+1 NOTE First god in Norse mythology. Licked free from salty ice blocks by the primordial cow Auðumbla. Father of Borr.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I2@ INDI
+1 NAME Borr //
+1 SEX M
+1 NOTE Son of Búri. Father of Odin, Vili, and Vé.
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I3@ INDI
+1 NAME Bestla //
+1 SEX F
+1 NOTE Daughter of the jötunn (giant) Bölþorn. Mother of Odin, Vili, and Vé.
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I4@ INDI
+1 NAME Odin /Allfather/
+1 SEX M
+1 TITL All-Father, King of the Gods
+1 NOTE Chief god in Norse mythology. God of wisdom, war, death, and poetry. Sacrificed his eye for wisdom. Father of many gods and heroes. Prose Edda, Poetic Edda.
+1 FAMC @F2@
+1 FAMS @F3@
+1 FAMS @F4@
+1 FAMS @F5@
+1 FAMS @F6@
+1 FAMS @F7@
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I5@ INDI
+1 NAME Vili //
+1 SEX M
+1 NOTE Brother of Odin. Together with Odin and Vé, slew the giant Ymir and created the world from his body.
+1 FAMC @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I6@ INDI
+1 NAME Vé //
+1 SEX M
+1 NOTE Brother of Odin. Together with Odin and Vili, slew the giant Ymir and created the world from his body.
+1 FAMC @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I7@ INDI
+1 NAME Frigg //
+1 SEX F
+1 TITL Queen of the Æsir
+1 NOTE Chief goddess, wife of Odin. Goddess of marriage, motherhood, and foresight. Mother of Baldr and Höðr. Prose Edda.
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I8@ INDI
+1 NAME Jörð /Earth/
+1 SEX F
+1 NOTE Personification of the Earth. Mother of Thor by Odin. A jötunn or goddess depending on source.
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I9@ INDI
+1 NAME Gríðr //
+1 SEX F
+1 NOTE Giantess (jötunn). Mother of Víðarr by Odin.
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I10@ INDI
+1 NAME Rindr //
+1 SEX F
+1 NOTE Giantess or mortal princess. Mother of Váli by Odin.
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I11@ INDI
+1 NAME Gunnlöð //
+1 SEX F
+1 NOTE Giantess who guarded the mead of poetry. Seduced by Odin to obtain the mead. Mother of Bragi (in some sources).
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I12@ INDI
+1 NAME Skaði //
+1 SEX F
+1 NOTE Goddess and giantess associated with winter, skiing, and mountains. Married Njörðr but separated. Associated with Odin in some sources.
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I13@ INDI
+1 NAME Thor //
+1 SEX M
+1 TITL God of Thunder
+1 NOTE God of thunder, lightning, storms, strength. Wielder of Mjölnir. Defender of Asgard and Midgard. Most popular of the Norse gods. Son of Odin and Jörð.
+1 FAMC @F4@
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I14@ INDI
+1 NAME Sif //
+1 SEX F
+1 NOTE Goddess associated with earth and harvest. Known for her golden hair. Wife of Thor. Mother of Þrúðr, Móði, and stepmother of Magni.
+1 FAMS @F9@
+1 FAMS @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I15@ INDI
+1 NAME Járnsaxa //
+1 SEX F
+1 NOTE Giantess. Mother of Magni by Thor.
+1 FAMS @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I16@ INDI
+1 NAME Baldr /the Beautiful/
+1 SEX M
+1 TITL God of Light
+1 NOTE God of light, beauty, and purity. Son of Odin and Frigg. Killed by mistletoe arrow shot by Höðr, manipulated by Loki. His death begins the chain of events leading to Ragnarök.
+1 FAMC @F3@
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I17@ INDI
+1 NAME Höðr //
+1 SEX M
+1 NOTE Blind god. Son of Odin and Frigg. Tricked by Loki into killing his brother Baldr with mistletoe.
+1 FAMC @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I18@ INDI
+1 NAME Víðarr /the Silent/
+1 SEX M
+1 NOTE God of vengeance and silence. Son of Odin and Gríðr. Will avenge Odin's death by killing Fenrir at Ragnarök.
+1 FAMC @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I19@ INDI
+1 NAME Váli //
+1 SEX M
+1 NOTE Son of Odin and Rindr. Born specifically to avenge Baldr's death by killing Höðr. One day old when he accomplished this.
+1 FAMC @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I20@ INDI
+1 NAME Bragi //
+1 SEX M
+1 TITL God of Poetry
+1 NOTE God of poetry and eloquence. Married to Iðunn. Son of Odin (possibly with Gunnlöð, or Frigg in some sources).
+1 FAMC @F7@
+1 FAMS @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I21@ INDI
+1 NAME Hermóðr //
+1 SEX M
+1 NOTE Son of Odin. Messenger of the gods. Rode to Hel to attempt to bring Baldr back from death.
+1 FAMC @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I22@ INDI
+1 NAME Týr //
+1 SEX M
+1 TITL God of War
+1 NOTE God of war, law, and justice. Lost his hand to the wolf Fenrir. Son of Odin (in some sources; other sources name Hymir as father).
+1 FAMC @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I23@ INDI
+1 NAME Magni /the Strong/
+1 SEX M
+1 NOTE Son of Thor and Járnsaxa. God of strength. Will survive Ragnarök and inherit Mjölnir.
+1 FAMC @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I24@ INDI
+1 NAME Móði /the Brave/
+1 SEX M
+1 NOTE Son of Thor and Sif. God of courage. Will survive Ragnarök and inherit Mjölnir with his brother Magni.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I25@ INDI
+1 NAME Þrúðr //
+1 SEX F
+1 NOTE Daughter of Thor and Sif. Valkyrie or goddess of strength.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I26@ INDI
+1 NAME Ullr //
+1 SEX M
+1 NOTE God of archery, skiing, and single combat. Stepson of Thor, son of Sif.
+1 FAMC @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I27@ INDI
+1 NAME Nanna //
+1 SEX F
+1 NOTE Goddess, wife of Baldr. Died of grief when Baldr was killed and was placed on his funeral pyre.
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I28@ INDI
+1 NAME Forseti //
+1 SEX M
+1 NOTE God of justice and reconciliation. Son of Baldr and Nanna.
+1 FAMC @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I29@ INDI
+1 NAME Iðunn //
+1 SEX F
+1 NOTE Goddess who keeps the golden apples of youth that keep the gods immortal. Wife of Bragi.
+1 FAMS @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I30@ INDI
+1 NAME Loki //
+1 SEX M
+1 NOTE Trickster god, blood brother of Odin. Shape-shifter. Father of Hel, Fenrir, and Jörmungandr with Angrboða. Father of Sleipnir (as mother in mare form). Responsible for Baldr's death.
+1 FAMS @F14@
+1 FAMS @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I31@ INDI
+1 NAME Sigyn //
+1 SEX F
+1 NOTE Goddess, loyal wife of Loki. Mother of Narfi and Váli. Holds a bowl to catch venom dripping on bound Loki.
+1 FAMS @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I32@ INDI
+1 NAME Angrboða //
+1 SEX F
+1 NOTE Giantess. Mother of Hel, Fenrir, and Jörmungandr by Loki.
+1 FAMS @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I33@ INDI
+1 NAME Narfi //
+1 SEX M
+1 NOTE Son of Loki and Sigyn. Killed by his brother Váli (not Odin's son), whose entrails were used to bind Loki.
+1 FAMC @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I34@ INDI
+1 NAME Váli /Áli/ (Loki's son)
+1 SEX M
+1 NOTE Son of Loki and Sigyn. Transformed into a wolf and killed his brother Narfi. Different from Odin's son Váli.
+1 FAMC @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I35@ INDI
+1 NAME Hel //
+1 SEX F
+1 TITL Ruler of Helheim
+1 NOTE Goddess of death, ruler of the realm of the dead (Helheim). Daughter of Loki and Angrboða. Half her body is living, half is dead.
+1 FAMC @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I36@ INDI
+1 NAME Fenrir //
+1 SEX M
+1 NOTE Monstrous wolf, son of Loki and Angrboða. Bound by the gods with magic chain Gleipnir. Will kill Odin at Ragnarök before being slain by Víðarr.
+1 FAMC @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I37@ INDI
+1 NAME Jörmungandr /Midgard Serpent/
+1 SEX M
+1 NOTE World serpent, son of Loki and Angrboða. Surrounds Midgard by biting his own tail. Will fight Thor at Ragnarök; both will die.
+1 FAMC @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I38@ INDI
+1 NAME Sleipnir //
+1 SEX M
+1 NOTE Eight-legged horse, swiftest of all horses. Odin's steed. Offspring of Loki (in mare form) and the stallion Svaðilfari.
+1 FAMC @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I39@ INDI
+1 NAME Loki /as mare/
+1 SEX F
+1 NOTE Loki in mare form, who seduced the stallion Svaðilfari and gave birth to Sleipnir.
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I40@ INDI
+1 NAME Svaðilfari //
+1 SEX M
+1 NOTE Powerful stallion owned by the giant who built Asgard's walls. Father of Sleipnir.
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F1@ FAM
+1 HUSB @I1@
+1 CHIL @I2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F2@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+1 CHIL @I6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F3@ FAM
+1 HUSB @I4@
+1 WIFE @I7@
+1 CHIL @I16@
+1 CHIL @I17@
+1 CHIL @I21@
+1 CHIL @I22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F4@ FAM
+1 HUSB @I4@
+1 WIFE @I8@
+1 CHIL @I13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F5@ FAM
+1 HUSB @I4@
+1 WIFE @I9@
+1 CHIL @I18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F6@ FAM
+1 HUSB @I4@
+1 WIFE @I10@
+1 CHIL @I19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F7@ FAM
+1 HUSB @I4@
+1 WIFE @I11@
+1 CHIL @I20@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F8@ FAM
+1 HUSB @I4@
+1 WIFE @I12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F9@ FAM
+1 HUSB @I13@
+1 WIFE @I14@
+1 CHIL @I24@
+1 CHIL @I25@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F10@ FAM
+1 WIFE @I14@
+1 CHIL @I26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F11@ FAM
+1 HUSB @I13@
+1 WIFE @I15@
+1 CHIL @I23@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F12@ FAM
+1 HUSB @I16@
+1 WIFE @I27@
+1 CHIL @I28@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F13@ FAM
+1 HUSB @I20@
+1 WIFE @I29@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F14@ FAM
+1 HUSB @I30@
+1 WIFE @I31@
+1 CHIL @I33@
+1 CHIL @I34@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F15@ FAM
+1 HUSB @I30@
+1 WIFE @I32@
+1 CHIL @I35@
+1 CHIL @I36@
+1 CHIL @I37@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F16@ FAM
+1 HUSB @I40@
+1 WIFE @I39@
+1 CHIL @I38@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 TRLR
+

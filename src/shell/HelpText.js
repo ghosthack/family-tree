@@ -40,6 +40,7 @@ export function getGeneralHelp() {
   lines.push(`  ${chalk.green('children')}        Show children of current individual`);
   lines.push(`  ${chalk.green('siblings')}        Show siblings of current individual`);
   lines.push(`  ${chalk.green('spouses')}         Show spouses of current individual`);
+  lines.push(`  ${chalk.green('roots [depth]')}   List root individuals (with optional tree view)`);
   lines.push('');
 
   lines.push(chalk.bold.yellow('Utility Commands:'));
@@ -48,6 +49,12 @@ export function getGeneralHelp() {
   lines.push(`  ${chalk.green('reload')}          Reload the GEDCOM file from disk`);
   lines.push(`  ${chalk.green('clear')}           Clear screen`);
   lines.push(`  ${chalk.green('exit')} or ${chalk.green('quit')}   Exit the application`);
+  lines.push('');
+
+  lines.push(chalk.bold.yellow('Fictional Calendar Commands:'));
+  lines.push(`  ${chalk.green('setdate <cal> <year> [month] [day]')} Set fictional date context`);
+  lines.push(`  ${chalk.green('showdate')}        Show current fictional date context`);
+  lines.push(`  ${chalk.green('cleardate')}       Clear fictional date context`);
   lines.push('');
 
   lines.push(chalk.bold.yellow('Keyboard Shortcuts:'));
@@ -121,10 +128,48 @@ export function getCommandHelp(command) {
     children: 'children - Show children of current individual',
     siblings: 'siblings - Show siblings of current individual',
     spouses: 'spouses - Show spouses of current individual',
+    roots: `roots [depth] - List all root individuals (individuals without parent information)
+
+  Root individuals are people in the tree who do not have any recorded parent information.
+  These are typically the oldest known ancestors or individuals added without genealogical context.
+  
+  Usage:
+    roots           - Show list of all root individuals
+    roots 3         - Show descendant tree for each root (depth 3)
+    roots 5         - Show descendant tree for each root (depth 5)
+  
+  This command works from any location in the tree and always shows all roots.
+  When depth is provided, displays a full descendant tree for each root individual.`,
     reload: 'reload - Reload the GEDCOM file from disk (resets navigation to root)',
     help: 'help [command] - Show general help or help for specific command',
     clear: 'clear - Clear the screen',
-    exit: 'exit or quit - Exit the application'
+    exit: 'exit or quit - Exit the application',
+    setdate: `setdate <calendar> <year> [month] [day] - Set fictional date context for age calculations
+
+  Usage: setdate AG 10191 1 1
+
+  This command sets the "current date" for fictional calendar systems, allowing the
+  program to calculate ages for living characters in fictional universes.
+
+  Examples:
+    setdate AG 10191          - Set to year 10191 AG (Dune calendar)
+    setdate UC 0096           - Set to year 0096 UC (Gundam Universal Century)
+    setdate AG 10191 6 15     - Set to specific date in AG calendar
+    setdate BG 5000           - Set to year 5000 Before Guild
+    setdate SC 9999 12 31     - Custom calendar example
+
+  Supported calendars: AG, BG, UC, SC, SD, and any 2-4 letter calendar suffix
+  
+  After setting a context, age calculations for living characters will use this date
+  instead of the current real-world date.`,
+    showdate: `showdate - Display current fictional date context
+
+  Shows the currently set fictional date used for age calculations.
+  If no fictional context is set, indicates that real-world dates are being used.`,
+    cleardate: `cleardate - Clear fictional date context
+
+  Removes the fictional date context and returns to using real-world current date
+  for age calculations (only works for Gregorian calendar dates).`
   };
 
   return helps[command.toLowerCase()] || chalk.red(`No help available for: ${command}`);

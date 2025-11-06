@@ -1,3 +1,5 @@
+import { parseGedcomDate } from '../utils/dateParser.js';
+
 /**
  * Tree model - manages the genealogy tree data
  */
@@ -178,15 +180,41 @@ export class Tree {
     const individuals = this.getAllIndividuals();
     const families = this.getAllFamilies();
 
-    let births = individuals
+    // Parse birth dates and extract years (supporting multiple calendar systems)
+    let birthDates = individuals
       .map((i) => i.birth?.date)
-      .filter((d) => d && d.match(/\d{4}/))
-      .map((d) => parseInt(d.match(/\d{4}/)[0], 10));
+      .filter(Boolean)
+      .map((d) => parseGedcomDate(d))
+      .filter(Boolean);
 
-    let deaths = individuals
+    // Parse death dates
+    let deathDates = individuals
       .map((i) => i.death?.date)
-      .filter((d) => d && d.match(/\d{4}/))
-      .map((d) => parseInt(d.match(/\d{4}/)[0], 10));
+      .filter(Boolean)
+      .map((d) => parseGedcomDate(d))
+      .filter(Boolean);
+
+    // Group dates by calendar system for better statistics
+    const birthsByCalendar = {};
+    const deathsByCalendar = {};
+
+    birthDates.forEach(date => {
+      if (!birthsByCalendar[date.calendar]) {
+        birthsByCalendar[date.calendar] = [];
+      }
+      birthsByCalendar[date.calendar].push(date.year);
+    });
+
+    deathDates.forEach(date => {
+      if (!deathsByCalendar[date.calendar]) {
+        deathsByCalendar[date.calendar] = [];
+      }
+      deathsByCalendar[date.calendar].push(date.year);
+    });
+
+    // Get overall earliest/latest (across all calendars - may not be meaningful for mixed calendars)
+    const allBirthYears = birthDates.map(d => d.year);
+    const allDeathYears = deathDates.map(d => d.year);
 
     return {
       totalIndividuals: this.individuals.size,
@@ -195,11 +223,33 @@ export class Tree {
       maleCount: individuals.filter((i) => i.sex === 'M').length,
       femaleCount: individuals.filter((i) => i.sex === 'F').length,
       unknownGender: individuals.filter((i) => !i.sex || i.sex === 'U' || i.sex === '').length,
-      earliestBirth: births.length > 0 ? Math.min(...births) : null,
-      latestBirth: births.length > 0 ? Math.max(...births) : null,
-      earliestDeath: deaths.length > 0 ? Math.min(...deaths) : null,
-      latestDeath: deaths.length > 0 ? Math.max(...deaths) : null
+      earliestBirth: allBirthYears.length > 0 ? Math.min(...allBirthYears) : null,
+      latestBirth: allBirthYears.length > 0 ? Math.max(...allBirthYears) : null,
+      earliestDeath: allDeathYears.length > 0 ? Math.min(...allDeathYears) : null,
+      latestDeath: allDeathYears.length > 0 ? Math.max(...allDeathYears) : null,
+      birthsByCalendar,
+      deathsByCalendar,
+      calendars: Object.keys(birthsByCalendar).concat(Object.keys(deathsByCalendar)).filter((v, i, a) => a.indexOf(v) === i)
     };
+  }
+
+  /**
+   * Get all root individuals (individuals without parent information)
+   * @returns {Array} Array of individuals who don't have parents
+   */
+  getRootIndividuals() {
+    const roots = [];
+    
+    for (const individual of this.individuals.values()) {
+      // Check if individual has no familiesAsChild or if those families have no parents
+      const hasParents = this.getParents(individual.id).length > 0;
+      
+      if (!hasParents) {
+        roots.push(individual);
+      }
+    }
+    
+    return roots;
   }
 
   /**

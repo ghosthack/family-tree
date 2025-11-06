@@ -1,0 +1,583 @@
+0 HEAD
+1 SOUR GEN
+2 VERS 1.0
+2 NAME Genealogy Viewer
+2 CORP GitHub ghosthack/family-tree
+3 ADDR https://github.com/ghosthack/family-tree
+1 DEST ANY
+1 DATE 06 NOV 2025
+2 TIME 12:00:00
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Zeon Zum /Deikun/
+1 SEX M
+1 BIRT
+2 DATE ABT 0040 UC
+1 DEAT
+2 DATE 0068 UC
+1 TITL Philosopher, Leader of Spacenoid Independence Movement
+1 NOTE Zeon Zum Deikun. Founder of the Republic of Zeon and the Spacenoid independence movement. Father of Casval (Char Aznable) and Artesia (Sayla Mass). Died under mysterious circumstances, possibly assassinated by the Zabi family.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I2@ INDI
+1 NAME Astraia /Deikun/
+1 SEX F
+1 BIRT
+2 DATE ABT 0045 UC
+1 DEAT
+2 DATE 0069 UC
+1 NOTE Astraia Deikun. Wife of Zeon Zum Deikun. Mother of Casval and Artesia. Killed in the purge after Zeon's death.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I3@ INDI
+1 NAME Casval Rem /Deikun/ "Char Aznable"
+1 SEX M
+1 BIRT
+2 DATE 0059 UC
+1 DEAT
+2 DATE 0093 UC
+1 TITL The Red Comet, Commander
+1 NOTE Casval Rem Deikun, known as Char Aznable. Son of Zeon Zum Deikun. Assumed identity of Char Aznable. Ace mobile suit pilot known as "The Red Comet." Sought revenge against the Zabi family. Later became leader of Neo Zeon. Nemesis and rival of Amuro Ray.
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I4@ INDI
+1 NAME Artesia Som /Deikun/ "Sayla Mass"
+1 SEX F
+1 BIRT
+2 DATE 0061 UC
+1 NOTE Artesia Som Deikun, known as Sayla Mass. Daughter of Zeon Zum Deikun. Sister of Char Aznable. Mobile suit pilot and doctor. Served aboard White Base during One Year War.
+1 FAMC @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I5@ INDI
+1 NAME Degwin Sodo /Zabi/
+1 SEX M
+1 BIRT
+2 DATE 0020 UC
+1 DEAT
+2 DATE 0080 UC
+1 TITL Sovereign of Zeon
+1 NOTE Degwin Sodo Zabi. Sovereign of the Principality of Zeon. Father of Gihren, Dozle, Kycilia, Sasro, and Garma. Seized power after Zeon Deikun's death. Killed by the Solar Ray System fired by his son Gihren.
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I6@ INDI
+1 NAME Gihren /Zabi/
+1 SEX M
+1 BIRT
+2 DATE 0050 UC
+1 DEAT
+2 DATE 0080 UC
+1 TITL Supreme Commander of Zeon
+1 NOTE Gihren Zabi. Eldest son of Degwin. Supreme Commander and de facto leader of Zeon during the One Year War. Ruthless dictator with fascist ideology. Killed his own father. Shot by his sister Kycilia.
+1 FAMC @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I7@ INDI
+1 NAME Sasro /Zabi/
+1 SEX M
+1 BIRT
+2 DATE 0053 UC
+1 DEAT
+2 DATE 0075 UC
+1 NOTE Sasro Zabi. Second son of Degwin. Died before the One Year War began. Considered more moderate than his siblings.
+1 FAMC @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I8@ INDI
+1 NAME Dozle /Zabi/
+1 SEX M
+1 BIRT
+2 DATE 0057 UC
+1 DEAT
+2 DATE 0079 UC
+1 TITL Commander of Zeon Space Attack Force
+1 NOTE Dozle Zabi. Third son of Degwin. Commander of the Zeon Space Attack Force. Defended Solomon. Despite fearsome appearance, was devoted family man. Killed in battle at Solomon.
+1 FAMC @F3@
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I9@ INDI
+1 NAME Kycilia /Zabi/
+1 SEX F
+1 BIRT
+2 DATE 0060 UC
+1 DEAT
+2 DATE 0080 UC
+1 TITL Commander of Zeon Mobile Assault Force
+1 NOTE Kycilia Zabi. Daughter of Degwin. Commander of Mobile Assault Force and intelligence operations. Shot her brother Gihren for killing their father. Head destroyed by Char Aznable's bazooka shot.
+1 FAMC @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I10@ INDI
+1 NAME Garma /Zabi/
+1 SEX M
+1 BIRT
+2 DATE 0060 UC
+1 DEAT
+2 DATE 0079 UC
+1 TITL Commander of Earth Attack Force
+1 NOTE Garma Zabi. Youngest son of Degwin. Commander of Earth Attack Force. Friend and classmate of Char Aznable at military academy. Betrayed and killed by Char as part of his revenge.
+1 FAMC @F3@
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I11@ INDI
+1 NAME Zena /Mia/
+1 SEX F
+1 BIRT
+2 DATE ABT 0062 UC
+1 NOTE Zena Mia. Wife of Dozle Zabi. Mother of Mineva Zabi. Loving wife and mother.
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I12@ INDI
+1 NAME Mineva Lao /Zabi/
+1 SEX F
+1 BIRT
+2 DATE 0079 UC
+1 TITL Princess of Zeon
+1 NOTE Mineva Lao Zabi. Daughter of Dozle and Zena. Last surviving member of the Zabi family. Used as figurehead by various Neo Zeon factions. Later became advocate for peace and spacenoid rights.
+1 FAMC @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I13@ INDI
+1 NAME Icelina /Eschonbach/
+1 SEX F
+1 BIRT
+2 DATE ABT 0062 UC
+1 DEAT
+2 DATE 0079 UC
+1 NOTE Icelina Eschonbach. Daughter of a Federation general. Fell in love with Garma Zabi. Died seeking revenge for Garma's death.
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I14@ INDI
+1 NAME Amuro /Ray/
+1 SEX M
+1 BIRT
+2 DATE 0063 UC
+1 DEAT
+2 DATE 0093 UC
+1 TITL Mobile Suit Pilot, Ace
+1 NOTE Amuro Ray. Son of Tem Ray. Original pilot of the RX-78-2 Gundam. Newtype. Hero of the One Year War. Founder of Londo Bell. Nemesis and rival of Char Aznable. Disappeared with Char after Axis Shock.
+1 FAMC @F6@
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I15@ INDI
+1 NAME Tem /Ray/
+1 SEX M
+1 BIRT
+2 DATE ABT 0033 UC
+1 DEAT
+2 DATE ABT 0080 UC
+1 NOTE Tem Ray. Father of Amuro. Lead engineer of the RX-78 Gundam project. Suffered severe injuries and mental damage during the One Year War. Became obsessed with building a circuit.
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I16@ INDI
+1 NAME Kamaria /Ray/
+1 SEX F
+1 BIRT
+2 DATE ABT 0038 UC
+1 NOTE Kamaria Ray. Mother of Amuro. Separated from her family during the One Year War. Witnessed the horrors of war and became a peace advocate.
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I17@ INDI
+1 NAME Fraw /Bow/ Kobayashi
+1 SEX F
+1 BIRT
+2 DATE 0064 UC
+1 NOTE Fraw Bow (later Fraw Kobayashi). Childhood friend of Amuro. Cared for orphans during One Year War. Married Hayato Kobayashi after the war.
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I18@ INDI
+1 NAME Hayato /Kobayashi/
+1 SEX M
+1 BIRT
+2 DATE ABT 0062 UC
+1 DEAT
+2 DATE 0088 UC
+1 NOTE Hayato Kobayashi. Mobile suit pilot on White Base. Friend of Amuro. Married Fraw Bow after the war. Became anti-Titans activist. Killed in terrorist attack.
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I19@ INDI
+1 NAME Bright /Noa/
+1 SEX M
+1 BIRT
+2 DATE 0061 UC
+1 TITL Captain
+1 NOTE Bright Noa. Captain of White Base during One Year War. Later commanded Argama and Ra Cailum. Stern but caring commander. Slapped sense into many young pilots.
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I20@ INDI
+1 NAME Mirai /Yashima/ Noa
+1 SEX F
+1 BIRT
+2 DATE 0060 UC
+1 NOTE Mirai Yashima (later Mirai Noa). Helmsman of White Base. Newtype potential. Married Bright Noa after the war.
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I21@ INDI
+1 NAME Hathaway /Noa/
+1 SEX M
+1 BIRT
+2 DATE 0081 UC
+1 NOTE Hathaway Noa. Son of Bright and Mirai. Fell in love with Quess Paraya. Later became leader of terrorist group Mafty. Executed for his crimes.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I22@ INDI
+1 NAME Cheimin /Noa/
+1 SEX F
+1 BIRT
+2 DATE ABT 0084 UC
+1 NOTE Cheimin Noa. Daughter of Bright and Mirai. Younger sister of Hathaway.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I23@ INDI
+1 NAME Ramba /Ral/
+1 SEX M
+1 BIRT
+2 DATE 0050 UC
+1 DEAT
+2 DATE 0079 UC
+1 TITL Mobile Suit Commander
+1 NOTE Ramba Ral. Ace mobile suit pilot of Zeon. Son of Jimba Ral. Honorable warrior. Lost position due to Zabi family politics. Killed in combat against Amuro Ray's Gundam.
+1 FAMC @F10@
+1 FAMS @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I24@ INDI
+1 NAME Jimba /Ral/
+1 SEX M
+1 BIRT
+2 DATE ABT 0020 UC
+1 DEAT
+2 DATE ABT 0070 UC
+1 NOTE Jimba Ral. Close friend and supporter of Zeon Zum Deikun. Father of Ramba Ral. Opposed the Zabi family's takeover. Killed during the purge.
+1 FAMS @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I25@ INDI
+1 NAME Crowley /Hamon/
+1 SEX F
+1 BIRT
+2 DATE ABT 0053 UC
+1 DEAT
+2 DATE 0079 UC
+1 NOTE Crowley Hamon. Lover and companion of Ramba Ral. Former lover of Dozle Zabi. Supported Ral in his final mission. Died attacking Gundam to avenge Ral.
+1 FAMS @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I26@ INDI
+1 NAME Kamille /Bidan/
+1 SEX M
+1 BIRT
+2 DATE 0069 UC
+1 NOTE Kamille Bidan. Son of Franklin and Hilda Bidan. Newtype. Pilot of Zeta Gundam. Fought against the Titans and later Neo Zeon. Suffered severe mental trauma from Paptimus Scirocco's final attack.
+1 FAMC @F12@
+1 FAMS @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I27@ INDI
+1 NAME Franklin /Bidan/
+1 SEX M
+1 BIRT
+2 DATE ABT 0037 UC
+1 DEAT
+2 DATE 0087 UC
+1 NOTE Franklin Bidan. Father of Kamille. Engineer working on Gundam Mk-II project. Killed during AEUG operation.
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I28@ INDI
+1 NAME Hilda /Bidan/
+1 SEX F
+1 BIRT
+2 DATE ABT 0042 UC
+1 DEAT
+2 DATE 0087 UC
+1 NOTE Hilda Bidan. Mother of Kamille. Engineer. Killed when Kamille stole Gundam Mk-II.
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I29@ INDI
+1 NAME Fa /Yuiry/
+1 SEX F
+1 BIRT
+2 DATE 0070 UC
+1 NOTE Fa Yuiry. Childhood friend of Kamille. Mobile suit pilot. Took care of mentally damaged Kamille after Gryps War.
+1 FAMS @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I30@ INDI
+1 NAME Judau /Ashta/
+1 SEX M
+1 BIRT
+2 DATE 0073 UC
+1 NOTE Judau Ashta. Newtype. Pilot of ZZ Gundam. Fought against Neo Zeon. Brother of Leina Ashta. More lighthearted than previous Gundam pilots. Left for Jupiter after First Neo Zeon War.
+1 FAMC @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I31@ INDI
+1 NAME Leina /Ashta/
+1 SEX F
+1 BIRT
+2 DATE 0075 UC
+1 NOTE Leina Ashta. Sister of Judau. Initially thought killed but survived. Reunited with Judau after the war.
+1 FAMC @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I32@ INDI
+1 NAME Banagher /Links/
+1 SEX M
+1 BIRT
+2 DATE 0080 UC
+1 NOTE Banagher Links. Son of Cardeas Vist. Pilot of Unicorn Gundam. Newtype. Fought to protect Mineva Zabi and the Universal Century charter. Key figure in Laplace Incident.
+1 FAMC @F15@
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I33@ INDI
+1 NAME Cardeas /Vist/
+1 SEX M
+1 BIRT
+2 DATE ABT 0025 UC
+1 DEAT
+2 DATE 0096 UC
+1 NOTE Cardeas Vist. Head of Vist Foundation. Father of Banagher Links. Keeper of Laplace's Box. Killed by Full Frontal.
+1 FAMC @F17@
+1 FAMS @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I34@ INDI
+1 NAME Syam /Vist/
+1 SEX M
+1 BIRT
+2 DATE 0001 UC
+1 DEAT
+2 DATE 0096 UC
+1 TITL Founder of Vist Foundation
+1 NOTE Syam Vist. Founder of Vist Foundation. Witnessed the destruction of Laplace space station at the dawn of Universal Century. Created Laplace's Box. Father of Cardeas.
+1 FAMS @F17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I35@ INDI
+1 NAME Audrey Burne /"Mineva"/
+1 SEX F
+1 BIRT
+2 DATE 0079 UC
+1 NOTE See Mineva Lao Zabi (@I12@). Audrey Burne is an alias used by Mineva. Companion of Banagher Links.
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I36@ INDI
+1 NAME Lalah /Sune/
+1 SEX F
+1 BIRT
+2 DATE 0063 UC
+1 DEAT
+2 DATE 0079 UC
+1 NOTE Lalah Sune. Newtype. Pilot for Char Aznable. Killed when she sacrificed herself to protect Char from Amuro's attack. Her death haunted both Char and Amuro.
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I37@ INDI
+1 NAME Nanai /Miguel/
+1 SEX F
+1 BIRT
+2 DATE ABT 0066 UC
+1 NOTE Nanai Miguel. Lover and advisor to Char Aznable during Second Neo Zeon War. Mobile suit pilot and engineer.
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 NOTE Zeon Zum Deikun and Astraia were the parents of Casval and Artesia, who became Char Aznable and Sayla Mass respectively.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F2@ FAM
+1 HUSB @I3@
+1 WIFE @I36@
+1 NOTE Char and Lalah had a deep connection as Newtypes. Not a formal relationship but deeply significant to Char.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F3@ FAM
+1 HUSB @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+1 NOTE Degwin Sodo Zabi's family. The Zabi family seized control of the Republic of Zeon after Zeon Deikun's death.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F4@ FAM
+1 HUSB @I8@
+1 WIFE @I11@
+1 MARR
+2 DATE ABT 0078 UC
+1 CHIL @I12@
+1 NOTE Dozle and Zena were devoted to each other. Mineva was born just before the Battle of Solomon.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F5@ FAM
+1 HUSB @I10@
+1 WIFE @I13@
+1 NOTE Garma and Icelina were in love, though their relationship was doomed by the war.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F6@ FAM
+1 HUSB @I15@
+1 WIFE @I16@
+1 CHIL @I14@
+1 NOTE Tem and Kamaria Ray. Amuro's parents separated during the One Year War.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F7@ FAM
+1 HUSB @I14@
+1 WIFE @I37@
+1 NOTE Amuro and Nanai had a brief romantic connection during Char's Counterattack era.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F8@ FAM
+1 HUSB @I18@
+1 WIFE @I17@
+1 MARR
+2 DATE ABT 0081 UC
+1 NOTE Hayato and Fraw married after the One Year War and adopted war orphans.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F9@ FAM
+1 HUSB @I19@
+1 WIFE @I20@
+1 MARR
+2 DATE ABT 0080 UC
+1 CHIL @I21@
+1 CHIL @I22@
+1 NOTE Bright and Mirai married after the One Year War. Had two children.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F10@ FAM
+1 HUSB @I24@
+1 CHIL @I23@
+1 NOTE Jimba Ral was a supporter of Zeon Deikun and father of Ramba Ral.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F11@ FAM
+1 HUSB @I23@
+1 WIFE @I25@
+1 NOTE Ramba Ral and Crowley Hamon were devoted partners, though not formally married.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F12@ FAM
+1 HUSB @I27@
+1 WIFE @I28@
+1 CHIL @I26@
+1 NOTE Franklin and Hilda Bidan. Both were engineers working on mobile suit projects.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F13@ FAM
+1 HUSB @I26@
+1 WIFE @I29@
+1 NOTE Kamille and Fa. Fa took care of Kamille after he was mentally damaged at the end of Gryps War.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F14@ FAM
+1 CHIL @I30@
+1 CHIL @I31@
+1 NOTE Judau and Leina Ashta were orphaned siblings living in the slums of Shangri-La.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F15@ FAM
+1 HUSB @I33@
+1 CHIL @I32@
+1 NOTE Cardeas Vist and his relationship that produced Banagher Links. Banagher was kept secret from the Vist family.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F16@ FAM
+1 HUSB @I32@
+1 WIFE @I35@
+1 NOTE Banagher Links and Audrey Burne (Mineva Zabi) formed a close bond during the Laplace Incident.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F17@ FAM
+1 HUSB @I34@
+1 CHIL @I33@
+1 NOTE Syam Vist founded the Vist Foundation and was father of Cardeas.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 TRLR
+

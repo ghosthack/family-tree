@@ -1,0 +1,643 @@
+0 HEAD
+1 SOUR GEN
+2 VERS 1.0
+2 NAME Genealogy Viewer
+2 CORP GitHub ghosthack/family-tree
+3 ADDR https://github.com/ghosthack/family-tree
+1 DEST ANY
+1 DATE 06 NOV 2025
+2 TIME 12:00:00
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+1 NOTE Roman Mythology Family Tree - Based on Ovid's Metamorphoses (8 CE), Virgil's Aeneid (29-19 BCE), and other Roman sources
+0 @I1@ INDI
+1 NAME Caelus /Sky/
+1 SEX M
+1 TITL Primordial Sky God
+1 NOTE Roman equivalent of Greek Uranus. Primordial sky god. Father of Saturn. Castrated by Saturn. Cicero's De Natura Deorum.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I2@ INDI
+1 NAME Terra /Earth/
+1 SEX F
+1 TITL Primordial Earth Goddess
+1 NOTE Roman equivalent of Greek Gaia. Primordial earth goddess. Mother of Saturn and the ancient gods. Ovid's Metamorphoses.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I3@ INDI
+1 NAME Saturn /Saturnus/
+1 SEX M
+1 TITL God of Time and Agriculture
+1 NOTE Roman equivalent of Greek Cronus. God of time, agriculture, and abundance. Overthrew Caelus. Swallowed his children. Overthrown by Jupiter. Golden Age king. Virgil's Aeneid, Ovid's Fasti.
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I4@ INDI
+1 NAME Ops //
+1 SEX F
+1 TITL Goddess of Abundance
+1 NOTE Roman equivalent of Greek Rhea. Goddess of fertility, earth, and abundance. Wife and sister of Saturn. Mother of Jupiter and the first Olympians. Saved Jupiter from Saturn. Ovid's Fasti.
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I5@ INDI
+1 NAME Jupiter /Jove/
+1 SEX M
+1 TITL King of the Gods, Best and Greatest
+1 NOTE Roman king of gods. God of sky, thunder, lightning, law, and order. Jupiter Optimus Maximus. Overthrew Saturn. Ruler of Capitoline Hill. Roman equivalent of Zeus. Virgil's Aeneid, Ovid's Metamorphoses.
+1 FAMC @F2@
+1 FAMS @F3@
+1 FAMS @F4@
+1 FAMS @F5@
+1 FAMS @F6@
+1 FAMS @F7@
+1 FAMS @F8@
+1 FAMS @F9@
+1 FAMS @F10@
+1 FAMS @F11@
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I6@ INDI
+1 NAME Juno //
+1 SEX F
+1 TITL Queen of the Gods
+1 NOTE Roman queen of gods. Goddess of marriage, women, childbirth, and state. Wife and sister of Jupiter. Protector of Rome. Known for jealousy. Roman equivalent of Hera. Virgil's Aeneid, Ovid's Metamorphoses.
+1 FAMC @F2@
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I7@ INDI
+1 NAME Neptune /Neptunus/
+1 SEX M
+1 TITL God of the Sea
+1 NOTE Roman god of the sea, earthquakes, and horses. Brother of Jupiter. Protector of sailors and fishermen. Roman equivalent of Poseidon. Virgil's Aeneid, Ovid's Metamorphoses.
+1 FAMC @F2@
+1 FAMS @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I8@ INDI
+1 NAME Pluto /Dis Pater/
+1 SEX M
+1 TITL God of the Underworld
+1 NOTE Roman god of the underworld and the dead. Brother of Jupiter. Also called Dis Pater. Abducted Proserpina. Roman equivalent of Hades. Ovid's Metamorphoses.
+1 FAMC @F2@
+1 FAMS @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I9@ INDI
+1 NAME Vesta //
+1 SEX F
+1 TITL Goddess of the Hearth
+1 NOTE Roman virgin goddess of hearth, home, and family. Tended by Vestal Virgins in Rome. Eldest child of Saturn and Ops. Roman equivalent of Hestia. Ovid's Fasti.
+1 FAMC @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I10@ INDI
+1 NAME Ceres //
+1 SEX F
+1 TITL Goddess of Agriculture
+1 NOTE Roman goddess of agriculture, grain, harvest, and fertility. Mother of Proserpina. Her grief caused winter. Roman equivalent of Demeter. Ovid's Metamorphoses, Fasti.
+1 FAMC @F2@
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I11@ INDI
+1 NAME Minerva //
+1 SEX F
+1 TITL Goddess of Wisdom
+1 NOTE Roman goddess of wisdom, strategic warfare, arts, and crafts. Born from Jupiter's head. Patron of Rome. Part of Capitoline Triad. Roman equivalent of Athena. Ovid's Metamorphoses.
+1 FAMC @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I12@ INDI
+1 NAME Apollo //
+1 SEX M
+1 TITL God of Sun and Music
+1 NOTE Roman god of sun, light, music, poetry, prophecy, healing, and archery. Twin of Diana. One of few gods with same name in Greek and Roman. Virgil's Aeneid, Ovid's Metamorphoses.
+1 FAMC @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I13@ INDI
+1 NAME Diana //
+1 SEX F
+1 TITL Goddess of the Hunt
+1 NOTE Roman virgin goddess of hunt, moon, wilderness, and childbirth. Twin of Apollo. Protector of women and children. Roman equivalent of Artemis. Ovid's Metamorphoses.
+1 FAMC @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I14@ INDI
+1 NAME Mars //
+1 SEX M
+1 TITL God of War
+1 NOTE Roman god of war, military power, and agricultural guardian. Son of Jupiter and Juno. Father of Romulus and Remus. Protector of Rome. More important in Rome than Ares in Greece. Ovid's Fasti.
+1 FAMC @F3@
+1 FAMS @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I15@ INDI
+1 NAME Vulcan /Volcanus/
+1 SEX M
+1 TITL God of Fire and Forge
+1 NOTE Roman god of fire, metalworking, forges, and volcanoes. Son of Juno. Husband of Venus. Roman equivalent of Hephaestus. Virgil's Aeneid, Ovid's Metamorphoses.
+1 FAMC @F3@
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I16@ INDI
+1 NAME Juventas //
+1 SEX F
+1 NOTE Roman goddess of youth. Daughter of Jupiter and Juno. Roman equivalent of Hebe. Ovid's Metamorphoses.
+1 FAMC @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I17@ INDI
+1 NAME Metis //
+1 SEX F
+1 NOTE Titaness of wisdom. First wife of Jupiter. Swallowed by Jupiter while pregnant with Minerva to prevent prophecy. Roman version follows Greek myth.
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I18@ INDI
+1 NAME Latona //
+1 SEX F
+1 NOTE Roman equivalent of Leto. Titaness, mother of Apollo and Diana by Jupiter. Persecuted by jealous Juno during pregnancy. Ovid's Metamorphoses.
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I19@ INDI
+1 NAME Maia //
+1 SEX F
+1 NOTE Pleiad nymph. Mother of Mercury by Jupiter. Lived in a cave. Also an ancient Roman goddess of spring and growth. Ovid's Fasti.
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I20@ INDI
+1 NAME Semele //
+1 SEX F
+1 NOTE Mortal princess of Thebes. Mother of Bacchus by Jupiter. Tricked by Juno into asking Jupiter to reveal his true form, which killed her. Ovid's Metamorphoses.
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I21@ INDI
+1 NAME Alcmena //
+1 SEX F
+1 NOTE Mortal princess. Mother of Hercules by Jupiter (who disguised himself as her husband Amphitryon). Ovid's Metamorphoses.
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I22@ INDI
+1 NAME Danaë //
+1 SEX F
+1 NOTE Mortal princess of Argos. Mother of Perseus by Jupiter, who came to her as golden rain while imprisoned. Ovid's Metamorphoses.
+1 FAMS @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I23@ INDI
+1 NAME Leda //
+1 SEX F
+1 NOTE Queen of Sparta. Mother of Helen and Pollux by Jupiter (who came as a swan). Ovid's Metamorphoses.
+1 FAMS @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I24@ INDI
+1 NAME Europa //
+1 SEX F
+1 NOTE Phoenician princess. Mother of Minos and others by Jupiter, who abducted her as a bull. Continent of Europe named after her. Ovid's Metamorphoses.
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I25@ INDI
+1 NAME Proserpina //
+1 SEX F
+1 TITL Queen of the Underworld
+1 NOTE Roman goddess of spring and Queen of the Underworld. Daughter of Jupiter and Ceres. Abducted by Pluto. Spends part of year in underworld (winter) and part on earth (spring/summer). Roman equivalent of Persephone. Ovid's Metamorphoses, Fasti.
+1 FAMC @F4@
+1 FAMS @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I26@ INDI
+1 NAME Mercury /Mercurius/
+1 SEX M
+1 TITL Messenger of the Gods
+1 NOTE Roman god of messengers, commerce, travelers, thieves, eloquence. Son of Jupiter and Maia. Psychopomp who guides souls. Roman equivalent of Hermes. Ovid's Metamorphoses.
+1 FAMC @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I27@ INDI
+1 NAME Bacchus /Liber/
+1 SEX M
+1 TITL God of Wine
+1 NOTE Roman god of wine, revelry, theater, and ecstasy. Son of Jupiter and Semele. Twice-born (gestated in Jupiter's thigh). Roman equivalent of Dionysus. Ovid's Metamorphoses.
+1 FAMC @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I28@ INDI
+1 NAME Hercules //
+1 SEX M
+1 NOTE Greatest Roman hero. Son of Jupiter and Alcmena. Performed Twelve Labors. Achieved immortality. Roman equivalent of Heracles. Ovid's Metamorphoses, Virgil's Aeneid.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I29@ INDI
+1 NAME Perseus //
+1 SEX M
+1 NOTE Hero and founder of Mycenae. Son of Jupiter and Danaë. Slayer of Medusa. Rescued Andromeda. Ovid's Metamorphoses.
+1 FAMC @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I30@ INDI
+1 NAME Helen //
+1 SEX F
+1 NOTE Most beautiful woman. Daughter of Jupiter and Leda. Her abduction caused Trojan War. Ovid's Metamorphoses.
+1 FAMC @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I31@ INDI
+1 NAME Pollux //
+1 SEX M
+1 NOTE One of the Dioscuri twins. Immortal son of Jupiter and Leda. Brother of Castor. Shared immortality. Roman name for Polydeuces. Ovid's Fasti.
+1 FAMC @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I32@ INDI
+1 NAME Minos //
+1 SEX M
+1 NOTE King of Crete. Son of Jupiter and Europa. Judge in underworld. Kept Minotaur. Ovid's Metamorphoses.
+1 FAMC @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I33@ INDI
+1 NAME Venus //
+1 SEX F
+1 TITL Goddess of Love
+1 NOTE Roman goddess of love, beauty, desire, fertility, and victory. Mother of Aeneas and the Roman people. Wife of Vulcan. Lover of Mars. Roman equivalent of Aphrodite. Virgil's Aeneid, Ovid's Metamorphoses.
+1 FAMS @F16@
+1 FAMS @F17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I34@ INDI
+1 NAME Anchises //
+1 SEX M
+1 NOTE Trojan prince. Mortal lover of Venus. Father of Aeneas. Carried from burning Troy by Aeneas. Virgil's Aeneid.
+1 FAMS @F17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I35@ INDI
+1 NAME Aeneas //
+1 SEX M
+1 TITL Founder of the Roman Race
+1 NOTE Trojan hero. Son of Venus and Anchises. Escaped Troy's fall. Founded Lavinium. Ancestor of Romulus and Remus. Central hero of Roman mythology. Virgil's Aeneid.
+1 FAMC @F17@
+1 FAMS @F18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I36@ INDI
+1 NAME Lavinia //
+1 SEX F
+1 NOTE Italian princess, daughter of King Latinus. Wife of Aeneas. City of Lavinium named after her. Virgil's Aeneid.
+1 FAMS @F18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I37@ INDI
+1 NAME Ascanius /Iulus/
+1 SEX M
+1 NOTE Son of Aeneas. Founder of Alba Longa. Ancestor of Julius Caesar through Julii family. Also called Iulus. Virgil's Aeneid.
+1 FAMC @F18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I38@ INDI
+1 NAME Rhea Silvia //
+1 SEX F
+1 NOTE Vestal Virgin. Daughter of King Numitor of Alba Longa. Mother of Romulus and Remus by Mars. Forced to become Vestal by usurper Amulius. Livy's History of Rome.
+1 FAMS @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I39@ INDI
+1 NAME Romulus //
+1 SEX M
+1 TITL Founder of Rome
+1 NOTE Legendary founder and first king of Rome (753 BCE). Twin son of Mars and Rhea Silvia. Raised by she-wolf. Killed Remus. Ascended to become god Quirinus. Livy's History of Rome, Plutarch's Lives.
+1 FAMC @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I40@ INDI
+1 NAME Remus //
+1 SEX M
+1 NOTE Twin son of Mars and Rhea Silvia. Brother of Romulus. Killed by Romulus in dispute over founding of Rome. Livy's History of Rome.
+1 FAMC @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I41@ INDI
+1 NAME Salacia //
+1 SEX F
+1 NOTE Roman sea goddess. Wife of Neptune. Roman equivalent of Amphitrite. Ovid's Metamorphoses.
+1 FAMS @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I42@ INDI
+1 NAME Cupid /Amor/
+1 SEX M
+1 TITL God of Love
+1 NOTE Roman god of desire, erotic love, and affection. Son of Venus. Often depicted as winged child with bow and arrows. Roman equivalent of Eros. Ovid's Metamorphoses.
+1 FAMS @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I43@ INDI
+1 NAME Psyche //
+1 SEX F
+1 NOTE Mortal woman of extraordinary beauty. Wife of Cupid. Achieved immortality. Represents the human soul. Apuleius' The Golden Ass (Metamorphoses).
+1 FAMS @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I44@ INDI
+1 NAME Voluptas /Hedone/
+1 SEX F
+1 NOTE Goddess of pleasure and delight. Daughter of Cupid and Psyche. Apuleius' The Golden Ass.
+1 FAMC @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I45@ INDI
+1 NAME Fortuna //
+1 SEX F
+1 TITL Goddess of Fortune
+1 NOTE Roman goddess of fortune, luck, and fate. Often depicted with wheel, cornucopia, or rudder. Roman equivalent of Tyche. Extremely popular in Roman religion. Cicero's De Natura Deorum.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I46@ INDI
+1 NAME Janus //
+1 SEX M
+1 TITL God of Beginnings
+1 NOTE Unique Roman god of beginnings, gates, transitions, time, duality, doorways, passages, and endings. Two-faced (looks to future and past). January named after him. No Greek equivalent. Ovid's Fasti.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I47@ INDI
+1 NAME Bellona //
+1 SEX F
+1 TITL Goddess of War
+1 NOTE Roman goddess of war, conquest, and military strategy. Sister or wife of Mars. Temple outside Rome's pomerium. Virgil's Aeneid.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I48@ INDI
+1 NAME Victoria //
+1 SEX F
+1 TITL Goddess of Victory
+1 NOTE Roman goddess of victory in both military and athletic contests. Roman equivalent of Nike. Had altar in Senate House. Virgil's Aeneid.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I49@ INDI
+1 NAME Faunus //
+1 SEX M
+1 TITL God of the Wild
+1 NOTE Roman rustic god of forest, plains, fields, and fertility. Protector of shepherds and farmers. Similar to Greek Pan. Prophetic powers. Virgil's Aeneid, Ovid's Fasti.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I50@ INDI
+1 NAME Pomona //
+1 SEX F
+1 TITL Goddess of Fruit Trees
+1 NOTE Uniquely Roman goddess of fruit trees, gardens, and orchards. Pursued by Vertumnus. No Greek equivalent. Ovid's Metamorphoses.
+1 FAMS @F20@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I51@ INDI
+1 NAME Vertumnus //
+1 SEX M
+1 NOTE Roman god of seasons, change, plant growth, gardens, and fruit trees. Husband of Pomona. Shape-shifter. Ovid's Metamorphoses.
+1 FAMS @F20@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I52@ INDI
+1 NAME Flora //
+1 SEX F
+1 TITL Goddess of Flowers
+1 NOTE Roman goddess of flowers, spring, and fertility. Celebrated in Floralia festival. Greek equivalent Chloris. Ovid's Fasti.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 NOTE Caelus and Terra are parents of Saturn, Ops, and other primordial beings.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F2@ FAM
+1 HUSB @I3@
+1 WIFE @I4@
+1 CHIL @I9@
+1 CHIL @I10@
+1 CHIL @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+1 CHIL @I8@
+1 NOTE Saturn and Ops are parents of the first Olympians: Vesta, Ceres, Juno, Pluto, Neptune, Jupiter.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F3@ FAM
+1 HUSB @I5@
+1 WIFE @I6@
+1 CHIL @I14@
+1 CHIL @I15@
+1 CHIL @I16@
+1 NOTE Jupiter and Juno's marriage. Children: Mars, Vulcan, Juventas.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F4@ FAM
+1 HUSB @I5@
+1 WIFE @I10@
+1 CHIL @I25@
+1 NOTE Jupiter and Ceres are parents of Proserpina.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F5@ FAM
+1 HUSB @I5@
+1 WIFE @I17@
+1 CHIL @I11@
+1 NOTE Jupiter swallowed Metis while pregnant. Minerva was born from Jupiter's head.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F6@ FAM
+1 HUSB @I5@
+1 WIFE @I18@
+1 CHIL @I12@
+1 CHIL @I13@
+1 NOTE Jupiter and Latona are parents of Apollo and Diana.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F7@ FAM
+1 HUSB @I5@
+1 WIFE @I19@
+1 CHIL @I26@
+1 NOTE Jupiter and Maia are parents of Mercury.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F8@ FAM
+1 HUSB @I5@
+1 WIFE @I20@
+1 CHIL @I27@
+1 NOTE Jupiter and Semele are parents of Bacchus. Semele died; Bacchus gestated in Jupiter's thigh.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F9@ FAM
+1 HUSB @I5@
+1 WIFE @I21@
+1 CHIL @I28@
+1 NOTE Jupiter (disguised as Amphitryon) and Alcmena are parents of Hercules.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F10@ FAM
+1 HUSB @I5@
+1 WIFE @I22@
+1 CHIL @I29@
+1 NOTE Jupiter (as golden rain) and Danaë are parents of Perseus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F11@ FAM
+1 HUSB @I5@
+1 WIFE @I23@
+1 CHIL @I30@
+1 CHIL @I31@
+1 NOTE Jupiter (as swan) and Leda are parents of Helen and Pollux.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F12@ FAM
+1 HUSB @I5@
+1 WIFE @I24@
+1 CHIL @I32@
+1 NOTE Jupiter (as bull) and Europa are parents of Minos and others.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F13@ FAM
+1 HUSB @I7@
+1 WIFE @I41@
+1 NOTE Neptune and Salacia rule the seas together.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F14@ FAM
+1 HUSB @I8@
+1 WIFE @I25@
+1 NOTE Pluto and Proserpina rule the underworld together.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F15@ FAM
+1 HUSB @I14@
+1 WIFE @I38@
+1 CHIL @I39@
+1 CHIL @I40@
+1 NOTE Mars and Rhea Silvia are parents of Romulus and Remus, founders of Rome.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F16@ FAM
+1 HUSB @I15@
+1 WIFE @I33@
+1 NOTE Vulcan and Venus's arranged marriage. She was frequently unfaithful, especially with Mars.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F17@ FAM
+1 HUSB @I34@
+1 WIFE @I33@
+1 CHIL @I35@
+1 NOTE Anchises and Venus are parents of Aeneas, founder of the Roman race.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F18@ FAM
+1 HUSB @I35@
+1 WIFE @I36@
+1 CHIL @I37@
+1 NOTE Aeneas and Lavinia are parents of Ascanius (Iulus), continuing the Roman lineage.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F19@ FAM
+1 HUSB @I42@
+1 WIFE @I43@
+1 CHIL @I44@
+1 NOTE Cupid and Psyche are parents of Voluptas (Pleasure). Tale from Apuleius.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F20@ FAM
+1 HUSB @I51@
+1 WIFE @I50@
+1 NOTE Vertumnus and Pomona. Tale of courtship and transformation.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 TRLR
+

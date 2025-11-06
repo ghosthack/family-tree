@@ -1,0 +1,1190 @@
+0 HEAD
+1 SOUR GEN
+2 VERS 1.0
+2 NAME Genealogy Viewer
+2 CORP GitHub ghosthack/family-tree
+3 ADDR https://github.com/ghosthack/family-tree
+1 DEST ANY
+1 DATE 06 NOV 2025
+2 TIME 12:00:00
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Rickard /Stark/
+1 SEX M
+1 BIRT
+2 DATE ABT 235 AC
+1 DEAT
+2 DATE 282 AC
+1 TITL Lord of Winterfell, Warden of the North
+1 NOTE Rickard Stark, Lord of Winterfell. Father of Brandon, Eddard, Lyanna, and Benjen. Burned alive by Mad King Aerys II.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I2@ INDI
+1 NAME Lyarra /Stark/
+1 SEX F
+1 BIRT
+2 DATE ABT 238 AC
+1 DEAT
+2 DATE ABT 267 AC
+1 NOTE Lyarra Stark, wife of Rickard Stark. Mother of Brandon, Eddard, Lyanna, and Benjen.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I3@ INDI
+1 NAME Brandon /Stark/
+1 SEX M
+1 BIRT
+2 DATE ABT 262 AC
+1 DEAT
+2 DATE 282 AC
+1 NOTE Brandon Stark, eldest son of Rickard. Betrothed to Catelyn Tully. Strangled by Mad King Aerys II while forced to watch his father burn.
+1 FAMC @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I4@ INDI
+1 NAME Eddard /Stark/
+1 SEX M
+1 BIRT
+2 DATE 263 AC
+1 DEAT
+2 DATE 299 AC
+1 TITL Lord of Winterfell, Warden of the North, Hand of the King
+1 NOTE Eddard "Ned" Stark, Lord of Winterfell. Married Catelyn Tully. Executed by King Joffrey. Father of Robb, Sansa, Arya, Bran, and Rickon. Raised Jon Snow as his bastard.
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I5@ INDI
+1 NAME Lyanna /Stark/
+1 SEX F
+1 BIRT
+2 DATE 266 AC
+1 DEAT
+2 DATE 283 AC
+1 NOTE Lyanna Stark. Betrothed to Robert Baratheon. Ran away with or was abducted by Prince Rhaegar Targaryen. Died at the Tower of Joy. Mother of Jon Snow.
+1 FAMC @F1@
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I6@ INDI
+1 NAME Benjen /Stark/
+1 SEX M
+1 BIRT
+2 DATE 267 AC
+1 TITL First Ranger of the Night's Watch
+1 NOTE Benjen Stark, youngest son of Rickard. Joined the Night's Watch, became First Ranger. Disappeared beyond the Wall.
+1 FAMC @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I7@ INDI
+1 NAME Catelyn /Tully/ Stark
+1 SEX F
+1 BIRT
+2 DATE 264 AC
+1 DEAT
+2 DATE 299 AC
+1 NOTE Catelyn Tully, married Eddard Stark. Mother of Robb, Sansa, Arya, Bran, and Rickon. Murdered at the Red Wedding. Resurrected as Lady Stoneheart.
+1 FAMC @F4@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I8@ INDI
+1 NAME Robb /Stark/
+1 SEX M
+1 BIRT
+2 DATE 283 AC
+1 DEAT
+2 DATE 299 AC
+1 TITL King in the North
+1 NOTE Robb Stark, eldest son of Ned and Catelyn. Proclaimed King in the North. Married Jeyne Westerling. Murdered at the Red Wedding.
+1 FAMC @F2@
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I9@ INDI
+1 NAME Sansa /Stark/
+1 SEX F
+1 BIRT
+2 DATE 286 AC
+1 NOTE Sansa Stark, eldest daughter of Ned and Catelyn. Married Tyrion Lannister (unconsummated). Later married Ramsay Bolton (books: Harry Hardyng).
+1 FAMC @F2@
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I10@ INDI
+1 NAME Arya /Stark/
+1 SEX F
+1 BIRT
+2 DATE 289 AC
+1 NOTE Arya Stark, second daughter of Ned and Catelyn. Training with the Faceless Men in Braavos.
+1 FAMC @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I11@ INDI
+1 NAME Bran /Stark/
+1 SEX M
+1 BIRT
+2 DATE 290 AC
+1 NOTE Brandon "Bran" Stark, second son of Ned and Catelyn. Crippled by Jaime Lannister. Greenseer and warg. Traveling beyond the Wall with the Three-Eyed Crow.
+1 FAMC @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I12@ INDI
+1 NAME Rickon /Stark/
+1 SEX M
+1 BIRT
+2 DATE 295 AC
+1 NOTE Rickon Stark, youngest son of Ned and Catelyn. Hiding on Skagos with Osha.
+1 FAMC @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I13@ INDI
+1 NAME Jon /Snow/
+1 SEX M
+1 BIRT
+2 DATE 283 AC
+1 DEAT
+2 DATE 300 AC
+1 TITL Lord Commander of the Night's Watch
+1 NOTE Jon Snow, believed to be Ned Stark's bastard. Actually son of Rhaegar Targaryen and Lyanna Stark. Lord Commander of the Night's Watch. Stabbed by mutineers at the end of A Dance with Dragons.
+1 FAMC @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I14@ INDI
+1 NAME Aerys /II/ Targaryen
+1 SEX M
+1 BIRT
+2 DATE 244 AC
+1 DEAT
+2 DATE 283 AC
+1 TITL King of the Seven Kingdoms
+1 NOTE Aerys II Targaryen, "The Mad King". Father of Rhaegar, Viserys, and Daenerys. Killed by Jaime Lannister during the Sack of King's Landing.
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I15@ INDI
+1 NAME Rhaella /Targaryen/
+1 SEX F
+1 BIRT
+2 DATE 245 AC
+1 DEAT
+2 DATE 284 AC
+1 NOTE Rhaella Targaryen, sister-wife of Aerys II. Mother of Rhaegar, Viserys, and Daenerys. Died giving birth to Daenerys at Dragonstone.
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I16@ INDI
+1 NAME Rhaegar /Targaryen/
+1 SEX M
+1 BIRT
+2 DATE 259 AC
+1 DEAT
+2 DATE 283 AC
+1 TITL Prince of Dragonstone
+1 NOTE Rhaegar Targaryen, eldest son of Aerys II. Married Elia Martell. Annulled marriage and married Lyanna Stark. Father of Rhaenys, Aegon, and Jon Snow. Killed by Robert Baratheon at the Trident.
+1 FAMC @F7@
+1 FAMS @F8@
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I17@ INDI
+1 NAME Viserys /III/ Targaryen
+1 SEX M
+1 BIRT
+2 DATE 276 AC
+1 DEAT
+2 DATE 298 AC
+1 TITL The Beggar King
+1 NOTE Viserys III Targaryen, second son of Aerys II. Exiled prince. Killed by Khal Drogo with molten gold.
+1 FAMC @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I18@ INDI
+1 NAME Daenerys /Targaryen/
+1 SEX F
+1 BIRT
+2 DATE 284 AC
+1 TITL Queen, Mother of Dragons, Khaleesi
+1 NOTE Daenerys Targaryen, youngest child of Aerys II. Mother of Dragons. Conquering Slaver's Bay. Married Khal Drogo. Widow and queen.
+1 FAMC @F7@
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I19@ INDI
+1 NAME Elia /Martell/
+1 SEX F
+1 BIRT
+2 DATE 256 AC
+1 DEAT
+2 DATE 283 AC
+1 NOTE Elia Martell, princess of Dorne. First wife of Rhaegar Targaryen. Mother of Rhaenys and Aegon. Murdered by Gregor Clegane during the Sack of King's Landing.
+1 FAMC @F10@
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I20@ INDI
+1 NAME Rhaenys /Targaryen/
+1 SEX F
+1 BIRT
+2 DATE 280 AC
+1 DEAT
+2 DATE 283 AC
+1 NOTE Rhaenys Targaryen, daughter of Rhaegar and Elia. Murdered by Amory Lorch during the Sack of King's Landing.
+1 FAMC @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I21@ INDI
+1 NAME Aegon /VI/ Targaryen
+1 SEX M
+1 BIRT
+2 DATE 281 AC
+1 DEAT
+2 DATE 283 AC
+1 NOTE Aegon Targaryen, son of Rhaegar and Elia. Believed murdered by Gregor Clegane. In the books, a young man claiming to be Aegon appears with Jon Connington.
+1 FAMC @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I22@ INDI
+1 NAME Tytos /Lannister/
+1 SEX M
+1 BIRT
+2 DATE 220 AC
+1 DEAT
+2 DATE 267 AC
+1 TITL Lord of Casterly Rock
+1 NOTE Tytos Lannister, weak lord of Casterly Rock. Father of Tywin, Kevan, and others. Mocked by his bannermen.
+1 FAMS @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I23@ INDI
+1 NAME Tywin /Lannister/
+1 SEX M
+1 BIRT
+2 DATE 242 AC
+1 DEAT
+2 DATE 300 AC
+1 TITL Lord of Casterly Rock, Hand of the King, Warden of the West
+1 NOTE Tywin Lannister, Lord of Casterly Rock. Hand to Aerys II, then Hand to Joffrey and Tommen. Father of Cersei, Jaime, and Tyrion. Killed by Tyrion on the privy.
+1 FAMC @F11@
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I24@ INDI
+1 NAME Joanna /Lannister/
+1 SEX F
+1 BIRT
+2 DATE 245 AC
+1 DEAT
+2 DATE 273 AC
+1 NOTE Joanna Lannister, wife of Tywin. Mother of Cersei, Jaime, and Tyrion. Died giving birth to Tyrion.
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I25@ INDI
+1 NAME Cersei /Lannister/
+1 SEX F
+1 BIRT
+2 DATE 266 AC
+1 TITL Queen
+1 NOTE Cersei Lannister, twin of Jaime. Married Robert Baratheon. Mother of Joffrey, Myrcella, and Tommen (fathered by Jaime). Queen Regent.
+1 FAMC @F12@
+1 FAMS @F13@
+1 FAMS @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I26@ INDI
+1 NAME Jaime /Lannister/
+1 SEX M
+1 BIRT
+2 DATE 266 AC
+1 TITL Ser, Lord Commander of the Kingsguard, Kingslayer
+1 NOTE Jaime Lannister, twin of Cersei. Kingslayer who killed Aerys II. Member and later Lord Commander of the Kingsguard. Father of Cersei's children.
+1 FAMC @F12@
+1 FAMS @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I27@ INDI
+1 NAME Tyrion /Lannister/
+1 SEX M
+1 BIRT
+2 DATE 273 AC
+1 TITL Hand of the King (briefly)
+1 NOTE Tyrion Lannister, dwarf son of Tywin. Married Sansa Stark (unconsummated). Hand of the King during Battle of Blackwater. Killed his father. Fled to Essos.
+1 FAMC @F12@
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I28@ INDI
+1 NAME Kevan /Lannister/
+1 SEX M
+1 BIRT
+2 DATE 244 AC
+1 DEAT
+2 DATE 300 AC
+1 TITL Ser, Lord Regent
+1 NOTE Kevan Lannister, younger brother of Tywin. Served as Hand and Regent. Murdered by Varys.
+1 FAMC @F11@
+1 FAMS @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I29@ INDI
+1 NAME Lancel /Lannister/
+1 SEX M
+1 BIRT
+2 DATE 282 AC
+1 TITL Ser
+1 NOTE Lancel Lannister, son of Kevan. Squire to Robert Baratheon. Had affair with Cersei. Later joined the Faith Militant.
+1 FAMC @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I30@ INDI
+1 NAME Robert /Baratheon/
+1 SEX M
+1 BIRT
+2 DATE 262 AC
+1 DEAT
+2 DATE 298 AC
+1 TITL King of the Seven Kingdoms
+1 NOTE Robert Baratheon, first of his name. Led rebellion against Aerys II. Killed Rhaegar at the Trident. Married Cersei Lannister. Died in hunting accident arranged by Cersei. Many bastards.
+1 FAMC @F16@
+1 FAMS @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I31@ INDI
+1 NAME Stannis /Baratheon/
+1 SEX M
+1 BIRT
+2 DATE 264 AC
+1 TITL Lord of Dragonstone, King (self-proclaimed)
+1 NOTE Stannis Baratheon, middle brother. Lord of Dragonstone. Claimed Iron Throne after Robert's death. Allied with Melisandre and the Red God.
+1 FAMC @F16@
+1 FAMS @F17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I32@ INDI
+1 NAME Renly /Baratheon/
+1 SEX M
+1 BIRT
+2 DATE 277 AC
+1 DEAT
+2 DATE 299 AC
+1 TITL Lord of Storm's End, King (self-proclaimed)
+1 NOTE Renly Baratheon, youngest brother. Lord of Storm's End. Claimed Iron Throne. Murdered by shadow birthed by Melisandre.
+1 FAMC @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I33@ INDI
+1 NAME Steffon /Baratheon/
+1 SEX M
+1 BIRT
+2 DATE 246 AC
+1 DEAT
+2 DATE 278 AC
+1 TITL Lord of Storm's End
+1 NOTE Steffon Baratheon, Lord of Storm's End. Father of Robert, Stannis, and Renly. Drowned in shipwreck in Shipbreaker Bay.
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I34@ INDI
+1 NAME Cassana /Estermont/
+1 SEX F
+1 BIRT
+2 DATE 248 AC
+1 DEAT
+2 DATE 278 AC
+1 NOTE Cassana Estermont, wife of Steffon Baratheon. Mother of Robert, Stannis, and Renly. Drowned with her husband.
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I35@ INDI
+1 NAME Joffrey /Baratheon/
+1 SEX M
+1 BIRT
+2 DATE 286 AC
+1 DEAT
+2 DATE 300 AC
+1 TITL King of the Seven Kingdoms
+1 NOTE Joffrey Baratheon, eldest son of Cersei and Jaime (believed to be Robert's). Cruel king. Poisoned at his wedding feast.
+1 FAMC @F14@
+1 FAMS @F18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I36@ INDI
+1 NAME Myrcella /Baratheon/
+1 SEX F
+1 BIRT
+2 DATE 290 AC
+1 NOTE Myrcella Baratheon, daughter of Cersei and Jaime (believed to be Robert's). Sent to Dorne. Disfigured in assassination attempt.
+1 FAMC @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I37@ INDI
+1 NAME Tommen /Baratheon/
+1 SEX M
+1 BIRT
+2 DATE 291 AC
+1 TITL King of the Seven Kingdoms
+1 NOTE Tommen Baratheon, youngest son of Cersei and Jaime (believed to be Robert's). Became king after Joffrey's death. Married Margaery Tyrell.
+1 FAMC @F14@
+1 FAMS @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I38@ INDI
+1 NAME Selyse /Florent/
+1 SEX F
+1 BIRT
+2 DATE 268 AC
+1 NOTE Selyse Florent, wife of Stannis Baratheon. Converted to worship of R'hllor. Mother of Shireen.
+1 FAMS @F17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I39@ INDI
+1 NAME Shireen /Baratheon/
+1 SEX F
+1 BIRT
+2 DATE 289 AC
+1 NOTE Shireen Baratheon, only living child of Stannis and Selyse. Disfigured by greyscale as a child.
+1 FAMC @F17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I40@ INDI
+1 NAME Hoster /Tully/
+1 SEX M
+1 BIRT
+2 DATE 238 AC
+1 DEAT
+2 DATE 299 AC
+1 TITL Lord of Riverrun
+1 NOTE Hoster Tully, Lord of Riverrun. Father of Catelyn, Lysa, and Edmure. Arranged marriages for his daughters to secure alliances.
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I41@ INDI
+1 NAME Minisa /Whent/
+1 SEX F
+1 BIRT
+2 DATE 240 AC
+1 DEAT
+2 DATE 276 AC
+1 NOTE Minisa Whent, wife of Hoster Tully. Mother of Catelyn, Lysa, and Edmure. Died from complications of childbirth.
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I42@ INDI
+1 NAME Lysa /Tully/ Arryn
+1 SEX F
+1 BIRT
+2 DATE 266 AC
+1 DEAT
+2 DATE 300 AC
+1 NOTE Lysa Tully, married Jon Arryn. Mother of Robert Arryn. Later married Petyr Baelish. Murdered by Littlefinger.
+1 FAMC @F4@
+1 FAMS @F20@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I43@ INDI
+1 NAME Edmure /Tully/
+1 SEX M
+1 BIRT
+2 DATE 267 AC
+1 TITL Lord of Riverrun
+1 NOTE Edmure Tully, son and heir of Hoster. Lord of Riverrun. Married Roslin Frey. Captured at Red Wedding.
+1 FAMC @F4@
+1 FAMS @F21@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I44@ INDI
+1 NAME Jon /Arryn/
+1 SEX M
+1 BIRT
+2 DATE 218 AC
+1 DEAT
+2 DATE 298 AC
+1 TITL Lord of the Eyrie, Warden of the East, Hand of the King
+1 NOTE Jon Arryn, Lord of the Eyrie. Fostered Ned Stark and Robert Baratheon. Hand to Robert. Discovered truth of Joffrey's parentage. Poisoned by Lysa at Littlefinger's urging.
+1 FAMS @F20@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I45@ INDI
+1 NAME Robert /Arryn/
+1 SEX M
+1 BIRT
+2 DATE 292 AC
+1 TITL Lord of the Eyrie, Warden of the East
+1 NOTE Robert "Robin" Arryn, only child of Jon and Lysa. Sickly boy. Lord of the Eyrie. Controlled by his mother, then Littlefinger.
+1 FAMC @F20@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I46@ INDI
+1 NAME Doran /Martell/
+1 SEX M
+1 BIRT
+2 DATE 247 AC
+1 TITL Prince of Dorne
+1 NOTE Doran Martell, Prince of Dorne. Brother of Elia and Oberyn. Cautious plotter. Seeks vengeance for his sister's murder.
+1 FAMC @F10@
+1 FAMS @F22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I47@ INDI
+1 NAME Oberyn /Martell/
+1 SEX M
+1 BIRT
+2 DATE 257 AC
+1 DEAT
+2 DATE 300 AC
+1 TITL Prince, Red Viper of Dorne
+1 NOTE Oberyn Martell, "Red Viper". Brother of Elia and Doran. Fought Gregor Clegane in trial by combat for Tyrion. Killed by the Mountain.
+1 FAMC @F10@
+1 FAMS @F23@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I48@ INDI
+1 NAME Arianne /Martell/
+1 SEX F
+1 BIRT
+2 DATE 276 AC
+1 NOTE Arianne Martell, eldest child of Doran. Princess of Dorne and heir to Sunspear.
+1 FAMC @F22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I49@ INDI
+1 NAME Quentyn /Martell/
+1 SEX M
+1 BIRT
+2 DATE 281 AC
+1 DEAT
+2 DATE 300 AC
+1 NOTE Quentyn Martell, son of Doran. Sent to marry Daenerys. Died trying to tame dragons in Meereen.
+1 FAMC @F22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I50@ INDI
+1 NAME Trystane /Martell/
+1 SEX M
+1 BIRT
+2 DATE 287 AC
+1 NOTE Trystane Martell, youngest child of Doran. Betrothed to Myrcella Baratheon.
+1 FAMC @F22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I51@ INDI
+1 NAME Ellaria /Sand/
+1 SEX F
+1 BIRT
+2 DATE 268 AC
+1 NOTE Ellaria Sand, paramour of Oberyn Martell. Mother of the four youngest Sand Snakes.
+1 FAMS @F23@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I52@ INDI
+1 NAME Obara /Sand/
+1 SEX F
+1 BIRT
+2 DATE 270 AC
+1 NOTE Obara Sand, eldest Sand Snake. Daughter of Oberyn Martell by an Oldtown whore.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I53@ INDI
+1 NAME Nymeria /Sand/
+1 SEX F
+1 BIRT
+2 DATE 276 AC
+1 NOTE Nymeria "Lady Nym" Sand, second Sand Snake. Daughter of Oberyn Martell by a Volantene noblewoman.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I54@ INDI
+1 NAME Tyene /Sand/
+1 SEX F
+1 BIRT
+2 DATE 279 AC
+1 NOTE Tyene Sand, third Sand Snake. Daughter of Oberyn Martell by a septa.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I55@ INDI
+1 NAME Mace /Tyrell/
+1 SEX M
+1 BIRT
+2 DATE 251 AC
+1 TITL Lord of Highgarden, Warden of the South, Hand of the King
+1 NOTE Mace Tyrell, Lord of Highgarden. Father of Willas, Garlan, Loras, and Margaery. Named Hand by Tommen.
+1 FAMS @F24@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I56@ INDI
+1 NAME Alerie /Hightower/
+1 SEX F
+1 BIRT
+2 DATE 253 AC
+1 NOTE Alerie Hightower, wife of Mace Tyrell. Mother of Willas, Garlan, Loras, and Margaery.
+1 FAMS @F24@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I57@ INDI
+1 NAME Olenna /Redwyne/ Tyrell
+1 SEX F
+1 BIRT
+2 DATE 217 AC
+1 NOTE Olenna Tyrell, "Queen of Thorns". Mother of Mace. Sharp-witted matriarch. Orchestrated Joffrey's poisoning.
+1 FAMS @F25@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I58@ INDI
+1 NAME Willas /Tyrell/
+1 SEX M
+1 BIRT
+2 DATE 270 AC
+1 TITL Heir to Highgarden
+1 NOTE Willas Tyrell, eldest son of Mace. Heir to Highgarden. Crippled in tourney by Oberyn Martell.
+1 FAMC @F24@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I59@ INDI
+1 NAME Garlan /Tyrell/
+1 SEX M
+1 BIRT
+2 DATE 273 AC
+1 TITL Ser
+1 NOTE Garlan Tyrell, "Garlan the Gallant". Second son of Mace. Skilled warrior.
+1 FAMC @F24@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I60@ INDI
+1 NAME Loras /Tyrell/
+1 SEX M
+1 BIRT
+2 DATE 282 AC
+1 TITL Ser, Lord Commander of the Kingsguard
+1 NOTE Loras Tyrell, "Knight of Flowers". Third son of Mace. Skilled jouster. Member of Kingsguard. Lover of Renly Baratheon. Gravely wounded at Dragonstone.
+1 FAMC @F24@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I61@ INDI
+1 NAME Margaery /Tyrell/
+1 SEX F
+1 BIRT
+2 DATE 283 AC
+1 TITL Queen
+1 NOTE Margaery Tyrell, daughter of Mace. Married Renly Baratheon (unconsummated), then Joffrey (marriage unconsummated), then Tommen. Imprisoned by the Faith.
+1 FAMC @F24@
+1 FAMS @F18@
+1 FAMS @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I62@ INDI
+1 NAME Balon /Greyjoy/
+1 SEX M
+1 BIRT
+2 DATE 256 AC
+1 DEAT
+2 DATE 299 AC
+1 TITL Lord Reaper of Pyke, King of the Iron Islands
+1 NOTE Balon Greyjoy, Lord of the Iron Islands. Led failed rebellion against Robert. Father of Rodrik, Maron, Asha, and Theon. Died falling from bridge.
+1 FAMS @F26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I63@ INDI
+1 NAME Alannys /Harlaw/
+1 SEX F
+1 BIRT
+2 DATE 258 AC
+1 NOTE Alannys Harlaw, wife of Balon Greyjoy. Mother of Rodrik, Maron, Asha, and Theon.
+1 FAMS @F26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I64@ INDI
+1 NAME Euron /Greyjoy/
+1 SEX M
+1 BIRT
+2 DATE 260 AC
+1 TITL King of the Iron Islands
+1 NOTE Euron Greyjoy, "Crow's Eye". Brother of Balon. Exiled for years. Returned after Balon's death and claimed the Seastone Chair. Cruel and ambitious.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I65@ INDI
+1 NAME Victarion /Greyjoy/
+1 SEX M
+1 BIRT
+2 DATE 268 AC
+1 TITL Lord Captain of the Iron Fleet
+1 NOTE Victarion Greyjoy, brother of Balon. Lord Captain of the Iron Fleet. Sent by Euron to bring Daenerys back to Westeros.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I66@ INDI
+1 NAME Aeron /Greyjoy/
+1 SEX M
+1 BIRT
+2 DATE 269 AC
+1 TITL Priest of the Drowned God
+1 NOTE Aeron Greyjoy, "Damphair". Brother of Balon. Priest of the Drowned God. Captured by Euron.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I67@ INDI
+1 NAME Asha /Greyjoy/
+1 SEX F
+1 BIRT
+2 DATE 278 AC
+1 NOTE Asha Greyjoy, daughter of Balon. Bold warrior and captain. Claimed the Seastone Chair but lost to Euron.
+1 FAMC @F26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I68@ INDI
+1 NAME Theon /Greyjoy/
+1 SEX M
+1 BIRT
+2 DATE 279 AC
+1 NOTE Theon Greyjoy, youngest son of Balon. Ward of Ned Stark. Betrayed the Starks. Captured and tortured by Ramsay Bolton, becoming "Reek".
+1 FAMC @F26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I69@ INDI
+1 NAME Jeyne /Westerling/
+1 SEX F
+1 BIRT
+2 DATE 284 AC
+1 NOTE Jeyne Westerling, daughter of a Westerlands knight. Married Robb Stark, breaking his vow to the Freys. Not present at Red Wedding.
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I70@ INDI
+1 NAME Roslin /Frey/
+1 SEX F
+1 BIRT
+2 DATE 282 AC
+1 NOTE Roslin Frey, daughter of Walder Frey. Married Edmure Tully at the Red Wedding.
+1 FAMS @F21@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I71@ INDI
+1 NAME Drogo /Unknown/
+1 SEX M
+1 BIRT
+2 DATE ABT 267 AC
+1 DEAT
+2 DATE 299 AC
+1 TITL Khal
+1 NOTE Khal Drogo, powerful Dothraki warlord. Married Daenerys Targaryen. Died from infected wound and Mirri Maz Duur's blood magic.
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I72@ INDI
+1 NAME Rhaego /Unknown/
+1 SEX M
+1 BIRT
+2 DATE 299 AC
+1 DEAT
+2 DATE 299 AC
+1 NOTE Rhaego, son of Drogo and Daenerys. Stillborn, deformed by blood magic. Named after Rhaegar Targaryen.
+1 FAMC @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I73@ INDI
+1 NAME Mellario /of Norvos/
+1 SEX F
+1 BIRT
+2 DATE 250 AC
+1 NOTE Mellario of Norvos, wife of Doran Martell. Mother of Arianne, Quentyn, and Trystane. Returned to Norvos after conflict with Doran.
+1 FAMS @F22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I74@ INDI
+1 NAME Dorna /Swyft/
+1 SEX F
+1 BIRT
+2 DATE 248 AC
+1 NOTE Dorna Swyft, wife of Kevan Lannister. Mother of Lancel and others.
+1 FAMS @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I75@ INDI
+1 NAME Jaehaerys /II/ Targaryen
+1 SEX M
+1 BIRT
+2 DATE 225 AC
+1 DEAT
+2 DATE 259 AC
+1 TITL King of the Seven Kingdoms
+1 NOTE Jaehaerys II Targaryen, father of Aerys II. Short reign. Arranged marriage of Aerys and Rhaella despite prophecy.
+1 FAMS @F27@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I76@ INDI
+1 NAME Shaera /Targaryen/
+1 SEX F
+1 BIRT
+2 DATE 226 AC
+1 DEAT
+2 DATE 259 AC
+1 NOTE Shaera Targaryen, sister-wife of Jaehaerys II. Mother of Aerys II.
+1 FAMS @F27@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I77@ INDI
+1 NAME Aegon /V/ Targaryen
+1 SEX M
+1 BIRT
+2 DATE 200 AC
+1 DEAT
+2 DATE 259 AC
+1 TITL King of the Seven Kingdoms
+1 NOTE Aegon V Targaryen, "Aegon the Unlikely". Grandfather of Aerys II. Died at Summerhall in fire attempting to hatch dragon eggs.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 MARR
+2 DATE ABT 260 AC
+1 CHIL @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+1 CHIL @I6@
+1 NOTE Rickard and Lyarra Stark, Lord and Lady of Winterfell. Parents of the Stark siblings.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I7@
+1 MARR
+2 DATE 282 AC
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+1 CHIL @I11@
+1 CHIL @I12@
+1 NOTE Eddard Stark and Catelyn Tully. Married after Brandon's death. Strong partnership despite tension over Jon Snow.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F3@ FAM
+1 HUSB @I16@
+1 WIFE @I5@
+1 MARR
+2 DATE 282 AC
+1 CHIL @I13@
+1 NOTE Rhaegar Targaryen and Lyanna Stark. Married in secret after Rhaegar annulled his marriage to Elia. Parents of Jon Snow (Aegon Targaryen).
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F4@ FAM
+1 HUSB @I40@
+1 WIFE @I41@
+1 MARR
+2 DATE ABT 262 AC
+1 CHIL @I7@
+1 CHIL @I42@
+1 CHIL @I43@
+1 NOTE Hoster Tully and Minisa Whent, Lord and Lady of Riverrun. Parents of the Tully children.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F5@ FAM
+1 HUSB @I8@
+1 WIFE @I69@
+1 MARR
+2 DATE 299 AC
+1 NOTE Robb Stark and Jeyne Westerling. Marriage broke Robb's oath to Walder Frey, contributing to the Red Wedding.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F6@ FAM
+1 HUSB @I27@
+1 WIFE @I9@
+1 MARR
+2 DATE 300 AC
+1 NOTE Tyrion Lannister and Sansa Stark. Forced marriage, never consummated. Annulled after Tyrion fled.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F7@ FAM
+1 HUSB @I14@
+1 WIFE @I15@
+1 MARR
+2 DATE ABT 262 AC
+1 CHIL @I16@
+1 CHIL @I17@
+1 CHIL @I18@
+1 NOTE Aerys II and Rhaella Targaryen. Brother-sister marriage in Targaryen tradition. Unhappy marriage marked by abuse.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F8@ FAM
+1 HUSB @I16@
+1 WIFE @I19@
+1 MARR
+2 DATE 280 AC
+1 CHIL @I20@
+1 CHIL @I21@
+1 NOTE Rhaegar Targaryen and Elia Martell. Marriage arranged for alliance. Produced two children before annulment.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F9@ FAM
+1 HUSB @I71@
+1 WIFE @I18@
+1 MARR
+2 DATE 298 AC
+1 CHIL @I72@
+1 NOTE Khal Drogo and Daenerys Targaryen. Marriage began as forced arrangement, grew to love. Drogo died shortly after.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F10@ FAM
+1 CHIL @I19@
+1 CHIL @I46@
+1 CHIL @I47@
+1 NOTE Children of House Martell. Elia, Doran, and Oberyn.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F11@ FAM
+1 HUSB @I22@
+1 CHIL @I23@
+1 CHIL @I28@
+1 NOTE Tytos Lannister's family. Father of Tywin and Kevan.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F12@ FAM
+1 HUSB @I23@
+1 WIFE @I24@
+1 MARR
+2 DATE 263 AC
+1 CHIL @I25@
+1 CHIL @I26@
+1 CHIL @I27@
+1 NOTE Tywin Lannister and Joanna Lannister. Deep love match. Joanna died birthing Tyrion.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F13@ FAM
+1 HUSB @I30@
+1 WIFE @I25@
+1 MARR
+2 DATE 284 AC
+1 NOTE Robert Baratheon and Cersei Lannister. Political marriage. Robert never loved Cersei, pining for Lyanna. Cersei despised Robert.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F14@ FAM
+1 HUSB @I26@
+1 WIFE @I25@
+1 CHIL @I35@
+1 CHIL @I36@
+1 CHIL @I37@
+1 NOTE Jaime and Cersei Lannister. Incestuous relationship producing Joffrey, Myrcella, and Tommen.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F15@ FAM
+1 HUSB @I28@
+1 WIFE @I74@
+1 MARR
+2 DATE ABT 270 AC
+1 CHIL @I29@
+1 NOTE Kevan Lannister and Dorna Swyft. Dutiful marriage.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F16@ FAM
+1 HUSB @I33@
+1 WIFE @I34@
+1 MARR
+2 DATE ABT 260 AC
+1 CHIL @I30@
+1 CHIL @I31@
+1 CHIL @I32@
+1 NOTE Steffon Baratheon and Cassana Estermont. Parents of the Baratheon brothers.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F17@ FAM
+1 HUSB @I31@
+1 WIFE @I38@
+1 MARR
+2 DATE ABT 287 AC
+1 CHIL @I39@
+1 NOTE Stannis Baratheon and Selyse Florent. Loveless marriage of duty. Many stillbirths and miscarriages.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F18@ FAM
+1 HUSB @I35@
+1 WIFE @I61@
+1 MARR
+2 DATE 300 AC
+1 NOTE Joffrey Baratheon and Margaery Tyrell. Marriage ended before consummation when Joffrey was poisoned at the wedding feast.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F19@ FAM
+1 HUSB @I37@
+1 WIFE @I61@
+1 MARR
+2 DATE 300 AC
+1 NOTE Tommen Baratheon and Margaery Tyrell. Young marriage. Margaery imprisoned by the Faith before full consummation.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F20@ FAM
+1 HUSB @I44@
+1 WIFE @I42@
+1 MARR
+2 DATE 285 AC
+1 CHIL @I45@
+1 NOTE Jon Arryn and Lysa Tully. Marriage arranged by Hoster. Many miscarriages. Lysa poisoned Jon at Littlefinger's instruction.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F21@ FAM
+1 HUSB @I43@
+1 WIFE @I70@
+1 MARR
+2 DATE 299 AC
+1 NOTE Edmure Tully and Roslin Frey. Marriage was trap for the Red Wedding. Roslin may be pregnant.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F22@ FAM
+1 HUSB @I46@
+1 WIFE @I73@
+1 MARR
+2 DATE ABT 274 AC
+1 CHIL @I48@
+1 CHIL @I49@
+1 CHIL @I50@
+1 NOTE Doran Martell and Mellario of Norvos. Marriage ended in separation.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F23@ FAM
+1 HUSB @I47@
+1 WIFE @I51@
+1 NOTE Oberyn Martell and Ellaria Sand. Paramours, not formally married. Oberyn had eight daughters by various women, the Sand Snakes.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F24@ FAM
+1 HUSB @I55@
+1 WIFE @I56@
+1 MARR
+2 DATE ABT 269 AC
+1 CHIL @I58@
+1 CHIL @I59@
+1 CHIL @I60@
+1 CHIL @I61@
+1 NOTE Mace Tyrell and Alerie Hightower. Successful marriage producing four children.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F25@ FAM
+1 WIFE @I57@
+1 NOTE Olenna Redwyne married into House Tyrell. Mother of Mace.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F26@ FAM
+1 HUSB @I62@
+1 WIFE @I63@
+1 MARR
+2 DATE ABT 276 AC
+1 CHIL @I67@
+1 CHIL @I68@
+1 NOTE Balon Greyjoy and Alannys Harlaw. Lost two sons in Greyjoy's Rebellion.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F27@ FAM
+1 HUSB @I75@
+1 WIFE @I76@
+1 MARR
+2 DATE ABT 244 AC
+1 CHIL @I14@
+1 NOTE Jaehaerys II and Shaera Targaryen. Brother-sister marriage. Parents of Aerys II.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 TRLR
+

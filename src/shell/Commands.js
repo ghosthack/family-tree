@@ -5,6 +5,7 @@ import { parseCSV } from '../utils/csvParser.js';
 import { generateGedcomHeader, generateGedcomIndividual, generateGedcomFamily, generateFamilyRecords } from '../utils/gedcomGenerator.js';
 import { getGeneralHelp, getCommandHelp } from './HelpText.js';
 import { TREE_LIMITS } from '../utils/constants.js';
+import { setFictionalDateContext, getFictionalDateContext, clearFictionalDateContext } from '../utils/dateParser.js';
 
 /**
  * Command handler for the shell
@@ -49,6 +50,8 @@ export class Commands {
           return this.siblings();
         case 'spouses':
           return this.spouses();
+        case 'roots':
+          return this.roots(args);
         case 'find':
           return this.find(args);
         case 'stats':
@@ -61,6 +64,12 @@ export class Commands {
           return this.reload();
         case 'help':
           return this.help(args);
+        case 'setdate':
+          return this.setDate(args);
+        case 'showdate':
+          return this.showDate();
+        case 'cleardate':
+          return this.clearDate();
         case 'clear':
         case 'cls':
           console.clear();
@@ -307,6 +316,51 @@ export class Commands {
   }
 
   /**
+   * Show all root individuals (individuals without parents)
+   * Usage: roots [depth]
+   * If depth is provided, shows descendant tree for each root
+   */
+  roots(args) {
+    const roots = this.navigator.tree.getRootIndividuals();
+
+    if (roots.length === 0) {
+      return chalk.yellow('No root individuals found.');
+    }
+
+    // Check if depth parameter is provided
+    if (args.length > 0) {
+      const depth = parseInt(args[0], 10);
+      
+      // Validate depth parameter
+      if (isNaN(depth) || depth < 1) {
+        return chalk.red('Depth must be a positive number');
+      }
+      if (depth > TREE_LIMITS.MAX_TREE_DEPTH) {
+        return chalk.yellow(`Depth limited to ${TREE_LIMITS.MAX_TREE_DEPTH} for performance reasons. Using ${TREE_LIMITS.MAX_TREE_DEPTH}.`);
+      }
+      
+      const validatedDepth = Math.min(depth, TREE_LIMITS.MAX_TREE_DEPTH);
+      
+      // Generate tree view for each root individual
+      const output = [chalk.green(`Found ${roots.length} root individual(s) (without parent information):\n`)];
+      
+      for (let i = 0; i < roots.length; i++) {
+        const root = roots[i];
+        if (i > 0) {
+          output.push('\n' + chalk.cyan('─'.repeat(80)) + '\n');
+        }
+        output.push(this.formatter.formatTree(root.id, validatedDepth, 'descendants'));
+      }
+      
+      return output.join('\n');
+    }
+
+    // Default: show list format
+    return chalk.green(`Found ${roots.length} root individual(s) (without parent information):\n`) + 
+           this.formatter.formatIndividualsList(roots);
+  }
+
+  /**
    * Find individuals by name
    */
   find(args) {
@@ -426,6 +480,71 @@ export class Commands {
     return getGeneralHelp();
   }
 
+
+  /**
+   * Set fictional date context for age calculations
+   * Usage: setdate <calendar> <year> [month] [day]
+   * Example: setdate AG 10191 1 1
+   */
+  setDate(args) {
+    if (args.length < 2) {
+      return chalk.red('Usage: setdate <calendar> <year> [month] [day]\n') +
+             chalk.gray('Example: setdate AG 10191 1 1\n') +
+             chalk.gray('This sets the "current date" for calculating ages in fictional universes.');
+    }
+
+    const calendar = args[0].toUpperCase();
+    const year = parseInt(args[1], 10);
+    const month = args.length > 2 ? parseInt(args[2], 10) : 1;
+    const day = args.length > 3 ? parseInt(args[3], 10) : 1;
+
+    if (isNaN(year) || (args.length > 2 && isNaN(month)) || (args.length > 3 && isNaN(day))) {
+      return chalk.red('Invalid date values. Year, month, and day must be numbers.');
+    }
+
+    if (month < 1 || month > 12) {
+      return chalk.red('Month must be between 1 and 12.');
+    }
+
+    if (day < 1 || day > 31) {
+      return chalk.red('Day must be between 1 and 31.');
+    }
+
+    try {
+      setFictionalDateContext({ calendar, year, month, day });
+      return chalk.green(`✓ Fictional date context set to: ${calendar} ${year}/${month}/${day}\n`) +
+             chalk.gray('Ages for living characters will now be calculated relative to this date.');
+    } catch (error) {
+      return chalk.red(`Failed to set date context: ${error.message}`);
+    }
+  }
+
+  /**
+   * Show current fictional date context
+   */
+  showDate() {
+    const context = getFictionalDateContext();
+    
+    if (!context) {
+      return chalk.yellow('No fictional date context set.\n') +
+             chalk.gray('Using real-world current date for Gregorian calendars.\n') +
+             chalk.gray('Use "setdate" to set a fictional date for age calculations.');
+    }
+
+    return chalk.cyan('Current Fictional Date Context:\n') +
+           chalk.bold(`  Calendar: ${context.calendar}\n`) +
+           chalk.bold(`  Date:     ${context.year}/${context.month}/${context.day}\n`) +
+           chalk.gray('\nAges for living characters are calculated relative to this date.');
+  }
+
+  /**
+   * Clear fictional date context
+   */
+  clearDate() {
+    clearFictionalDateContext();
+    return chalk.green('✓ Fictional date context cleared.\n') +
+           chalk.gray('Returning to real-world current date for age calculations.');
+  }
 
   /**
    * Convert CSV to GEDCOM

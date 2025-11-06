@@ -1,0 +1,428 @@
+0 HEAD
+1 SOUR GEN
+2 VERS 1.0
+2 NAME Genealogy Viewer
+2 CORP GitHub ghosthack/family-tree
+3 ADDR https://github.com/ghosthack/family-tree
+1 DEST ANY
+1 DATE 06 NOV 2025
+2 TIME 12:00:00
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Agamemnon /Atreides/
+1 SEX M
+1 BIRT
+2 DATE ABT 9900 AG
+1 DEAT
+2 DATE ABT 9950 AG
+1 NOTE Legendary ancestor of House Atreides from the Butlerian Jihad era.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I2@ INDI
+1 NAME Paulus /Atreides/
+1 SEX M
+1 BIRT
+2 DATE ABT 10080 AG
+1 DEAT
+2 DATE ABT 10140 AG
+1 NOTE Duke Paulus Atreides. Father of Leto I. Killed in the bullfighting ring.
+1 FAMC @F2@
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I3@ INDI
+1 NAME Duke Leto /I/ Atreides
+1 SEX M
+1 BIRT
+2 DATE ABT 10140 AG
+1 DEAT
+2 DATE 10191 AG
+1 TITL Duke of Caladan
+1 NOTE Duke Leto I Atreides. Duke of House Atreides, ruler of Caladan and later Arrakis. Murdered by Baron Harkonnen. Father of Paul Muad'Dib.
+1 FAMC @F3@
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I4@ INDI
+1 NAME Lady Jessica /Atreides/
+1 SEX F
+1 BIRT
+2 DATE ABT 10154 AG
+1 NOTE Bene Gesserit concubine of Duke Leto I. Daughter of Baron Vladimir Harkonnen (via Bene Gesserit breeding program). Defied orders to bear a daughter, instead gave birth to Paul.
+1 FAMC @F5@
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I5@ INDI
+1 NAME Paul /Atreides/ Muad'Dib
+1 SEX M
+1 BIRT
+2 DATE 10175 AG
+1 TITL Emperor, Muad'Dib
+1 NOTE Paul Atreides "Muad'Dib". Kwisatz Haderach. Son of Duke Leto I and Lady Jessica. Emperor of the Known Universe. Led Fremen jihad. Father of Leto II the God Emperor.
+1 FAMC @F4@
+1 FAMS @F6@
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I6@ INDI
+1 NAME Alia /Atreides/
+1 SEX F
+1 BIRT
+2 DATE 10191 AG
+1 DEAT
+2 DATE ABT 10219 AG
+1 NOTE Alia Atreides. Daughter of Duke Leto I and Lady Jessica. Born as pre-born (awakened in the womb). Possessed by Baron Harkonnen. Known as "Abomination".
+1 FAMC @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I7@ INDI
+1 NAME Chani /Kynes/
+1 SEX F
+1 BIRT
+2 DATE ABT 10178 AG
+1 DEAT
+2 DATE ABT 10210 AG
+1 NOTE Chani Kynes. Fremen concubine of Paul Atreides. Daughter of Liet-Kynes. Mother of Leto II and Ghanima. Died giving birth to the twins.
+1 FAMC @F8@
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I8@ INDI
+1 NAME Leto /II/ Atreides
+1 SEX M
+1 BIRT
+2 DATE 10210 AG
+1 DEAT
+2 DATE ABT 13728 AG
+1 TITL God Emperor
+1 NOTE Leto II Atreides. Son of Paul and Chani. The God Emperor. Merged with sandtrout and ruled for 3,500 years. Enforced the Golden Path. Twin of Ghanima.
+1 FAMC @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I9@ INDI
+1 NAME Ghanima /Atreides/
+1 SEX F
+1 BIRT
+2 DATE 10210 AG
+1 NOTE Ghanima Atreides. Daughter of Paul and Chani. Twin of Leto II. Pre-born. Married Farad'n Corrino to unite the houses.
+1 FAMC @F6@
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I10@ INDI
+1 NAME Princess Irulan /Corrino/
+1 SEX F
+1 BIRT
+2 DATE ABT 10165 AG
+1 TITL Princess, Chronicler
+1 NOTE Princess Irulan Corrino. Daughter of Emperor Shaddam IV. Political wife of Paul Atreides (no children). Chronicler of Paul's reign.
+1 FAMC @F10@
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I11@ INDI
+1 NAME Baron Vladimir /Harkonnen/
+1 SEX M
+1 BIRT
+2 DATE ABT 10110 AG
+1 DEAT
+2 DATE 10191 AG
+1 TITL Baron
+1 NOTE Baron Vladimir Harkonnen. Head of House Harkonnen. Grandfather of Paul Atreides (via Jessica). Arch-enemy of House Atreides. Killed by Alia. Morbidly obese, used suspensors.
+1 FAMC @F11@
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I12@ INDI
+1 NAME Bene Gesserit /Mother/
+1 SEX F
+1 BIRT
+2 DATE ABT 10130 AG
+1 NOTE Unnamed Bene Gesserit sister. Mother of Lady Jessica via Baron Harkonnen. Part of Kwisatz Haderach breeding program.
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I13@ INDI
+1 NAME Glossu Rabban /Harkonnen/
+1 SEX M
+1 BIRT
+2 DATE ABT 10160 AG
+1 DEAT
+2 DATE ABT 10193 AG
+1 NOTE Glossu Rabban "Beast Rabban". Nephew of Baron Vladimir Harkonnen. Brutal governor of Arrakis. Killed in Paul's jihad.
+1 FAMC @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I14@ INDI
+1 NAME Feyd-Rautha /Harkonnen/
+1 SEX M
+1 BIRT
+2 DATE ABT 10167 AG
+1 DEAT
+2 DATE 10193 AG
+1 NOTE Feyd-Rautha Harkonnen. Nephew of Baron Vladimir. Heir apparent to House Harkonnen. Killed by Paul Atreides in single combat.
+1 FAMC @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I15@ INDI
+1 NAME Duncan /Idaho/
+1 SEX M
+1 BIRT
+2 DATE ABT 10130 AG
+1 DEAT
+2 DATE 10191 AG
+1 NOTE Duncan Idaho. Swordmaster and loyal retainer of House Atreides. Killed defending Paul. Later resurrected as ghola countless times.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I16@ INDI
+1 NAME Liet /Kynes/
+1 SEX M
+1 BIRT
+2 DATE ABT 10140 AG
+1 DEAT
+2 DATE 10191 AG
+1 NOTE Liet-Kynes. Imperial Planetologist of Arrakis. Fremen leader. Father of Chani. Worked to terraform Arrakis. Killed by Harkonnens.
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I17@ INDI
+1 NAME Emperor Shaddam /IV/ Corrino
+1 SEX M
+1 BIRT
+2 DATE ABT 10134 AG
+1 DEAT
+2 DATE ABT 10202 AG
+1 TITL Padishah Emperor
+1 NOTE Shaddam IV Corrino. 81st Padishah Emperor. Father of Irulan. Conspired with Harkonnens against House Atreides. Deposed by Paul Atreides.
+1 FAMC @F13@
+1 FAMS @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I18@ INDI
+1 NAME Abulurd /Harkonnen/
+1 SEX M
+1 BIRT
+2 DATE ABT 10080 AG
+1 DEAT
+2 DATE ABT 10150 AG
+1 NOTE Abulurd Harkonnen. Father of Baron Vladimir. Disgraced during Butlerian Jihad. His disgrace led to Harkonnen-Atreides feud.
+1 FAMS @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I19@ INDI
+1 NAME Emmi /Rabban/
+1 SEX F
+1 BIRT
+2 DATE ABT 10130 AG
+1 NOTE Emmi Rabban. Sister of Baron Vladimir Harkonnen. Mother of Glossu Rabban and Feyd-Rautha.
+1 FAMC @F11@
+1 FAMS @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I20@ INDI
+1 NAME Anirul /Corrino/
+1 SEX F
+1 BIRT
+2 DATE ABT 10140 AG
+1 DEAT
+2 DATE ABT 10175 AG
+1 TITL Empress
+1 NOTE Anirul Corrino. Bene Gesserit wife of Shaddam IV. Mother of Irulan and other daughters.
+1 FAMS @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I21@ INDI
+1 NAME Farad'n /Corrino/
+1 SEX M
+1 BIRT
+2 DATE ABT 10205 AG
+1 NOTE Farad'n Corrino. Son of Wensicia Corrino. Married Ghanima Atreides. Became Harq al-Ada (Harkonnen name). Trained as Bene Gesserit male.
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I22@ INDI
+1 NAME Wensicia /Corrino/
+1 SEX F
+1 BIRT
+2 DATE ABT 10170 AG
+1 NOTE Princess Wensicia Corrino. Sister of Irulan. Mother of Farad'n. Plotted to restore Corrino power.
+1 FAMC @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I23@ INDI
+1 NAME Siona /Atreides/
+1 SEX F
+1 BIRT
+2 DATE ABT 13720 AG
+1 NOTE Siona Atreides. Descendant of Ghanima. Invisible to prescient vision. Key to Leto II's Golden Path. Led rebellion against God Emperor.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I24@ INDI
+1 NAME Harah /Unknown/
+1 SEX F
+1 BIRT
+2 DATE ABT 10145 AG
+1 NOTE Harah. Fremen woman. Wife of Liet-Kynes. Mother of Chani.
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I25@ INDI
+1 NAME Helena /Atreides/
+1 SEX F
+1 BIRT
+2 DATE ABT 10090 AG
+1 DEAT
+2 DATE ABT 10145 AG
+1 NOTE Helena Atreides. Mother of Duke Paulus. Wife from Bene Gesserit breeding program.
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I26@ INDI
+1 NAME Vorian /Atreides/
+1 SEX M
+1 BIRT
+2 DATE ABT 9950 AG
+1 DEAT
+2 DATE ABT 10100 AG
+1 NOTE Vorian Atreides. Hero of the Butlerian Jihad. Son of Agamemnon (cymek). Founded the noble House Atreides.
+1 FAMC @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F1@ FAM
+1 HUSB @I1@
+1 CHIL @I26@
+1 NOTE Agamemnon was a cymek. Vorian rejected his father and joined humanity's side in Butlerian Jihad.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F2@ FAM
+1 HUSB @I26@
+1 NOTE Vorian had descendants who eventually led to Duke Paulus.
+1 CHIL @I2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F3@ FAM
+1 HUSB @I2@
+1 WIFE @I25@
+1 MARR
+2 DATE ABT 10130 AG
+1 CHIL @I3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F4@ FAM
+1 HUSB @I3@
+1 WIFE @I4@
+1 NOTE Duke Leto and Jessica were not formally married (she was his concubine) but were deeply devoted.
+1 CHIL @I5@
+1 CHIL @I6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F5@ FAM
+1 HUSB @I11@
+1 WIFE @I12@
+1 NOTE Bene Gesserit arranged breeding produced Jessica. Baron Harkonnen was unaware Jessica was his daughter.
+1 CHIL @I4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F6@ FAM
+1 HUSB @I5@
+1 WIFE @I7@
+1 NOTE Paul and Chani. True love match. Chani was his concubine, not formal wife.
+1 CHIL @I8@
+1 CHIL @I9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F7@ FAM
+1 HUSB @I5@
+1 WIFE @I10@
+1 MARR
+2 DATE ABT 10193 AG
+1 NOTE Political marriage between Paul and Irulan. No children. Paul kept Chani as true love.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F8@ FAM
+1 HUSB @I16@
+1 WIFE @I24@
+1 CHIL @I7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F9@ FAM
+1 HUSB @I21@
+1 WIFE @I9@
+1 MARR
+2 DATE ABT 10220 AG
+1 NOTE Political marriage uniting Atreides and Corrino bloodlines.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F10@ FAM
+1 HUSB @I17@
+1 WIFE @I20@
+1 CHIL @I10@
+1 CHIL @I22@
+1 NOTE Shaddam IV had only daughters (five total). Irulan and Wensicia shown here.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F11@ FAM
+1 HUSB @I18@
+1 CHIL @I11@
+1 CHIL @I19@
+1 NOTE Abulurd Harkonnen's disgrace created the Atreides-Harkonnen feud.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F12@ FAM
+1 WIFE @I19@
+1 CHIL @I13@
+1 CHIL @I14@
+1 NOTE Emmi Rabban (Baron's sister) had sons Rabban and Feyd-Rautha, raised by Baron.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F13@ FAM
+1 HUSB @I17@
+1 NOTE Earlier Corrino family leading to Shaddam IV.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 TRLR

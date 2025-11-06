@@ -139,10 +139,130 @@ children         # See all children
 siblings         # Find siblings of original person
 ```
 
+## Fictional Calendar Support
+
+The GEDCOM Shell Navigator supports fictional calendar systems, making it perfect for exploring genealogies from fictional universes like Dune, Star Wars, or custom worlds!
+
+### Supported Date Formats
+
+The parser now recognizes various date formats:
+- **Standard GEDCOM**: `20 JUN 1979`
+- **Fictional calendars**: `ABT 10191 AG`, `9900 BG`
+- **Date modifiers**: `ABT` (about), `BEF` (before), `AFT` (after), `EST` (estimated)
+
+Any two-letter calendar suffix is recognized (AG, BG, SC, SD, etc.).
+
+### Example: Dune Universe (AG Calendar)
+
+The included `samples/houseAtreides.ged` uses the AG (After Guild) calendar:
+
+```
+[Root]> cd Paul Atreides
+Navigated to Paul Atreides
+
+[@I5@ Paul Atreides]> show
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Individual: @I5@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Name:     Paul Atreides
+Sex:      Male
+Born:     ABT 10191 AG
+
+[@I5@ Paul Atreides]> stats
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Genealogy Tree Statistics
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total Individuals: 27
+Total Families:    10
+Total Notes:       0
+
+Gender Distribution:
+  Male:    19
+  Female:  8
+  Unknown: 0
+
+Calendar Systems Detected:
+  AG
+
+Date Ranges by Calendar:
+  AG:
+    Births: 9900 - 10350
+    Deaths: 9950 - 10191
+```
+
+### Setting a Fictional Date Context
+
+For living characters in fictional universes, you need to set a "current date" to calculate ages:
+
+```
+# Set the current date in the Dune universe to the year 10210 AG
+[Root]> setdate AG 10210
+
+# Now ages for living characters will be calculated from 10210 AG
+[Root]> ls
+ID          Name              Born          Died        Age  ...
+@I5@        Paul Atreides     ABT 10191 AG              19   ...
+@I6@        Alia Atreides     ABT 10197 AG              13   ...
+@I8@        Leto II Atreides  ABT 10210 AG              0    ...
+
+# Check the current fictional date context
+[Root]> showdate
+Current Fictional Date Context:
+  Calendar: AG
+  Date:     10210/1/1
+
+# Clear it to return to real-world dates
+[Root]> cleardate
+```
+
+### Fictional Calendar Commands
+
+- **`setdate <calendar> <year> [month] [day]`** - Set fictional date context
+  - Example: `setdate AG 10191 1 1`
+  - This becomes the "current date" for age calculations
+  
+- **`showdate`** - Display the current fictional date context
+  - Shows what calendar and date is being used for living character ages
+  
+- **`cleardate`** - Clear fictional date context
+  - Returns to using real-world current date for Gregorian calendars
+
+### Advanced Usage
+
+**Custom Calendars**
+
+You can use any 2-4 letter calendar suffix in your GEDCOM files:
+- `AG` - After Guild (Dune)
+- `BG` - Before Guild (Dune)
+- `UC` - Universal Century (Gundam)
+- `SC` - Star Count (Star Wars)
+- `SD` - Star Date (Star Trek)
+- Any custom abbreviation for your world
+
+**Multiple Calendars**
+
+The navigator can handle GEDCOM files with multiple calendar systems. Statistics will show date ranges for each calendar separately.
+
+**Date Precision**
+
+- If only a year is specified: defaults to January 1
+- If year and month: defaults to the 1st day
+- Full dates: `setdate AG 10191 6 15` (June 15, 10191 AG)
+
+### Tips for Fictional Genealogies
+
+1. **Always set a date context** when working with fictional calendars
+2. **Use consistent calendar suffixes** throughout your GEDCOM file
+3. **Living characters show "?" age** until you set a fictional date context
+4. **Date modifiers work** - Use ABT (about), EST (estimated), etc.
+
 ## Need Help?
 
 - Type `help` anytime for command list
 - Type `help <command>` for specific help (e.g., `help tree`)
+- Type `help setdate` for detailed info on fictional calendars
 - Type `exit` or press Ctrl+D to quit
 
-Enjoy exploring your family history!
+Enjoy exploring your family history—real or fictional!

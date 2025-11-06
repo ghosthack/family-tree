@@ -1,0 +1,1928 @@
+0 HEAD
+1 SOUR GEN
+2 VERS 1.0
+2 NAME Genealogy Viewer
+2 CORP GitHub ghosthack/family-tree
+3 ADDR https://github.com/ghosthack/family-tree
+1 DEST ANY
+1 DATE 06 NOV 2025
+2 TIME 14:00:00
+1 GEDC
+2 VERS 5.5.1
+2 FORM Lineage-Linked
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Finwë //
+1 SEX M
+1 BIRT
+2 DATE YT 1050
+2 PLAC Cuiviénen, Middle-earth
+1 DEAT
+2 DATE YT 1495
+2 PLAC Formenos, Valinor
+1 TITL High King of the Noldor
+1 NOTE First High King of the Noldor. Father of Fëanor, Fingolfin, and Finarfin. Slain by Morgoth during the Darkening of Valinor.
+1 FAMS @F1@
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I2@ INDI
+1 NAME Míriel /Serindë/
+1 SEX F
+1 BIRT
+2 DATE YT 1070
+1 DEAT
+2 DATE YT 1170
+2 PLAC Lórien, Valinor
+1 NOTE First wife of Finwë. Mother of Fëanor. Died of weariness after giving birth.
+1 FAMS @F1@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I3@ INDI
+1 NAME Indis //
+1 SEX F
+1 BIRT
+2 DATE YT 1100
+1 NOTE Second wife of Finwë. Mother of Fingolfin and Finarfin. Of the Vanyar.
+1 FAMS @F2@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I4@ INDI
+1 NAME Fëanor //
+1 SEX M
+1 BIRT
+2 DATE YT 1169
+2 PLAC Tirion, Valinor
+1 DEAT
+2 DATE FA 1
+2 PLAC Mithrim, Beleriand
+1 TITL Prince of the Noldor
+1 NOTE Greatest of the Noldor. Creator of the Silmarils and Palantíri. Led the rebellion against the Valar. Slain by Balrogs.
+1 FAMC @F1@
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I5@ INDI
+1 NAME Nerdanel //
+1 SEX F
+1 BIRT
+2 DATE YT 1200
+1 NOTE Wife of Fëanor. Daughter of Mahtan. Mother of seven sons. Did not follow Fëanor to Middle-earth.
+1 FAMS @F3@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I6@ INDI
+1 NAME Fingolfin //
+1 SEX M
+1 BIRT
+2 DATE YT 1190
+2 PLAC Tirion, Valinor
+1 DEAT
+2 DATE FA 456
+2 PLAC Angband, Beleriand
+1 TITL High King of the Noldor
+1 NOTE Second High King of the Noldor. Died in single combat with Morgoth before the gates of Angband.
+1 FAMC @F2@
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I7@ INDI
+1 NAME Anairë //
+1 SEX F
+1 BIRT
+2 DATE YT 1220
+1 NOTE Wife of Fingolfin. Did not follow him to Middle-earth.
+1 FAMS @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I8@ INDI
+1 NAME Finarfin //
+1 SEX M
+1 BIRT
+2 DATE YT 1230
+2 PLAC Tirion, Valinor
+1 TITL High King of the Noldor in Valinor
+1 NOTE Third son of Finwë. Father of Finrod, Angrod, Aegnor, and Galadriel. Returned to Valinor after the Doom of Mandos.
+1 FAMC @F2@
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I9@ INDI
+1 NAME Eärwen //
+1 SEX F
+1 BIRT
+2 DATE YT 1250
+1 NOTE Wife of Finarfin. Daughter of Olwë, King of the Teleri.
+1 FAMS @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I10@ INDI
+1 NAME Fingon //
+1 SEX M
+1 BIRT
+2 DATE YT 1260
+1 DEAT
+2 DATE FA 472
+2 PLAC Nírnaeth Arnoediad
+1 TITL High King of the Noldor
+1 NOTE Third High King of the Noldor. Slain by Balrogs in the Nírnaeth Arnoediad.
+1 FAMC @F4@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I11@ INDI
+1 NAME Turgon //
+1 SEX M
+1 BIRT
+2 DATE YT 1300
+1 DEAT
+2 DATE FA 510
+2 PLAC Gondolin, Beleriand
+1 TITL King of Gondolin
+1 NOTE Founded and ruled the hidden city of Gondolin. Slain during the Fall of Gondolin.
+1 FAMC @F4@
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I12@ INDI
+1 NAME Aredhel /Ar-Feiniel/
+1 SEX F
+1 BIRT
+2 DATE YT 1362
+1 DEAT
+2 DATE FA 400
+2 PLAC Gondolin
+1 NOTE The White Lady of the Noldor. Sister of Turgon. Mother of Maeglin. Accidentally slain by her husband Eöl.
+1 FAMC @F4@
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I13@ INDI
+1 NAME Elenwë //
+1 SEX F
+1 DEAT
+2 DATE YT 1500
+2 PLAC Helcaraxë
+1 NOTE Wife of Turgon. Died crossing the Helcaraxë.
+1 FAMS @F6@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I14@ INDI
+1 NAME Eöl /the Dark Elf/
+1 SEX M
+1 DEAT
+2 DATE FA 400
+2 PLAC Gondolin
+1 NOTE The Dark Elf of Nan Elmoth. Maker of black swords. Executed in Gondolin for the murder of his wife.
+1 FAMS @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I15@ INDI
+1 NAME Idril /Celebrindal/
+1 SEX F
+1 BIRT
+2 DATE FA 52
+2 PLAC Nevrast
+1 NOTE Daughter of Turgon. Married Tuor. Mother of Eärendil. Survived the Fall of Gondolin.
+1 FAMC @F6@
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I16@ INDI
+1 NAME Maeglin //
+1 SEX M
+1 BIRT
+2 DATE FA 320
+1 DEAT
+2 DATE FA 510
+2 PLAC Gondolin
+1 NOTE Son of Eöl and Aredhel. Prince of Gondolin. Betrayed the city to Morgoth. Cast down from the walls by Tuor.
+1 FAMC @F7@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I17@ INDI
+1 NAME Finrod /Felagund/
+1 SEX M
+1 BIRT
+2 DATE YT 1300
+1 DEAT
+2 DATE FA 466
+2 PLAC Tol-in-Gaurhoth
+1 TITL King of Nargothrond
+1 NOTE Founder and King of Nargothrond. Friend of Men. Died saving Beren from a werewolf.
+1 FAMC @F5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I18@ INDI
+1 NAME Galadriel /Artanis/
+1 SEX F
+1 BIRT
+2 DATE YT 1362
+2 PLAC Tirion, Valinor
+1 NOTE Lady of Lothlórien. Bearer of Nenya. One of the mightiest of the Eldar in Middle-earth.
+1 FAMC @F5@
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I19@ INDI
+1 NAME Celeborn //
+1 SEX M
+1 BIRT
+2 DATE FA 50
+2 PLAC Doriath
+1 NOTE Lord of Lothlórien. Kinsman of Thingol. Married Galadriel.
+1 FAMS @F9@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I20@ INDI
+1 NAME Celebrían //
+1 SEX F
+1 BIRT
+2 DATE SA 300
+2 PLAC Lindon
+1 NOTE Daughter of Celeborn and Galadriel. Wife of Elrond. Mother of Elladan, Elrohir, and Arwen. Sailed West after being tortured by Orcs.
+1 FAMC @F9@
+1 FAMS @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I21@ INDI
+1 NAME Tuor //
+1 SEX M
+1 BIRT
+2 DATE FA 472
+2 PLAC Mithrim
+1 NOTE Son of Huor. Greatest mariner of Men. Came to Gondolin and married Idril. Father of Eärendil.
+1 FAMS @F8@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I22@ INDI
+1 NAME Eärendil /the Mariner/
+1 SEX M
+1 BIRT
+2 DATE FA 503
+2 PLAC Gondolin
+1 NOTE The Half-elven. Sailed to Valinor and pleaded for aid against Morgoth. Made into a star bearing the Silmaril.
+1 FAMC @F8@
+1 FAMS @F11@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I23@ INDI
+1 NAME Elwing //
+1 SEX F
+1 BIRT
+2 DATE FA 503
+2 PLAC Havens of Sirion
+1 NOTE Daughter of Dior. Possessed the Silmaril. Wife of Eärendil. Transformed into a white bird and flew to him.
+1 FAMS @F11@
+1 FAMC @F12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I24@ INDI
+1 NAME Dior /Eluchíl/
+1 SEX M
+1 BIRT
+2 DATE FA 470
+1 DEAT
+2 DATE FA 509
+2 PLAC Menegroth
+1 TITL King of Doriath
+1 NOTE Son of Beren and Lúthien. Heir to Thingol. Slain by the sons of Fëanor in the Second Kinslaying.
+1 FAMS @F12@
+1 FAMC @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I25@ INDI
+1 NAME Beren /Erchamion/
+1 SEX M
+1 BIRT
+2 DATE FA 432
+1 DEAT
+2 DATE FA 503
+2 PLAC Tol Galen
+1 NOTE The One-handed. Mortal Man who won the love of Lúthien. Cut a Silmaril from Morgoth's crown.
+1 FAMS @F13@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I26@ INDI
+1 NAME Lúthien /Tinúviel/
+1 SEX F
+1 BIRT
+2 DATE YT 1200
+2 PLAC Doriath
+1 DEAT
+2 DATE FA 503
+2 PLAC Tol Galen
+1 NOTE Most beautiful of the Children of Ilúvatar. Daughter of Thingol and Melian. Chose mortality for love of Beren.
+1 FAMS @F13@
+1 FAMC @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I27@ INDI
+1 NAME Thingol /Elwë/
+1 SEX M
+1 BIRT
+2 DATE YT 1050
+2 PLAC Cuiviénen
+1 DEAT
+2 DATE FA 502
+2 PLAC Menegroth, Doriath
+1 TITL King of Doriath
+1 NOTE Elu Thingol. King of the Sindar. Lord of Doriath. Slain by Dwarves over the Silmaril.
+1 FAMS @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I28@ INDI
+1 NAME Melian //
+1 SEX F
+1 BIRT
+2 PLAC Valinor
+1 NOTE Maia who took physical form. Queen of Doriath. Created the Girdle of Melian. Departed Middle-earth after Thingol's death.
+1 FAMS @F14@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I29@ INDI
+1 NAME Elros /Tar-Minyatur/
+1 SEX M
+1 BIRT
+2 DATE FA 532
+2 PLAC Havens of Sirion
+1 DEAT
+2 DATE SA 442
+2 PLAC Númenor
+1 TITL First King of Númenor
+1 NOTE Son of Eärendil and Elwing. Chose mortality and the Gift of Men. Founded the Kingdom of Númenor.
+1 FAMC @F11@
+1 FAMS @F15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I30@ INDI
+1 NAME Elrond /Peredhel/
+1 SEX M
+1 BIRT
+2 DATE FA 532
+2 PLAC Havens of Sirion
+1 TITL Lord of Rivendell
+1 NOTE Son of Eärendil and Elwing. Half-elven, chose immortality. Bearer of Vilya. Master of Rivendell.
+1 FAMC @F11@
+1 FAMS @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I31@ INDI
+1 NAME Elladan //
+1 SEX M
+1 BIRT
+2 DATE TA 130
+2 PLAC Rivendell
+1 NOTE Son of Elrond and Celebrían. Twin brother of Elrohir. Rode with the Grey Company to aid Aragorn.
+1 FAMC @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I32@ INDI
+1 NAME Elrohir //
+1 SEX M
+1 BIRT
+2 DATE TA 130
+2 PLAC Rivendell
+1 NOTE Son of Elrond and Celebrían. Twin brother of Elladan. Rode with the Grey Company to aid Aragorn.
+1 FAMC @F10@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I33@ INDI
+1 NAME Arwen /Undómiel/
+1 SEX F
+1 BIRT
+2 DATE TA 241
+2 PLAC Rivendell
+1 DEAT
+2 DATE FO 121
+2 PLAC Cerin Amroth, Lothlórien
+1 TITL Queen of Gondor
+1 NOTE Evenstar. Most beautiful of the last generation of High Elves. Chose mortality to wed Aragorn. Queen of the Reunited Kingdom.
+1 FAMC @F10@
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I34@ INDI
+1 NAME Vardamir /Nólimon/
+1 SEX M
+1 BIRT
+2 DATE SA 61
+1 DEAT
+2 DATE SA 471
+1 NOTE Son of Elros. Refused the throne and passed it to his son.
+1 FAMC @F15@
+1 FAMS @F17@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I35@ INDI
+1 NAME Amandil //
+1 SEX M
+1 BIRT
+2 DATE SA 3044
+1 DEAT
+2 DATE SA 3319
+1 TITL Lord of Andúnië
+1 NOTE Last Lord of Andúnië. Father of Elendil. Sailed West to plead with the Valar and was never seen again.
+1 FAMS @F18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I36@ INDI
+1 NAME Elendil /the Tall/
+1 SEX M
+1 BIRT
+2 DATE SA 3119
+2 PLAC Númenor
+1 DEAT
+2 DATE SA 3441
+2 PLAC Dagorlad
+1 TITL High King of Arnor and Gondor
+1 NOTE The Faithful. Led the Faithful from the Downfall of Númenor. Founded Arnor and Gondor. Slain by Sauron in the War of the Last Alliance.
+1 FAMC @F18@
+1 FAMS @F19@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I37@ INDI
+1 NAME Isildur //
+1 SEX M
+1 BIRT
+2 DATE SA 3209
+2 PLAC Númenor
+1 DEAT
+2 DATE TA 2
+2 PLAC Gladden Fields
+1 TITL King of Arnor and Gondor
+1 NOTE Saved the fruit of the White Tree. Cut the One Ring from Sauron's hand. Slain by Orcs at the Gladden Fields.
+1 FAMC @F19@
+1 FAMS @F20@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I38@ INDI
+1 NAME Anárion //
+1 SEX M
+1 BIRT
+2 DATE SA 3219
+2 PLAC Númenor
+1 DEAT
+2 DATE SA 3440
+2 PLAC Barad-dûr
+1 TITL King of Gondor
+1 NOTE Co-founder of Gondor with Isildur. Defended Gondor during the War of the Last Alliance. Slain by a stone from Barad-dûr.
+1 FAMC @F19@
+1 FAMS @F21@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I39@ INDI
+1 NAME Valandil //
+1 SEX M
+1 BIRT
+2 DATE SA 3430
+2 PLAC Imladris
+1 DEAT
+2 DATE TA 249
+2 PLAC Annúminas
+1 TITL King of Arnor
+1 NOTE Fourth son of Isildur. First King of Arnor after his father's death. Ancestor of Aragorn.
+1 FAMC @F20@
+1 FAMS @F22@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I40@ INDI
+1 NAME Meneldil //
+1 SEX M
+1 BIRT
+2 DATE SA 3318
+2 PLAC Númenor
+1 DEAT
+2 DATE TA 158
+2 PLAC Osgiliath
+1 TITL King of Gondor
+1 NOTE Son of Anárion. First sole King of Gondor after his father and Isildur.
+1 FAMC @F21@
+1 FAMS @F23@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I41@ INDI
+1 NAME Arathorn /I/
+1 SEX M
+1 BIRT
+2 DATE TA 1873
+1 DEAT
+2 DATE TA 1933
+1 TITL Chieftain of the Dúnedain
+1 NOTE Fourteenth Chieftain of the Dúnedain. Grandfather of Aragorn II.
+1 FAMS @F24@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I42@ INDI
+1 NAME Arador //
+1 SEX M
+1 BIRT
+2 DATE TA 2820
+1 DEAT
+2 DATE TA 2930
+2 PLAC Rivendell
+1 TITL Chieftain of the Dúnedain
+1 NOTE Fifteenth Chieftain of the Dúnedain. Killed by hill-trolls in the Coldfells.
+1 FAMC @F24@
+1 FAMS @F25@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I43@ INDI
+1 NAME Arathorn /II/
+1 SEX M
+1 BIRT
+2 DATE TA 2873
+1 DEAT
+2 DATE TA 2933
+2 PLAC Coldfells
+1 TITL Chieftain of the Dúnedain
+1 NOTE Sixteenth Chieftain of the Dúnedain. Father of Aragorn. Slain by an orc-arrow.
+1 FAMC @F25@
+1 FAMS @F26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I44@ INDI
+1 NAME Gilraen /the Fair/
+1 SEX F
+1 BIRT
+2 DATE TA 2907
+1 DEAT
+2 DATE TA 3007
+2 PLAC Rivendell
+1 NOTE Mother of Aragorn. Died before seeing her son become king.
+1 FAMS @F26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I45@ INDI
+1 NAME Aragorn /II/ Elessar
+1 SEX M
+1 BIRT
+2 DATE TA 2931
+2 PLAC Rivendell
+1 DEAT
+2 DATE FO 120
+2 PLAC Minas Tirith
+1 TITL King of the Reunited Kingdom
+1 NOTE Strider. Heir of Isildur. Ranger of the North. Led the Fellowship. Restored the Kingdom of Gondor and Arnor. Married Arwen.
+1 FAMC @F26@
+1 FAMS @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I46@ INDI
+1 NAME Eldarion //
+1 SEX M
+1 BIRT
+2 DATE FO 1
+2 PLAC Minas Tirith
+1 TITL High King of the Reunited Kingdom
+1 NOTE Son of Aragorn and Arwen. Heir to the thrones of Gondor and Arnor.
+1 FAMC @F16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I47@ INDI
+1 NAME Eorl /the Young/
+1 SEX M
+1 BIRT
+2 DATE TA 2485
+1 DEAT
+2 DATE TA 2545
+2 PLAC Wold
+1 TITL First King of Rohan
+1 NOTE Lord of the Éothéod. Founded the Kingdom of Rohan. Slain in battle with Easterlings.
+1 FAMS @F27@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I48@ INDI
+1 NAME Brego //
+1 SEX M
+1 BIRT
+2 DATE TA 2512
+1 DEAT
+2 DATE TA 2570
+2 PLAC Meduseld
+1 TITL Second King of Rohan
+1 NOTE Son of Eorl. Completed the hall of Meduseld. Died of grief after losing his son Baldor.
+1 FAMC @F27@
+1 FAMS @F28@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I49@ INDI
+1 NAME Gram //
+1 SEX M
+1 BIRT
+2 DATE TA 2668
+1 DEAT
+2 DATE TA 2741
+1 TITL Eighth King of Rohan
+1 NOTE Eighth King of Rohan. Great-grandfather of Théoden.
+1 FAMS @F29@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I50@ INDI
+1 NAME Helm /Hammerhand/
+1 SEX M
+1 BIRT
+2 DATE TA 2691
+1 DEAT
+2 DATE TA 2759
+2 PLAC Hornburg
+1 TITL Ninth King of Rohan
+1 NOTE Last king of the first line of Rohan. Defended the Hornburg during the Long Winter. Froze to death standing upright.
+1 FAMC @F29@
+1 FAMS @F30@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I51@ INDI
+1 NAME Fréaláf /Hildeson/
+1 SEX M
+1 BIRT
+2 DATE TA 2726
+1 DEAT
+2 DATE TA 2798
+1 TITL Tenth King of Rohan
+1 NOTE First king of the second line. Nephew of Helm. Retook Meduseld from Wulf.
+1 FAMS @F31@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I52@ INDI
+1 NAME Thengel //
+1 SEX M
+1 BIRT
+2 DATE TA 2905
+1 DEAT
+2 DATE TA 2980
+2 PLAC Meduseld
+1 TITL Sixteenth King of Rohan
+1 NOTE Father of Théoden. Lived in Gondor for many years before returning to claim the throne.
+1 FAMS @F32@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I53@ INDI
+1 NAME Morwen /of Lossarnach/
+1 SEX F
+1 BIRT
+2 DATE TA 2922
+2 PLAC Gondor
+1 DEAT
+2 DATE TA 2993
+1 NOTE Wife of Thengel. Mother of Théoden, Théodwyn, and others. From Gondor.
+1 FAMS @F32@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I54@ INDI
+1 NAME Théoden //
+1 SEX M
+1 BIRT
+2 DATE TA 2948
+2 PLAC Rohan
+1 DEAT
+2 DATE TA 3019
+2 PLAC Pelennor Fields
+1 TITL Seventeenth King of Rohan
+1 NOTE Fell under Saruman's influence through Gríma. Freed by Gandalf. Led the Rohirrim at Helm's Deep and Pelennor. Slain by the Witch-king.
+1 FAMC @F32@
+1 FAMS @F33@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I55@ INDI
+1 NAME Elfhild //
+1 SEX F
+1 BIRT
+2 DATE TA 2963
+1 DEAT
+2 DATE TA 2978
+1 NOTE First wife of Théoden. Mother of Théodred. Died in childbirth.
+1 FAMS @F33@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I56@ INDI
+1 NAME Théodwyn //
+1 SEX F
+1 BIRT
+2 DATE TA 2963
+1 DEAT
+2 DATE TA 3002
+1 NOTE Sister of Théoden. Mother of Éomer and Éowyn. Died of illness.
+1 FAMC @F32@
+1 FAMS @F34@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I57@ INDI
+1 NAME Éomund //
+1 SEX M
+1 BIRT
+2 DATE TA 2963
+1 DEAT
+2 DATE TA 3002
+2 PLAC Emyn Muil
+1 TITL Chief Marshal of the Mark
+1 NOTE Husband of Théodwyn. Father of Éomer and Éowyn. Slain by Orcs.
+1 FAMS @F34@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I58@ INDI
+1 NAME Théodred //
+1 SEX M
+1 BIRT
+2 DATE TA 2978
+1 DEAT
+2 DATE TA 3019
+2 PLAC Fords of Isen
+1 TITL Second Marshal of the Mark
+1 NOTE Son and heir of Théoden. Mortally wounded defending the Fords of Isen.
+1 FAMC @F33@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I59@ INDI
+1 NAME Éomer //
+1 SEX M
+1 BIRT
+2 DATE TA 2991
+2 PLAC Rohan
+1 DEAT
+2 DATE FO 63
+1 TITL King of Rohan
+1 NOTE Nephew of Théoden. Third Marshal of the Mark. Succeeded Théoden as King. Member of the Fellowship of the Ring at its end.
+1 FAMC @F34@
+1 FAMS @F35@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I60@ INDI
+1 NAME Éowyn //
+1 SEX F
+1 BIRT
+2 DATE TA 2995
+2 PLAC Rohan
+1 TITL Lady of Ithilien
+1 NOTE White Lady of Rohan. Slew the Witch-king of Angmar with Merry's aid. Married Faramir and became Lady of Ithilien.
+1 FAMC @F34@
+1 FAMS @F36@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I61@ INDI
+1 NAME Lothíriel //
+1 SEX F
+1 BIRT
+2 DATE TA 2999
+2 PLAC Dol Amroth
+1 NOTE Princess of Dol Amroth. Daughter of Prince Imrahil. Wife of Éomer.
+1 FAMS @F35@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I62@ INDI
+1 NAME Denethor /II/
+1 SEX M
+1 BIRT
+2 DATE TA 2930
+2 PLAC Minas Tirith
+1 DEAT
+2 DATE TA 3019
+2 PLAC Minas Tirith
+1 TITL Steward of Gondor
+1 NOTE Twenty-sixth Steward of Gondor. Used the palantír and was driven to despair. Immolated himself.
+1 FAMS @F37@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I63@ INDI
+1 NAME Finduilas /of Dol Amroth/
+1 SEX F
+1 BIRT
+2 DATE TA 2950
+1 DEAT
+2 DATE TA 2988
+2 PLAC Minas Tirith
+1 NOTE Wife of Denethor. Mother of Boromir and Faramir. Died young of illness.
+1 FAMS @F37@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I64@ INDI
+1 NAME Boromir //
+1 SEX M
+1 BIRT
+2 DATE TA 2978
+2 PLAC Minas Tirith
+1 DEAT
+2 DATE TA 3019
+2 PLAC Parth Galen
+1 TITL Captain of the White Tower
+1 NOTE Son of Denethor. Member of the Fellowship of the Ring. Tried to take the Ring from Frodo. Died defending Merry and Pippin.
+1 FAMC @F37@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I65@ INDI
+1 NAME Faramir //
+1 SEX M
+1 BIRT
+2 DATE TA 2983
+2 PLAC Minas Tirith
+1 TITL Prince of Ithilien and Steward of Gondor
+1 NOTE Son of Denethor. Captain of the Rangers of Ithilien. Prince of Ithilien and Steward under King Elessar. Married Éowyn.
+1 FAMC @F37@
+1 FAMS @F36@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I66@ INDI
+1 NAME Durin /I/ the Deathless
+1 SEX M
+1 BIRT
+2 DATE YT 1250
+2 PLAC Mount Gundabad
+1 TITL King of Khazad-dûm
+1 NOTE Eldest of the Fathers of the Dwarves. Founded Khazad-dûm. Father of the Longbeards.
+1 FAMS @F38@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I67@ INDI
+1 NAME Durin /VI/
+1 SEX M
+1 BIRT
+2 DATE TA 1731
+1 DEAT
+2 DATE TA 1980
+2 PLAC Khazad-dûm
+1 TITL King of Khazad-dûm
+1 NOTE Awakened the Balrog while mining for mithril. Slain by Durin's Bane.
+1 FAMS @F39@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I68@ INDI
+1 NAME Náin /I/
+1 SEX M
+1 BIRT
+2 DATE TA 1832
+1 DEAT
+2 DATE TA 1981
+2 PLAC Khazad-dûm
+1 NOTE Son of Durin VI. Slain by the Balrog.
+1 FAMC @F39@
+1 FAMS @F40@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I69@ INDI
+1 NAME Thráin /I/
+1 SEX M
+1 BIRT
+2 DATE TA 1934
+1 DEAT
+2 DATE TA 2190
+2 PLAC Lonely Mountain
+1 TITL King under the Mountain
+1 NOTE Founded the Kingdom under the Mountain at Erebor.
+1 FAMC @F40@
+1 FAMS @F41@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I70@ INDI
+1 NAME Thrór //
+1 SEX M
+1 BIRT
+2 DATE TA 2542
+1 DEAT
+2 DATE TA 2790
+2 PLAC Moria
+1 TITL King under the Mountain
+1 NOTE Last King of Khazad-dûm. Fled to Erebor. Later beheaded by Azog in Moria.
+1 FAMS @F42@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I71@ INDI
+1 NAME Thráin /II/
+1 SEX M
+1 BIRT
+2 DATE TA 2644
+1 DEAT
+2 DATE TA 2850
+2 PLAC Dol Guldur
+1 TITL King of Durin's Folk
+1 NOTE Son of Thrór. Led his people after Smaug's attack. Captured by Sauron and died in Dol Guldur.
+1 FAMC @F42@
+1 FAMS @F43@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I72@ INDI
+1 NAME Thorin /II/ Oakenshield
+1 SEX M
+1 BIRT
+2 DATE TA 2746
+2 PLAC Lonely Mountain
+1 DEAT
+2 DATE TA 2941
+2 PLAC Lonely Mountain
+1 TITL King under the Mountain
+1 NOTE Led the Quest of Erebor. Reclaimed the Lonely Mountain from Smaug. Mortally wounded in the Battle of Five Armies.
+1 FAMC @F43@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I73@ INDI
+1 NAME Frerin //
+1 SEX M
+1 BIRT
+2 DATE TA 2751
+1 DEAT
+2 DATE TA 2799
+2 PLAC Azanulbizar
+1 NOTE Brother of Thorin. Slain in the Battle of Azanulbizar.
+1 FAMC @F43@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I74@ INDI
+1 NAME Dís //
+1 SEX F
+1 BIRT
+2 DATE TA 2760
+1 NOTE Sister of Thorin. Mother of Fíli and Kíli.
+1 FAMC @F43@
+1 FAMS @F44@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I75@ INDI
+1 NAME Fíli //
+1 SEX M
+1 BIRT
+2 DATE TA 2859
+1 DEAT
+2 DATE TA 2941
+2 PLAC Ravenhill
+1 NOTE Nephew of Thorin. Member of Thorin's company. Slain defending Thorin in the Battle of Five Armies.
+1 FAMC @F44@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I76@ INDI
+1 NAME Kíli //
+1 SEX M
+1 BIRT
+2 DATE TA 2864
+1 DEAT
+2 DATE TA 2941
+2 PLAC Ravenhill
+1 NOTE Nephew of Thorin. Member of Thorin's company. Slain defending Thorin in the Battle of Five Armies.
+1 FAMC @F44@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I77@ INDI
+1 NAME Dáin /II/ Ironfoot
+1 SEX M
+1 BIRT
+2 DATE TA 2767
+1 DEAT
+2 DATE TA 3019
+2 PLAC Dale
+1 TITL King under the Mountain
+1 NOTE Lord of the Iron Hills. Slew Azog. Became King under the Mountain after Thorin's death. Died defending the body of King Brand.
+1 FAMS @F45@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I78@ INDI
+1 NAME Thorin /III/ Stonehelm
+1 SEX M
+1 BIRT
+2 DATE TA 2866
+1 TITL King under the Mountain
+1 NOTE Son of Dáin II. Succeeded his father as King under the Mountain.
+1 FAMC @F45@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I79@ INDI
+1 NAME Balbo /Baggins/
+1 SEX M
+1 BIRT
+2 DATE TA 2767
+1 DEAT
+2 DATE TA 2863
+2 PLAC Hobbiton
+1 NOTE Great-great-grandfather of Frodo and Bilbo.
+1 FAMS @F46@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I80@ INDI
+1 NAME Mungo /Baggins/
+1 SEX M
+1 BIRT
+2 DATE TA 2807
+1 DEAT
+2 DATE TA 2900
+2 PLAC Hobbiton
+1 NOTE Great-grandfather of Frodo. Grandfather of Bilbo.
+1 FAMC @F46@
+1 FAMS @F47@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I81@ INDI
+1 NAME Laura /Grubb/
+1 SEX F
+1 BIRT
+2 DATE TA 2814
+1 DEAT
+2 DATE TA 2916
+1 NOTE Wife of Mungo Baggins.
+1 FAMS @F47@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I82@ INDI
+1 NAME Bungo /Baggins/
+1 SEX M
+1 BIRT
+2 DATE TA 2846
+1 DEAT
+2 DATE TA 2926
+2 PLAC Bag End
+1 NOTE Father of Bilbo. Built Bag End for his wife Belladonna.
+1 FAMC @F47@
+1 FAMS @F48@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I83@ INDI
+1 NAME Belladonna /Took/
+1 SEX F
+1 BIRT
+2 DATE TA 2852
+1 DEAT
+2 DATE TA 2934
+2 PLAC Bag End
+1 NOTE Mother of Bilbo. Daughter of the Old Took.
+1 FAMC @F49@
+1 FAMS @F48@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I84@ INDI
+1 NAME Bilbo /Baggins/
+1 SEX M
+1 BIRT
+2 DATE TA 2890
+2 PLAC Bag End
+1 NOTE The Ringbearer. Burglar of Thorin's company. Found the One Ring. Wrote There and Back Again. Sailed West.
+1 FAMC @F48@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I85@ INDI
+1 NAME Drogo /Baggins/
+1 SEX M
+1 BIRT
+2 DATE TA 2908
+1 DEAT
+2 DATE TA 2980
+2 PLAC Brandywine River
+1 NOTE Father of Frodo. Drowned in a boating accident with his wife.
+1 FAMC @F50@
+1 FAMS @F51@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I86@ INDI
+1 NAME Primula /Brandybuck/
+1 SEX F
+1 BIRT
+2 DATE TA 2920
+1 DEAT
+2 DATE TA 2980
+2 PLAC Brandywine River
+1 NOTE Mother of Frodo. Drowned with her husband Drogo.
+1 FAMC @F52@
+1 FAMS @F51@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I87@ INDI
+1 NAME Frodo /Baggins/
+1 SEX M
+1 BIRT
+2 DATE TA 2968
+2 PLAC Buckland
+1 NOTE The Ring-bearer. Bore the One Ring to Mount Doom. Destroyed the Ring (with Gollum's aid). Sailed West.
+1 FAMC @F51@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I88@ INDI
+1 NAME Gerontius /Took/ the Old Took
+1 SEX M
+1 BIRT
+2 DATE TA 2790
+1 DEAT
+2 DATE TA 2920
+2 PLAC Great Smials
+1 TITL Thain of the Shire
+1 NOTE The Old Took. Twenty-sixth Thain of the Shire. Lived to 130 years.
+1 FAMS @F49@
+1 FAMS @F53@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I89@ INDI
+1 NAME Fortinbras /II/ Took
+1 SEX M
+1 BIRT
+2 DATE TA 2878
+1 DEAT
+2 DATE TA 2980
+1 TITL Thain of the Shire
+1 NOTE Twenty-seventh Thain of the Shire. Father of Ferumbras III and Paladin II.
+1 FAMC @F53@
+1 FAMS @F54@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I90@ INDI
+1 NAME Paladin /II/ Took
+1 SEX M
+1 BIRT
+2 DATE TA 2933
+1 DEAT
+2 DATE FO 14
+1 TITL Thain of the Shire
+1 NOTE Twenty-ninth Thain of the Shire. Father of Peregrin.
+1 FAMC @F54@
+1 FAMS @F55@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I91@ INDI
+1 NAME Eglantine /Banks/
+1 SEX F
+1 BIRT
+2 DATE TA 2943
+1 NOTE Wife of Paladin II. Mother of Peregrin.
+1 FAMS @F55@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I92@ INDI
+1 NAME Peregrin /Took/ Pippin
+1 SEX M
+1 BIRT
+2 DATE TA 2990
+2 PLAC Great Smials
+1 TITL Thain of the Shire
+1 NOTE Pippin. Member of the Fellowship of the Ring. Guard of the Citadel. Thirtieth Thain of the Shire.
+1 FAMC @F55@
+1 FAMS @F56@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I93@ INDI
+1 NAME Diamond /of Long Cleeve/
+1 SEX F
+1 BIRT
+2 DATE TA 2995
+1 NOTE Wife of Peregrin. Mother of Faramir Took.
+1 FAMS @F56@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I94@ INDI
+1 NAME Faramir /I/ Took
+1 SEX M
+1 BIRT
+2 DATE FO 10
+1 TITL Thain of the Shire
+1 NOTE Son of Peregrin. Named after Faramir of Gondor. Thirty-first Thain of the Shire.
+1 FAMC @F56@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I95@ INDI
+1 NAME Gorbadoc /Brandybuck/ Broadbelt
+1 SEX M
+1 BIRT
+2 DATE TA 2860
+1 DEAT
+2 DATE TA 2963
+1 TITL Master of Buckland
+1 NOTE Broadbelt. Master of Buckland. Grandfather of Merry.
+1 FAMS @F52@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I96@ INDI
+1 NAME Saradoc /Brandybuck/ Scattergold
+1 SEX M
+1 BIRT
+2 DATE TA 2940
+1 DEAT
+2 DATE FO 12
+1 TITL Master of Buckland
+1 NOTE Scattergold. Master of Buckland. Father of Merry.
+1 FAMC @F52@
+1 FAMS @F57@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I97@ INDI
+1 NAME Esmeralda /Took/
+1 SEX F
+1 BIRT
+2 DATE TA 2936
+1 NOTE Wife of Saradoc. Mother of Merry. Sister of Paladin II.
+1 FAMC @F54@
+1 FAMS @F57@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I98@ INDI
+1 NAME Meriadoc /Brandybuck/ Merry
+1 SEX M
+1 BIRT
+2 DATE TA 2982
+2 PLAC Buckland
+1 TITL Master of Buckland
+1 NOTE Merry. Member of the Fellowship of the Ring. Squire of Rohan. Helped slay the Witch-king. Master of Buckland.
+1 FAMC @F57@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I99@ INDI
+1 NAME Hamfast /Gamgee/ the Gaffer
+1 SEX M
+1 BIRT
+2 DATE TA 2926
+1 DEAT
+2 DATE FO 7
+2 PLAC Bag End
+1 NOTE The Gaffer. Gardener of Bag End. Father of Samwise.
+1 FAMS @F58@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I100@ INDI
+1 NAME Bell /Goodchild/
+1 SEX F
+1 BIRT
+2 DATE TA 2922
+1 DEAT
+2 DATE TA 3001
+1 NOTE Wife of Hamfast. Mother of Samwise and others.
+1 FAMS @F58@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I101@ INDI
+1 NAME Samwise /Gamgee/ Sam
+1 SEX M
+1 BIRT
+2 DATE TA 2980
+2 PLAC Hobbiton
+1 NOTE Sam. Gardener and faithful companion of Frodo. Member of the Fellowship. Ring-bearer. Mayor of the Shire. Sailed West in his old age.
+1 FAMC @F58@
+1 FAMS @F59@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I102@ INDI
+1 NAME Rosie /Cotton/
+1 SEX F
+1 BIRT
+2 DATE TA 2984
+1 DEAT
+2 DATE FO 82
+1 NOTE Rose Cotton. Wife of Samwise. Mother of thirteen children.
+1 FAMS @F59@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I103@ INDI
+1 NAME Elanor /the Fair/
+1 SEX F
+1 BIRT
+2 DATE FO 1
+2 PLAC Bag End
+1 NOTE Eldest daughter of Sam and Rosie. Named after the golden flower of Lothlórien. Maid of honor to Queen Arwen.
+1 FAMC @F59@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I104@ INDI
+1 NAME Gríma /Wormtongue/
+1 SEX M
+1 BIRT
+2 DATE TA 2958
+1 DEAT
+2 DATE TA 3019
+2 PLAC Hobbiton
+1 NOTE Counselor to Théoden. Secret agent of Saruman. Slew Saruman and was killed by Hobbits.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I105@ INDI
+1 NAME Gandalf /the Grey/
+1 SEX M
+1 BIRT
+2 PLAC Valinor
+1 NOTE Olórin. One of the Istari (Wizards). Member of the Fellowship. Became Gandalf the White. Instrumental in the defeat of Sauron.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I106@ INDI
+1 NAME Saruman /the White/
+1 SEX M
+1 BIRT
+2 PLAC Valinor
+1 DEAT
+2 DATE TA 3019
+2 PLAC Hobbiton
+1 NOTE Curunír. Chief of the Istari. Fell to corruption. Slain by Gríma Wormtongue.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I107@ INDI
+1 NAME Legolas /Greenleaf/
+1 SEX M
+1 BIRT
+2 DATE TA 87
+2 PLAC Mirkwood
+1 NOTE Prince of Mirkwood. Son of Thranduil. Member of the Fellowship of the Ring. Great archer and friend of Gimli.
+1 FAMC @F60@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I108@ INDI
+1 NAME Thranduil //
+1 SEX M
+1 BIRT
+2 DATE FA 600
+2 PLAC Doriath
+1 TITL King of the Woodland Realm
+1 NOTE Elven King of Mirkwood. Father of Legolas. Fought in the Battle of Five Armies.
+1 FAMS @F60@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I109@ INDI
+1 NAME Gimli /Glóin's son/
+1 SEX M
+1 BIRT
+2 DATE TA 2879
+2 PLAC Ered Luin
+1 TITL Lord of the Glittering Caves
+1 NOTE Son of Glóin. Member of the Fellowship of the Ring. Lord of the Glittering Caves. Closest friend of Legolas. Sailed West.
+1 FAMC @F61@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @I110@ INDI
+1 NAME Glóin //
+1 SEX M
+1 BIRT
+2 DATE TA 2783
+1 DEAT
+2 DATE FO 15
+1 NOTE Member of Thorin's company. Father of Gimli. Attended the Council of Elrond.
+1 FAMS @F61@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I4@
+1 MARR
+2 DATE YT 1170
+2 PLAC Tirion, Valinor
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F2@ FAM
+1 HUSB @I1@
+1 WIFE @I3@
+1 CHIL @I6@
+1 CHIL @I8@
+1 MARR
+2 DATE YT 1185
+2 PLAC Tirion, Valinor
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F3@ FAM
+1 HUSB @I4@
+1 WIFE @I5@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F4@ FAM
+1 HUSB @I6@
+1 WIFE @I7@
+1 CHIL @I10@
+1 CHIL @I11@
+1 CHIL @I12@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F5@ FAM
+1 HUSB @I8@
+1 WIFE @I9@
+1 CHIL @I17@
+1 CHIL @I18@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F6@ FAM
+1 HUSB @I11@
+1 WIFE @I13@
+1 CHIL @I15@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F7@ FAM
+1 HUSB @I14@
+1 WIFE @I12@
+1 CHIL @I16@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F8@ FAM
+1 HUSB @I21@
+1 WIFE @I15@
+1 CHIL @I22@
+1 MARR
+2 DATE FA 503
+2 PLAC Gondolin
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F9@ FAM
+1 HUSB @I19@
+1 WIFE @I18@
+1 CHIL @I20@
+1 MARR
+2 DATE SA 1
+2 PLAC Lindon
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F10@ FAM
+1 HUSB @I30@
+1 WIFE @I20@
+1 CHIL @I31@
+1 CHIL @I32@
+1 CHIL @I33@
+1 MARR
+2 DATE SA 100
+2 PLAC Rivendell
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F11@ FAM
+1 HUSB @I22@
+1 WIFE @I23@
+1 CHIL @I29@
+1 CHIL @I30@
+1 MARR
+2 DATE FA 525
+2 PLAC Havens of Sirion
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F12@ FAM
+1 HUSB @I24@
+1 CHIL @I23@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F13@ FAM
+1 HUSB @I25@
+1 WIFE @I26@
+1 CHIL @I24@
+1 MARR
+2 DATE FA 467
+2 PLAC Tol Galen
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F14@ FAM
+1 HUSB @I27@
+1 WIFE @I28@
+1 CHIL @I26@
+1 MARR
+2 DATE YT 1200
+2 PLAC Nan Elmoth
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F15@ FAM
+1 HUSB @I29@
+1 CHIL @I34@
+1 MARR
+2 DATE SA 20
+2 PLAC Númenor
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F16@ FAM
+1 HUSB @I45@
+1 WIFE @I33@
+1 CHIL @I46@
+1 MARR
+2 DATE TA 3019
+2 PLAC Minas Tirith
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F17@ FAM
+1 HUSB @I34@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F18@ FAM
+1 HUSB @I35@
+1 CHIL @I36@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F19@ FAM
+1 HUSB @I36@
+1 CHIL @I37@
+1 CHIL @I38@
+1 MARR
+2 DATE SA 3149
+2 PLAC Númenor
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F20@ FAM
+1 HUSB @I37@
+1 CHIL @I39@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F21@ FAM
+1 HUSB @I38@
+1 CHIL @I40@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F22@ FAM
+1 HUSB @I39@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F23@ FAM
+1 HUSB @I40@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F24@ FAM
+1 HUSB @I41@
+1 CHIL @I42@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F25@ FAM
+1 HUSB @I42@
+1 CHIL @I43@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F26@ FAM
+1 HUSB @I43@
+1 WIFE @I44@
+1 CHIL @I45@
+1 MARR
+2 DATE TA 2929
+2 PLAC Rivendell
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F27@ FAM
+1 HUSB @I47@
+1 CHIL @I48@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F28@ FAM
+1 HUSB @I48@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F29@ FAM
+1 HUSB @I49@
+1 CHIL @I50@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F30@ FAM
+1 HUSB @I50@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F31@ FAM
+1 HUSB @I51@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F32@ FAM
+1 HUSB @I52@
+1 WIFE @I53@
+1 CHIL @I54@
+1 CHIL @I56@
+1 MARR
+2 DATE TA 2943
+2 PLAC Gondor
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F33@ FAM
+1 HUSB @I54@
+1 WIFE @I55@
+1 CHIL @I58@
+1 MARR
+2 DATE TA 2977
+2 PLAC Rohan
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F34@ FAM
+1 HUSB @I57@
+1 WIFE @I56@
+1 CHIL @I59@
+1 CHIL @I60@
+1 MARR
+2 DATE TA 2989
+2 PLAC Rohan
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F35@ FAM
+1 HUSB @I59@
+1 WIFE @I61@
+1 MARR
+2 DATE TA 3020
+2 PLAC Edoras
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F36@ FAM
+1 HUSB @I65@
+1 WIFE @I60@
+1 MARR
+2 DATE TA 3020
+2 PLAC Minas Tirith
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F37@ FAM
+1 HUSB @I62@
+1 WIFE @I63@
+1 CHIL @I64@
+1 CHIL @I65@
+1 MARR
+2 DATE TA 2976
+2 PLAC Minas Tirith
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F38@ FAM
+1 HUSB @I66@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F39@ FAM
+1 HUSB @I67@
+1 CHIL @I68@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F40@ FAM
+1 HUSB @I68@
+1 CHIL @I69@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F41@ FAM
+1 HUSB @I69@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F42@ FAM
+1 HUSB @I70@
+1 CHIL @I71@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F43@ FAM
+1 HUSB @I71@
+1 CHIL @I72@
+1 CHIL @I73@
+1 CHIL @I74@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F44@ FAM
+1 WIFE @I74@
+1 CHIL @I75@
+1 CHIL @I76@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F45@ FAM
+1 HUSB @I77@
+1 CHIL @I78@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F46@ FAM
+1 HUSB @I79@
+1 CHIL @I80@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F47@ FAM
+1 HUSB @I80@
+1 WIFE @I81@
+1 CHIL @I82@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F48@ FAM
+1 HUSB @I82@
+1 WIFE @I83@
+1 CHIL @I84@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F49@ FAM
+1 HUSB @I88@
+1 CHIL @I83@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F50@ FAM
+1 CHIL @I85@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F51@ FAM
+1 HUSB @I85@
+1 WIFE @I86@
+1 CHIL @I87@
+1 MARR
+2 DATE TA 2960
+2 PLAC Buckland
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F52@ FAM
+1 HUSB @I95@
+1 CHIL @I96@
+1 CHIL @I86@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F53@ FAM
+1 HUSB @I88@
+1 CHIL @I89@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F54@ FAM
+1 HUSB @I89@
+1 CHIL @I90@
+1 CHIL @I97@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F55@ FAM
+1 HUSB @I90@
+1 WIFE @I91@
+1 CHIL @I92@
+1 MARR
+2 DATE TA 2976
+2 PLAC Great Smials
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F56@ FAM
+1 HUSB @I92@
+1 WIFE @I93@
+1 CHIL @I94@
+1 MARR
+2 DATE FO 1
+2 PLAC Shire
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F57@ FAM
+1 HUSB @I96@
+1 WIFE @I97@
+1 CHIL @I98@
+1 MARR
+2 DATE TA 2972
+2 PLAC Buckland
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F58@ FAM
+1 HUSB @I99@
+1 WIFE @I100@
+1 CHIL @I101@
+1 MARR
+2 DATE TA 2960
+2 PLAC Hobbiton
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F59@ FAM
+1 HUSB @I101@
+1 WIFE @I102@
+1 CHIL @I103@
+1 MARR
+2 DATE FO 1
+2 PLAC Shire
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F60@ FAM
+1 HUSB @I108@
+1 CHIL @I107@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 @F61@ FAM
+1 HUSB @I110@
+1 CHIL @I109@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 14:00:00
+0 TRLR
+

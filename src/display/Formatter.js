@@ -2,6 +2,7 @@ import chalk from 'chalk';
 import Table from 'cli-table3';
 import { MONTH_MAP_ZERO_BASED, MONTH_MAP_ONE_BASED, MONTH_NAMES } from '../utils/constants.js';
 import { escapeCSV } from '../utils/csvParser.js';
+import { parseGedcomDate, calculateYearDifference, getCurrentDate, detectCalendar } from '../utils/dateParser.js';
 
 /**
  * Formatter - handles display of genealogy data
@@ -35,47 +36,41 @@ export class Formatter {
   /**
    * Calculate age from birth date
    * Returns current age if living, age at death if deceased
+   * Supports both standard Gregorian dates and fictional calendar dates (e.g., Dune's AG)
    */
   calculateAge(individual) {
     if (!individual.birth?.date) {
       return '';
     }
 
-    // Parse the GEDCOM date format (e.g., "20 JUN 1979")
-    const birthDateStr = individual.birth.date;
-    const birthMatch = birthDateStr.match(/(\d+)\s+(\w+)\s+(\d{4})/);
-
-    if (!birthMatch) {
-      return ''; // Can't parse date
+    // Parse the birth date using the new date parser
+    const birthDate = parseGedcomDate(individual.birth.date);
+    if (!birthDate) {
+      return ''; // Can't parse birth date
     }
 
-    const [, day, month, year] = birthMatch;
-
-    const birthDate = new Date(parseInt(year), MONTH_MAP_ZERO_BASED[month.toUpperCase()], parseInt(day));
     let endDate;
 
     // If deceased, calculate age at death
     if (individual.death?.date) {
-      const deathDateStr = individual.death.date;
-      const deathMatch = deathDateStr.match(/(\d+)\s+(\w+)\s+(\d{4})/);
-
-      if (deathMatch) {
-        const [, dDay, dMonth, dYear] = deathMatch;
-        endDate = new Date(parseInt(dYear), MONTH_MAP_ZERO_BASED[dMonth.toUpperCase()], parseInt(dDay));
-      } else {
+      endDate = parseGedcomDate(individual.death.date);
+      if (!endDate) {
         return ''; // Can't parse death date
       }
     } else {
-      // Living - use current date
-      endDate = new Date();
+      // Living - get current date for the calendar system
+      endDate = getCurrentDate(birthDate.calendar);
+      if (!endDate) {
+        // For fictional calendars without a context set, we can't calculate current age
+        return '?';
+      }
     }
 
     // Calculate age
-    let age = endDate.getFullYear() - birthDate.getFullYear();
-    const monthDiff = endDate.getMonth() - birthDate.getMonth();
-
-    if (monthDiff < 0 || (monthDiff === 0 && endDate.getDate() < birthDate.getDate())) {
-      age--;
+    const age = calculateYearDifference(birthDate, endDate);
+    
+    if (age === null || age < 0) {
+      return '';
     }
 
     return age.toString();
@@ -130,23 +125,23 @@ export class Formatter {
 
   /**
    * Parse GEDCOM date to get month and day (ignoring year)
+   * Uses the new date parser for consistency
    */
   parseBirthdayDate(dateStr) {
     if (!dateStr) return null;
 
-    // Parse GEDCOM date format (e.g., "20 JUN 1979")
-    const match = dateStr.match(/(\d+)\s+(\w+)(?:\s+(\d{4}))?/);
-    if (!match) return null;
+    // Use the new date parser
+    const parsed = parseGedcomDate(dateStr);
+    if (!parsed) return null;
 
-    const [, day, month, year] = match;
-
-    const monthNum = MONTH_MAP_ONE_BASED[month.toUpperCase()];
-    if (!monthNum) return null;
+    // Only return valid birthday if we have month and day
+    // Fictional calendars might not have meaningful month/day for birthday sorting
+    if (!parsed.month || !parsed.day) return null;
 
     return {
-      month: monthNum,
-      day: parseInt(day),
-      year: year ? parseInt(year) : null,
+      month: parsed.month,
+      day: parsed.day,
+      year: parsed.year,
       originalDate: dateStr
     };
   }
@@ -663,24 +658,55 @@ export class Formatter {
     lines.push(`  Unknown: ${chalk.gray(stats.unknownGender)}`);
     lines.push('');
 
-    if (stats.earliestBirth || stats.latestBirth) {
-      lines.push(chalk.bold('Birth Date Range:'));
-      if (stats.earliestBirth) {
-        lines.push(`  Earliest: ${chalk.yellow(stats.earliestBirth)}`);
-      }
-      if (stats.latestBirth) {
-        lines.push(`  Latest:   ${chalk.yellow(stats.latestBirth)}`);
+    // Display calendar systems detected
+    if (stats.calendars && stats.calendars.length > 0) {
+      lines.push(chalk.bold('Calendar Systems Detected:'));
+      for (const calendar of stats.calendars) {
+        lines.push(`  ${chalk.cyan(calendar)}`);
       }
       lines.push('');
     }
 
-    if (stats.earliestDeath || stats.latestDeath) {
-      lines.push(chalk.bold('Death Date Range:'));
-      if (stats.earliestDeath) {
-        lines.push(`  Earliest: ${chalk.yellow(stats.earliestDeath)}`);
+    // Display date ranges by calendar system if multiple calendars exist
+    if (stats.calendars && stats.calendars.length > 1) {
+      lines.push(chalk.bold('Date Ranges by Calendar:'));
+      for (const calendar of stats.calendars) {
+        const births = stats.birthsByCalendar[calendar] || [];
+        const deaths = stats.deathsByCalendar[calendar] || [];
+        
+        if (births.length > 0 || deaths.length > 0) {
+          lines.push(chalk.cyan(`  ${calendar}:`));
+          
+          if (births.length > 0) {
+            lines.push(`    Births: ${chalk.yellow(Math.min(...births))} - ${chalk.yellow(Math.max(...births))}`);
+          }
+          if (deaths.length > 0) {
+            lines.push(`    Deaths: ${chalk.yellow(Math.min(...deaths))} - ${chalk.yellow(Math.max(...deaths))}`);
+          }
+        }
       }
-      if (stats.latestDeath) {
-        lines.push(`  Latest:   ${chalk.yellow(stats.latestDeath)}`);
+      lines.push('');
+    } else if (stats.earliestBirth || stats.latestBirth || stats.earliestDeath || stats.latestDeath) {
+      // Show simple date ranges if only one calendar system
+      if (stats.earliestBirth || stats.latestBirth) {
+        lines.push(chalk.bold('Birth Date Range:'));
+        if (stats.earliestBirth) {
+          lines.push(`  Earliest: ${chalk.yellow(stats.earliestBirth)}`);
+        }
+        if (stats.latestBirth) {
+          lines.push(`  Latest:   ${chalk.yellow(stats.latestBirth)}`);
+        }
+        lines.push('');
+      }
+
+      if (stats.earliestDeath || stats.latestDeath) {
+        lines.push(chalk.bold('Death Date Range:'));
+        if (stats.earliestDeath) {
+          lines.push(`  Earliest: ${chalk.yellow(stats.earliestDeath)}`);
+        }
+        if (stats.latestDeath) {
+          lines.push(`  Latest:   ${chalk.yellow(stats.latestDeath)}`);
+        }
       }
     }
 
