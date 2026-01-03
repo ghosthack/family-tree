@@ -507,8 +507,9 @@
 0 @I56@ INDI
 1 NAME Triton //
 1 SEX M
-1 NOTE Merman, messenger of the sea. Son of Poseidon and Amphitrite. Blows conch shell to control waves. Hesiod's Theogony.
+1 NOTE Merman, messenger of the sea. Son of Poseidon and Amphitrite. Blows conch shell to control waves. Father of Pallas. Hesiod's Theogony.
 1 FAMC @F22@
+1 FAMS @F27@
 1 CHAN
 2 DATE 06 NOV 2025
 3 TIME 12:00:00
@@ -536,10 +537,37 @@
 1 CHAN
 2 DATE 06 NOV 2025
 3 TIME 12:00:00
+0 @I60@ INDI
+1 NAME Crius //
+1 SEX M
+1 NOTE Titan of constellations and heavenly cycles. Son of Gaia and Uranus. Father of Perses and Astraeus. Hesiod's Theogony.
+1 FAMC @F2@
+1 FAMS @F26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I61@ INDI
+1 NAME Eurybia //
+1 SEX F
+1 NOTE Titaness of mastery of the sea. Daughter of Gaia and Pontus (or Gaia alone). Mother of Perses and Astraeus by Crius. Hesiod's Theogony.
+1 FAMC @F1@
+1 FAMS @F26@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I62@ INDI
+1 NAME Pallas //
+1 SEX F
+1 NOTE Daughter of Triton. Childhood companion of Athena. Accidentally killed by Athena during a sparring match. Athena took the name Pallas Athena in her honor. Apollodorus' Bibliotheca.
+1 FAMC @F27@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
 0 @F1@ FAM
 1 WIFE @I2@
 1 CHIL @I3@
-1 NOTE Gaia gave birth to Uranus (Sky) parthenogenetically.
+1 CHIL @I61@
+1 NOTE Gaia gave birth to Uranus (Sky) parthenogenetically. Also mother of Eurybia.
 1 CHAN
 2 DATE 06 NOV 2025
 3 TIME 12:00:00
@@ -557,6 +585,7 @@
 1 CHIL @I12@
 1 CHIL @I13@
 1 CHIL @I14@
+1 CHIL @I60@
 1 NOTE The twelve Titans: Oceanus, Tethys, Hyperion, Theia, Coeus, Phoebe, Cronus, Rhea, Mnemosyne, Themis, Crius, Iapetus.
 1 CHAN
 2 DATE 06 NOV 2025
@@ -752,6 +781,20 @@
 1 HUSB @I41@
 1 WIFE @I26@
 1 NOTE Heracles married Hebe after achieving immortality and joining Olympus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F26@ FAM
+1 HUSB @I60@
+1 WIFE @I61@
+1 NOTE Crius and Eurybia are parents of Perses and Astraeus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F27@ FAM
+1 HUSB @I56@
+1 CHIL @I62@
+1 NOTE Triton is the father of Pallas.
 1 CHAN
 2 DATE 06 NOV 2025
 3 TIME 12:00:00
