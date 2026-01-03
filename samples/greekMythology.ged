@@ -179,6 +179,11 @@
 1 NOTE God of the sea, earthquakes, and horses. Brother of Zeus. One of the three sons who divided the world after overthrowing Cronus. Homer's Odyssey, Hesiod's Theogony.
 1 FAMC @F3@
 1 FAMS @F22@
+1 FAMS @F28@
+1 FAMS @F29@
+1 FAMS @F30@
+1 FAMS @F31@
+1 FAMS @F32@
 1 CHAN
 2 DATE 06 NOV 2025
 3 TIME 12:00:00
@@ -563,6 +568,70 @@
 1 CHAN
 2 DATE 06 NOV 2025
 3 TIME 12:00:00
+0 @I63@ INDI
+1 NAME Medusa /Gorgon/
+1 SEX F
+1 NOTE One of the three Gorgons. Once a beautiful priestess of Athena who was transformed into a monster with snakes for hair. Mother of Pegasus by Poseidon. Slain by Perseus. Ovid's Metamorphoses, Apollodorus' Bibliotheca.
+1 FAMS @F28@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I64@ INDI
+1 NAME Pegasus //
+1 SEX M
+1 NOTE Divine winged horse. Born from Medusa's blood when Perseus beheaded her. Offspring of Poseidon and Medusa. Carried thunderbolts for Zeus. Ridden by Bellerophon. Hesiod's Theogony.
+1 FAMC @F28@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I65@ INDI
+1 NAME Aethra //
+1 SEX F
+1 NOTE Princess of Troezen, daughter of King Pittheus. Mother of Theseus by Poseidon (or Aegeus). Helen's servant after being captured during the Trojan War. Apollodorus' Bibliotheca.
+1 FAMS @F29@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I66@ INDI
+1 NAME Theseus //
+1 SEX M
+1 NOTE Hero of Athens. Son of Poseidon (or Aegeus) and Aethra. Slayer of the Minotaur. King of Athens. One of the greatest Greek heroes. Plutarch's Life of Theseus, Apollodorus' Bibliotheca.
+1 FAMC @F29@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I67@ INDI
+1 NAME Thoosa //
+1 SEX F
+1 NOTE Sea nymph, daughter of Phorcys. Mother of the Cyclops Polyphemus by Poseidon. Homer's Odyssey.
+1 FAMS @F30@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I68@ INDI
+1 NAME Polyphemus //
+1 SEX M
+1 NOTE Cyclops, one-eyed giant. Son of Poseidon and Thoosa. Blinded by Odysseus and his men. His cry for vengeance caused Poseidon to curse Odysseus's voyage home. Homer's Odyssey.
+1 FAMC @F30@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I69@ INDI
+1 NAME Orion //
+1 SEX M
+1 NOTE Giant huntsman. Son of Poseidon in some versions. Placed among the stars as the constellation Orion after his death. Various myths about his death. Homer's Odyssey, Hesiod's Works and Days.
+1 FAMC @F31@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @I70@ INDI
+1 NAME Bellerophon //
+1 SEX M
+1 NOTE Hero who tamed Pegasus and slew the Chimera. Son of Poseidon in some versions (other versions say Glaucus). Attempted to fly to Olympus on Pegasus but was thrown off. Homer's Iliad, Pindar's Olympian Odes.
+1 FAMC @F32@
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
 0 @F1@ FAM
 1 WIFE @I2@
 1 CHIL @I3@
@@ -795,6 +864,44 @@
 1 HUSB @I56@
 1 CHIL @I62@
 1 NOTE Triton is the father of Pallas.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F28@ FAM
+1 HUSB @I17@
+1 WIFE @I63@
+1 CHIL @I64@
+1 NOTE Poseidon and Medusa are parents of Pegasus, who was born from Medusa's blood when Perseus beheaded her.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F29@ FAM
+1 HUSB @I17@
+1 WIFE @I65@
+1 CHIL @I66@
+1 NOTE Poseidon and Aethra are parents of Theseus. Some versions attribute Theseus's father to King Aegeus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F30@ FAM
+1 HUSB @I17@
+1 WIFE @I67@
+1 CHIL @I68@
+1 NOTE Poseidon and Thoosa are parents of the Cyclops Polyphemus.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F31@ FAM
+1 HUSB @I17@
+1 CHIL @I69@
+1 NOTE Poseidon is the father of Orion in some mythological versions. Other versions give different parentage.
+1 CHAN
+2 DATE 06 NOV 2025
+3 TIME 12:00:00
+0 @F32@ FAM
+1 HUSB @I17@
+1 CHIL @I70@
+1 NOTE Poseidon is the father of Bellerophon in some versions. Other versions name Glaucus as his father.
 1 CHAN
 2 DATE 06 NOV 2025
 3 TIME 12:00:00
